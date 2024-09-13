@@ -1,0 +1,10 @@
+node_modules/
+.node_modules/
+bun.lockb
+yarn.lock
+package-lock.json
+#test/ordinal/*
+#!test/ordinal/ReadMe.md
+.DS_Store
+lib/
+tsconfig.tsbuildinfo

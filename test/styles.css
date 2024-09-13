@@ -1,0 +1,116 @@
+  html {
+    background-color: #202020;
+    color: #f0f0f0;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .main {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .header {
+    padding: 0;
+    padding-left: 0.5em;
+  }
+
+  .header-big {
+    font-size: 1.2em;
+  }
+
+  .section {
+    margin-bottom: 0.3em;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .padding {
+    padding: 0.5em;
+    line-height: 1.5em;
+  }
+
+  iframe {
+    border: 0px;
+  }
+
+  .report {
+    padding: 1rem;
+  }
+
+  .report-table {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .counter {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .table {
+    width: 100%;
+    padding: 0.5em;
+    text-align: start;
+  }
+
+  .table thead {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .table th {
+    padding: 0.5em;
+    text-align: start;
+  }
+
+  .table td {
+    padding: 1em;
+    text-align: start;
+    vertical-align: top;
+    background-color: rgba(0, 0, 0, 0.2);
+    vertical-align: middle;
+  }
+
+  td:has(pre) {
+    padding: 0 !important;
+  }
+
+  pre {
+    margin: 0;
+    padding: 1em;
+    background-color: transparent;
+    min-height: 2em;
+    font-size: 1.3em;
+  }
+
+  code {
+    background-color: transparent;
+  }
+
+  .error {
+    background-color: rgba(255, 0, 0, 0.3) !important;
+  }
+
+  .error span {
+    background-color: transparent;
+  }
+
+  .result {
+    font-size: 2em;
+  }
+
+  .green {
+    color: #00aa00;
+  }
+
+  .red {
+    color: #aa0000;
+  }
+
+  .hljs {
+    background: transparent !important;
+  }

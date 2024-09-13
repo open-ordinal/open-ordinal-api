@@ -1,0 +1,163 @@
+<!DOCTYPE html><html class="default" lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>API</title><meta name="description" content="Documentation for API"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><link rel="stylesheet" href="assets/custom.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script>
+<style>
+:root.mermaid-enabled .mermaid-block > pre {
+  display: none;
+}
+:root:not(.mermaid-enabled) .mermaid-block > .mermaid {
+  display: none !important;
+}
+
+.mermaid-block > .mermaid[data-inserted].dark {
+  display: var(--mermaid-dark-display);
+}
+.mermaid-block > .mermaid[data-inserted].light {
+  display: var(--mermaid-light-display);
+}
+
+:root {
+  --mermaid-dark-display: none;
+  --mermaid-light-display: block;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --mermaid-dark-display: none;
+    --mermaid-light-display: block;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mermaid-dark-display: block;
+    --mermaid-light-display: none;
+  }
+}
+body.light, :root[data-theme="light"] {
+  --mermaid-dark-display: none;
+  --mermaid-light-display: block;
+}
+body.dark, :root[data-theme="dark"] {
+  --mermaid-dark-display: block;
+  --mermaid-light-display: none;
+}
+</style>
+</head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div><div class="field"><div id="tsd-toolbar-links"></div></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="/" class="title">API</a></div><div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-menu"></use></svg></a></div></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><h2>API</h2></div><div class="tsd-panel tsd-typography"><a id="md:introduction-to-the-open-ordinal-api" class="tsd-anchor"></a><h1 class="tsd-anchor-link">Introduction to the Open Ordinal API<a href="#md:introduction-to-the-open-ordinal-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1><a id="md:what-is-the-open-ordinal-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">What is the Open Ordinal API?<a href="#md:what-is-the-open-ordinal-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>The Open Ordinal API is a flexible JavaScript (TypeScript) API designed to enhance the functionality and interactivity of ordinal-based digital assets inscribed on Bitcoin using the ordinals protocol. It provides a structured way to manage collections, traits, assets, and animations, enabling developers to create dynamic web experiences, which can be used in various applications.</p>
+<a id="md:how-and-why-to-use-the-open-ordinal-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">How and Why to Use the Open Ordinal API<a href="#md:how-and-why-to-use-the-open-ordinal-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>The API allows developers to expose various components of an ordinal, such as individual image assets, making it easier for consumers to fetch and use these assets elsewhere. This flexibility supports a wide range of use cases, from simple single-type ordinals (like .mp3 or .png files) to complex compositions built from multiple assets. By leveraging the Open Ordinal API, developers can transform static ordinal entities into interactive and animated elements, enhancing user engagement and expanding the potential use cases for ordinals.</p>
+<a id="md:key-features" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Key Features<a href="#md:key-features" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><ul>
+<li><strong>Organized Asset Management</strong>: Group related assets into collections for easier management</li>
+<li><strong>Flexibility and Extensibility</strong>: Supports various types of digital content, including images, audio, and video.</li>
+<li><strong>Ease of Integration</strong>: Designed for seamless integration into existing web applications.</li>
+<li><strong>Expose and Export</strong>: Make assets, compositions, and variants available to API consumers, enabling them to display or export these elements for use in other applications.</li>
+</ul>
+<a id="md:developing-with-the-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Developing with the API<a href="#md:developing-with-the-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>To add models and data to the API, you usually follow these steps:</p>
+<ol>
+<li><strong>Import the API</strong>: Import the API into your project, the</li>
+<li><strong>Initialize the API</strong>: Ensure the API is available in your project, available on the <code>window.ooAPI</code></li>
+<li><strong>Create a model</strong>: Create one or multiple Variant/Asset/Composition/Collection/Trait</li>
+<li><strong>Add model to the API</strong>: Add the model to the API, by calling the appropriate function(s).</li>
+</ol>
+<p>Each of these steps involves calling specific methods on the <code>ooAPI</code> object and passing the necessary parameters to define the assets, compositions, variants, collections, and traits.</p>
+<a id="md:architecture-of-the-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Architecture of the API<a href="#md:architecture-of-the-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><div class="mermaid-block"><div class="mermaid dark">%%{init:{"theme":"dark"}}%%
+graph LR
+    ooapi[&quot;`Open Ordinal API
+    (OOAPI)`&quot;]
+    oomd[&quot;`Open Ordinal Metadata
+    (OOMD)`&quot;]
+    ooapi --&gt; oomd
+    ooapi --&gt; var[Variant]
+    ooapi --&gt; com[Composition]
+    ooapi --&gt; ass[Asset]
+    ooapi --&gt; tra[Traits]
+    ooapi --&gt; col[Collections]
+    oomd --&gt; oar[&quot;`Artist
+        Attributes
+        Author
+        Book
+        Chapter
+        Collection
+        Media
+        Release
+        Track`&quot;]</div><div class="mermaid light">%%{init:{"theme":"default"}}%%
+graph LR
+    ooapi[&quot;`Open Ordinal API
+    (OOAPI)`&quot;]
+    oomd[&quot;`Open Ordinal Metadata
+    (OOMD)`&quot;]
+    ooapi --&gt; oomd
+    ooapi --&gt; var[Variant]
+    ooapi --&gt; com[Composition]
+    ooapi --&gt; ass[Asset]
+    ooapi --&gt; tra[Traits]
+    ooapi --&gt; col[Collections]
+    oomd --&gt; oar[&quot;`Artist
+        Attributes
+        Author
+        Book
+        Chapter
+        Collection
+        Media
+        Release
+        Track`&quot;]</div><pre><code class="language-mermaid">graph LR
+    ooapi[&quot;`Open Ordinal API
+    (OOAPI)`&quot;]
+    oomd[&quot;`Open Ordinal Metadata
+    (OOMD)`&quot;]
+    ooapi --&gt; oomd
+    ooapi --&gt; var[Variant]
+    ooapi --&gt; com[Composition]
+    ooapi --&gt; ass[Asset]
+    ooapi --&gt; tra[Traits]
+    ooapi --&gt; col[Collections]
+    oomd --&gt; oar[&quot;`Artist
+        Attributes
+        Author
+        Book
+        Chapter
+        Collection
+        Media
+        Release
+        Track`&quot;]</code></pre></div>
+<a id="md:consuming-the-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Consuming the API<a href="#md:consuming-the-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>Consuming the Open Ordinal API involves interacting with the various models and methods provided by the developers. Developers can retrieve existing assets, compositions, variants, collections, and traits using specific API calls. By leveraging methods such as <code>getAssets()</code>, developers can access and manipulate these components to create dynamic and engaging applications. This section outlines how to consume the API effectively through practical examples and code snippets.</p>
+<a id="md:use-cases-of-the-open-ordinal-api" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Use Cases of the Open Ordinal API<a href="#md:use-cases-of-the-open-ordinal-api" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>The Open Ordinal API opens up a wide range of possibilities for various applications by allowing them to access and interact with ordinal content. This API goes beyond merely representing ordinals as static entities on the blockchain, enabling dynamic and interactive experiences across different platforms. Here are some key use cases:</p>
+<ul>
+<li>
+<p><strong>Launchpads</strong> can allow users to enable the Open Ordinal API on their ordinals. This will allow them to use the API to extend their ordinals with functionality, and gain further utility and reach for their collection(s).</p>
+</li>
+<li>
+<p><strong>Marketplaces</strong> can integrate the API to display detailed information about ordinals, including traits, assets, and animations. It will also allow the marketplaces to improve their caching, by requesting the thumbnail or preview of the ordinal, which can then be served where fit.</p>
+</li>
+<li>
+<p><strong>Wallets</strong> can leverage the API to display ordinal assets within the user's portfolio, complete with interactive animations and detailed trait information.</p>
+</li>
+<li>
+<p><strong>Websites</strong> can use the API to embed ordinal content, creating engaging and interactive web pages that showcase the unique attributes and animations of ordinals. It also allows to display different variants of the ordinal, without the predefined visuals, so for example, you can display the character withouth the background</p>
+</li>
+<li>
+<p><strong>Game</strong> developers can integrate the API to use ordinal assets as in-game items, characters, or collectibles, complete with animations and traits that enhance gameplay. Want to add in an audio into the game thats exposed throug the ordinal? No problem.</p>
+</li>
+</ul>
+<a id="md:expanding-the-usage-of-ordinals" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Expanding the Usage of Ordinals<a href="#md:expanding-the-usage-of-ordinals" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>By integrating the Open Ordinal API, these platforms can transform ordinals from static blockchain entities into dynamic and interactive digital assets. This not only enhances user engagement but also expands the potential use cases for ordinals, making them more versatile and valuable in various digital ecosystems.</p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-accordion"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li></ul></div><div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="assets/icons.svg#icon-chevronDown"></use></svg>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#md:introduction-to-the-open-ordinal-api"><span>Introduction to the <wbr/>Open <wbr/>Ordinal API</span></a><ul><li><a href="#md:what-is-the-open-ordinal-api"><span>What is the <wbr/>Open <wbr/>Ordinal API?</span></a></li><li><a href="#md:how-and-why-to-use-the-open-ordinal-api"><span>How and <wbr/>Why to <wbr/>Use the <wbr/>Open <wbr/>Ordinal API</span></a></li><li><a href="#md:key-features"><span>Key <wbr/>Features</span></a></li><li><a href="#md:developing-with-the-api"><span>Developing with the API</span></a></li><li><a href="#md:architecture-of-the-api"><span>Architecture of the API</span></a></li><li><a href="#md:consuming-the-api"><span>Consuming the API</span></a></li><li><a href="#md:use-cases-of-the-open-ordinal-api"><span>Use <wbr/>Cases of the <wbr/>Open <wbr/>Ordinal API</span></a></li><li><a href="#md:expanding-the-usage-of-ordinals"><span>Expanding the <wbr/>Usage of <wbr/>Ordinals</span></a></li></ul></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="index.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="assets/icons.svg#icon-1"></use></svg><span>API</span></a><ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="."><li>Loading...</li></ul></nav></div></div></div><footer><p>Made by Open Ordinal for the Ordinal community</p></footer><div class="overlay"></div><script async src="https://www.googletagmanager.com/gtag/js?id=G-XHBQC2GFXJ"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XHBQC2GFXJ');</script>
+<script type="module">
+import mermaid from "https://unpkg.com/mermaid@latest/dist/mermaid.esm.min.mjs";
+
+document.documentElement.classList.add("mermaid-enabled");
+
+mermaid.initialize({startOnLoad:true});
+
+requestAnimationFrame(function check() {
+  let some = false;
+  document.querySelectorAll("div.mermaid:not([data-inserted])").forEach(div => {
+    some = true;
+    if (div.querySelector("svg")) {
+      div.dataset.inserted = true;
+    }
+  });
+
+  if (some) {
+    requestAnimationFrame(check);
+  }
+});
+</script>
+</body></html>

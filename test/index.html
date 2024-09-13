@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Open Ordinal API Testing</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link href="./styles.css" rel="stylesheet" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/atom-one-dark.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+    </head>
+
+    <body class="roboto-regular">
+        <!-- Testing Output -->
+        <h2 class="header">Open Ordinal API Tests</h2>
+        <div class="main">
+            <table class="report-table">
+                <tbody>
+                    <tr>
+                        <td class="report">
+                            <span class="header-big">Passed API</span><br>
+                            <span id="passedAPI" class="counter green">0</span>
+                        </td>
+                        <td class="report">
+                            <span class="header-big">Failed API</span><br>
+                            <span id="failedAPI" class="counter red">0</span>
+                        </td>
+                        <td class="report">
+                            <span class="header-big">Passed Validation</span><br>
+                            <span id="passedValidation" class="counter green">0</span>
+                        </td>
+                        <td class="report">
+                            <span class="header-big">Failed Validation</span><br>
+                            <span id="failedValidation" class="counter red">0</span>
+                        </td>
+                        <td class="report">
+                            <span class="header-big">Total</span><br>
+                            <span id="total" class="counter">0</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>API Passed</th>
+                        <th>Validation Passed</th>
+                        <th>Test Type</th>
+                        <th>Function</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody id="TestsOutput">
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Testing Reverse Proxy -->
+        <h2 class="header">Inscription (Backed by Sagaverse CDN)</h2>
+        <div class="main">
+            <iframe width="400" height="400"
+                src="/preview/1187b7a477fd78e97c99e505b84967ac71b8045495c44cff66b831c27a3bd10ai497"></iframe>
+        </div>
+
+        <!-- Include Script -->
+        <!-- <script type="module" src="open-ordinal-api.js"></script> -->
+        <script type="module">
+            //var ooAPI = window.ooAPI;
+            import * as ooAPI from './open-ordinal-api.js';
+
+            var passedAPI = 0;
+            var failedAPI = 0;
+            var passedValidation = 0;
+            var failedValidation = 0;
+            var total = 0;
+
+            var id01 = "1187b7a477fd78e97c99e505b84967ac71b8045495c44cff66b831c27a3bd10ai497";
+            var block01 = 860319;
+            var blockHash01 = "000000000000000000017397cd0575681c59f7c3cab48893820503d1faf9ce4f";
+            var sat01 = 768191845272919;
+            var type01 = "image";
+            var metadata01 = { "test": 1 };
+
+            /*-----------------------------
+               Core Functions
+            -----------------------------*/
+
+            await ooAPI.isOrdinalAPIExtensionsAvailable().then(data => {
+                var valid = data == true || data == false;
+                appendTestResult(true, true, "isOrdinalAPIExtensionsAvailable()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "isOrdinalAPIExtensionsAvailable()", e);
+            })
+
+            try {
+                ooAPI.setId(id01);
+                var valid = id01 == ooAPI.getId();
+                appendTestResult(true, true, "setId(id01)", id01, valid);
+            } catch (e) {
+                appendTestResult(false, true, "setId(id01)", e);
+            }
+
+            try {
+                var temp = ooAPI.getId();
+                var valid = id01 == temp;
+                appendTestResult(true, true, "getId()", temp, valid);
+            } catch (e) {
+                appendTestResult(false, true, "getId()", e);
+            }
+
+            try {
+                ooAPI.setType(type01);
+                var valid = type01 == ooAPI.getType();
+                appendTestResult(true, true, "setType(type01)", type01, valid);
+            } catch (e) {
+                appendTestResult(false, true, "setType(type01)", e);
+            }
+
+            try {
+                var temp = ooAPI.getType();
+                var valid = type01 == await ooAPI.getType();
+                appendTestResult(true, true, "getType()", temp, valid);
+            } catch (e) {
+                appendTestResult(false, true, "getType()", e);
+            }
+
+            try {
+                ooAPI.setMetadata(metadata01);
+                var valid = metadata01 == await ooAPI.getMetadata();
+                appendTestResult(true, true, "setMetadata(metadata01)", JSON.stringify(metadata01, null, "    "), valid);
+            } catch (e) {
+                appendTestResult(false, true, "setMetadata(metadata01)", e);
+            }
+
+            try {
+                var temp = await ooAPI.getMetadata();
+                var valid = metadata01 == await ooAPI.getMetadata();
+                appendTestResult(true, true, "getMetadata()", JSON.stringify(temp, null, "    "), valid);
+            } catch (e) {
+                appendTestResult(false, true, "getMetadata()", e);
+            }
+
+            await ooAPI.getMetadata(id01).then(data => {
+                var valid = data.title == "Tiny Viking #19997";
+                appendTestResult(true, true, "getMetadata(id01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getMetadata(id01)", e);
+            })
+
+            await ooAPI.getMetadata("bogus").then(data => {
+                appendTestResult(false, false, "getMetadata(\"bogus\")", JSON.stringify(data, null, "    "));
+            }).catch(e => {
+                var valid = true;
+                appendTestResult(true, false, "getMetadata(\"bogus\")", e, valid);
+            })
+
+            await ooAPI.getInscription(id01).then(data => {
+                var valid = data.id == id01;
+                appendTestResult(true, true, "getInscription(id01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getInscription(id01)", e);
+            })
+
+            await ooAPI.getSatAt(sat01).then(data => {
+                var valid = data.id == id01;
+                appendTestResult(true, true, "getSatAt(sat01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getSatAt(sat01)", e);
+            })
+
+            await ooAPI.getSatPage(sat01, 0).then(data => {
+                var valid = data.ids[0] == id01;
+                appendTestResult(true, true, "getSatPage(sat01, 0)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getSatPage(sat01, 0)", e);
+            })
+
+            await ooAPI.getSatAll(sat01).then(data => {
+                var valid = data[0] == id01;
+                appendTestResult(true, true, "getSatAll(sat01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getSatAll(sat01)", e);
+            })
+
+            await ooAPI.getParentsPage(id01, 0).then(data => {
+                var valid = data.ids.length == 1;
+                appendTestResult(true, true, "getParentsPage(id01, 0)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getParentsPage(id01, 0)", e);
+            })
+
+            await ooAPI.getParentsAll(id01).then(data => {
+                var valid = data.length == 1;
+                appendTestResult(true, true, "getParentsAll(id01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getParentsAll(id01)", e);
+            })
+
+            await ooAPI.getChildrenPage(id01, 0).then(data => {
+                var valid = data.ids.length == 0;
+                appendTestResult(true, true, "getChildrenPage(id01, 0)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getChildrenPage(id01, 0)", e);
+            })
+
+            await ooAPI.getChildrenAll(id01).then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getChildrenAll(id01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getChildrenAll(id01)", e);
+            })
+
+            await ooAPI.getAll().then(data => {
+                var valid = data.id == id01;
+                appendTestResult(true, true, "getAll()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getAll()", e);
+            })
+
+            await ooAPI.getBlockInfo(block01).then(data => {
+                var valid = data.hash == blockHash01;
+                appendTestResult(true, true, "getBlockInfo(blockHash01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getBlockInfo(blockHash01)", e);
+            })
+
+            await ooAPI.getBlockHash(block01).then(data => {
+                var valid = data == blockHash01;
+                appendTestResult(true, true, "getBlockHash(block01)", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getBlockHash(block01)", e);
+            })
+
+            await ooAPI.getBlockHeight().then(data => {
+                var valid = true; // Current block will always increase
+                appendTestResult(true, true, "getBlockHeight()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getBlockHeight()", e);
+            })
+
+            await ooAPI.getBlockTime().then(data => {
+                var valid = true; // Current blockTime will always increase
+                appendTestResult(true, true, "getBlockTime()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getBlockTime()", e);
+            })
+
+            /*-----------------------------
+              Core Functions - Variant
+            -----------------------------*/
+
+            var variant;
+            await ooAPI.addVariant({ "type": "image", "id": "image01", "name": "An Image" }).then(data => {
+                variant = data;
+                var valid = true;
+                appendTestResult(true, true, "addVariant({})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "addVariant({})", e);
+            })
+
+            await ooAPI.getVariant("image01").then(data => {
+                var valid = data.id == "image01";
+                appendTestResult(true, true, "getVariant({id})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getVariant({id})", e);
+            })
+
+            await ooAPI.getVariants().then(data => {
+                var valid = data.length > 0;
+                appendTestResult(true, true, "getVariants()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getVariants()", e);
+            })
+
+            await ooAPI.removeVariant(variant).then(data => {
+                var valid = data == undefined;
+                appendTestResult(true, true, "removeVariant()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "removeVariant()", e);
+            })
+
+            await ooAPI.getVariants().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getVariants()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getVariants()", e);
+            })
+
+            /*-----------------------------
+              Core Functions - Composition
+            -----------------------------*/
+
+            var composition;
+            await ooAPI.addComposition({ "id": "comp01", "name": "Default" }).then(data => {
+                composition = data;
+                var valid = true;
+                appendTestResult(true, true, "addComposition({})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "addComposition({})", e);
+            })
+
+            await ooAPI.getComposition("comp01").then(data => {
+                var valid = data.id == "comp01";
+                appendTestResult(true, true, "getComposition({id})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getComposition({id})", e);
+            })
+
+            await ooAPI.getCompositions().then(data => {
+                var valid = data.length > 0;
+                appendTestResult(true, true, "getCompositions()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getCompositions()", e);
+            })
+
+            await ooAPI.removeComposition(composition).then(data => {
+                var valid = data == undefined;
+                appendTestResult(true, true, "removeComposition()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "removeComposition()", e);
+            })
+
+            await ooAPI.getCompositions().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getCompositions()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getCompositions()", e);
+            })
+
+            /*-----------------------------
+              Core Functions - Asset
+            -----------------------------*/
+
+            var asset;
+            await ooAPI.addAsset({ "id": "ass01", "name": "Default" }).then(data => {
+                asset = data;
+                var valid = true;
+                appendTestResult(true, true, "addAsset({})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "addAsset({})", e);
+            })
+
+            await ooAPI.getAsset("ass01").then(data => {
+                var valid = data.id == "ass01";
+                appendTestResult(true, true, "getAsset({id})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getAsset({id})", e);
+            })
+
+            await ooAPI.getAssets().then(data => {
+                var valid = data.length > 0;
+                appendTestResult(true, true, "getAssets()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getAssets()", e);
+            })
+
+            await ooAPI.removeAsset(asset).then(data => {
+                var valid = data == undefined;
+                appendTestResult(true, true, "removeAsset()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "removeAsset()", e);
+            })
+
+            await ooAPI.getAssets().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getAssets()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getAssets()", e);
+            })
+
+            /*-----------------------------
+              Core Functions - Trait
+            -----------------------------*/
+
+            var trait;
+            await ooAPI.addTrait({ "id": "tra01", "name": "Default" }).then(data => {
+                trait = data;
+                var valid = true;
+                appendTestResult(true, true, "addTrait({})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "addTrait({})", e);
+            })
+
+            await ooAPI.getTrait("tra01").then(data => {
+                var valid = data.id == "tra01";
+                appendTestResult(true, true, "getTrait({id})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getTrait({id})", e);
+            })
+
+            await ooAPI.getTraits().then(data => {
+                var valid = data.length > 0;
+                appendTestResult(true, true, "getTraits()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getTraits()", e);
+            })
+
+            await ooAPI.removeTrait(trait).then(data => {
+                var valid = data == undefined;
+                appendTestResult(true, true, "removeTrait()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "removeTrait()", e);
+            })
+
+            await ooAPI.getTraits().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getTraits()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getTraits()", e);
+            })
+
+            /*-----------------------------
+              Core Functions - Trait
+            -----------------------------*/
+
+            var collection;
+            await ooAPI.addCollection({ "id": "col01", "name": "Default" }).then(data => {
+                collection = data;
+                var valid = true;
+                appendTestResult(true, true, "addCollection({})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "addCollection({})", e);
+            })
+
+            await ooAPI.getCollection("col01").then(data => {
+                var valid = data.id == "col01";
+                appendTestResult(true, true, "getCollection({id})", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getCollection({id})", e);
+            })
+
+            await ooAPI.getCollections().then(data => {
+                var valid = data.length > 0;
+                appendTestResult(true, true, "getCollections()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getCollections()", e);
+            })
+
+            await ooAPI.removeCollection(collection).then(data => {
+                var valid = data == undefined;
+                appendTestResult(true, true, "removeCollection()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "removeCollection()", e);
+            })
+
+            await ooAPI.getCollections().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getCollections()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getCollections()", e);
+            })
+
+            await ooAPI.getChildrenAll().then(data => {
+                var valid = data.length == 0;
+                appendTestResult(true, true, "getChildrenAll()", JSON.stringify(data, null, "    "), valid);
+            }).catch(e => {
+                appendTestResult(false, true, "getChildrenAll()", e);
+            })
+
+            /*-----------------------------
+                End of Tests
+            -----------------------------*/
+
+            function appendTestResult(success = false, testType = true, name, message, validated = false) {
+                var table = document.getElementById("TestsOutput");
+                var row = table.insertRow();
+                if (!success || !validated) {
+                    row.classList.add("error");
+                }
+                if (success) {
+                    success = "<span class=\"result green\">&#x2714;</span>";
+                    passedAPI++;
+                } else {
+                    success = "<span class=\"result green\">&#x274C;</span>";
+                    failedAPI++;
+                }
+                if (validated) {
+                    validated = "<span class=\"result green\">&#x2714;</span>";
+                    passedValidation++;
+                } else {
+                    validated = "<span class=\"result green\">&#x274C;</span>";
+                    failedValidation++;
+                }
+                total++;
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+
+                cell1.innerHTML = success;
+                cell2.innerHTML = validated;
+                cell3.innerHTML = testType == true ? "Success" : "Failing";
+                cell4.innerHTML = "<pre><code class=\"language-js\">" + name + "<code></pre>";
+                cell5.innerHTML = "<pre><code class=\"language-json\">" + message + "<code></pre>";
+
+                document.getElementById("passedAPI").innerHTML = passedAPI;
+                document.getElementById("failedAPI").innerHTML = failedAPI;
+                document.getElementById("passedValidation").innerHTML = passedValidation;
+                document.getElementById("failedValidation").innerHTML = failedValidation;
+                document.getElementById("total").innerHTML = total;
+
+                hljs.highlightAll();
+            }
+
+        </script>
+
+</html>

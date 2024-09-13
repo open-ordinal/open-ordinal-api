@@ -1,0 +1,63 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "sortEntryPoints": false,
+    "kindSortOrder": [
+        "Reference",
+        "Project",
+        "Module",
+        "Namespace",
+        "Enum",
+        "EnumMember",
+        "Class",
+        "Interface",
+        "TypeAlias",
+        "Constructor",
+        "Property",
+        "Variable",
+        "Function",
+        "Accessor",
+        "Method",
+        "Parameter",
+        "TypeParameter",
+        "TypeLiteral",
+        "CallSignature",
+        "ConstructorSignature",
+        "IndexSignature",
+        "GetSignature",
+        "SetSignature"
+    ],
+    "searchInComments": true,
+    "searchInDocuments": true,
+    "excludeExternals": true,
+    "navigation": {
+        "includeCategories": true,
+        "includeGroups": true,
+        "includeFolders": false
+    },
+    "categorizeByGroup": true,
+    "entryPoints": [
+        "src//*/OOAPI.Core.ts",
+        "src//*/OOMD.ts"
+    ],
+    "entryPointStrategy": "resolve",
+    "alwaysCreateEntryPointModule": true,
+    "readme": "src/docs/Introduction.md",
+    "projectDocuments": [
+        "src/docs/Introduction.md",
+        "src/docs/Concepts.md",
+        "src/docs/Guides.md",
+        "src/docs/HowTos.md",
+        "src/docs/Examples.md",
+        "src/docs/Inscriptions.md",
+    ],
+    "plugin": [
+        "typedoc-plugin-mermaid",
+        "typedoc-plugin-ga"
+    ],
+    "customCss": "./src/docs/style.css",
+    "titleLink": "/",
+    "customFooterHtml": "Made by Open Ordinal for the Ordinal community",
+    "out": "docs/html",
+    "name": "API",
+    "hideGenerator": true
+}

@@ -1,3 +1,6 @@
+> [!WARNING]
+> If you’re seeing this, you have early access to this repository. Please note that it is still a work in progress and will undergo changes until we make it public. Expect updates and modifications as we continue to develop it.
+
 # Open Ordinal API
 
 > [!NOTE]

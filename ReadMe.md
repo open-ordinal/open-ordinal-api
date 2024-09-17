@@ -32,7 +32,7 @@ Folders:
 
 ## Documentation
 
-Head over to [the docs](docs/markdown/README.md) to read more about this tiny beast.
+Head over to [the docs](docs/markdown/README.md) to read more about this tiny beast. For best experience clone the repository and open the `docs/html/index.html` in a browser.
 
 ## Commands
 

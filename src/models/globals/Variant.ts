@@ -1,5 +1,5 @@
-import { Export, ExportType, Exportable, getExportType } from '../utilities/Export';
-import { OrdinalType } from '../base/Ordinal';
+import { Export, ExportType, Exportable, getExportType } from '../utilities/Export.js';
+import { OrdinalType } from '../base/Ordinal.js';
 
 /**
  * Variant Class

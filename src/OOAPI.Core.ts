@@ -12,53 +12,53 @@
 //#region Imports and Exports
 
 //Models - Base
-import { IVariant, Variant } from './models/globals/Variant';
-import { IComposition, Composition } from './models/globals/Composition';
-import { IAsset, Asset } from './models/globals/Asset';
-import { ITrait, Trait } from './models/globals/Trait';
+import { IVariant, Variant } from './models/globals/Variant.js';
+import { IComposition, Composition } from './models/globals/Composition.js';
+import { IAsset, Asset } from './models/globals/Asset.js';
+import { ITrait, Trait } from './models/globals/Trait.js';
 
-export { IVariant, Variant } from './models/globals/Variant';
-export { IComposition, Composition } from './models/globals/Composition';
-export { IAsset, Asset } from './models/globals/Asset';
-export { ITrait, Trait } from './models/globals/Trait';
+export { IVariant, Variant } from './models/globals/Variant.js';
+export { IComposition, Composition } from './models/globals/Composition.js';
+export { IAsset, Asset } from './models/globals/Asset.js';
+export { ITrait, Trait } from './models/globals/Trait.js';
 
 //Models - Globals
-import { IOrdinal, OrdinalType, Ordinal } from './models/base/Ordinal';
-import { IAudio, Audio } from './models/base/Audio';
-import { IImage, Image } from './models/base/Image';
-import { IVideo, Video } from './models/base/Video';
-import { ISprite, SpriteType, Sprite, SpriteAnimation } from './models/utilities/Export/Sprite'
+import { IOrdinal, OrdinalType, Ordinal } from './models/base/Ordinal.js';
+import { IAudio, Audio } from './models/base/Audio.js';
+import { IImage, Image } from './models/base/Image.js';
+import { IVideo, Video } from './models/base/Video.js';
+import { ISprite, SpriteType, Sprite, SpriteAnimation } from './models/utilities/Export/Sprite.js'
 
-export { IOrdinal, OrdinalType, Ordinal } from './models/base/Ordinal';
-export { IAudio, Audio } from './models/base/Audio';
-export { IImage, Image } from './models/base/Image';
-export { IVideo, Video } from './models/base/Video';
-export { ISprite, SpriteType, Sprite, SpriteAnimation } from './models/utilities/Export/Sprite'
+export { IOrdinal, OrdinalType, Ordinal } from './models/base/Ordinal.js';
+export { IAudio, Audio } from './models/base/Audio.js';
+export { IImage, Image } from './models/base/Image.js';
+export { IVideo, Video } from './models/base/Video.js';
+export { ISprite, SpriteType, Sprite, SpriteAnimation } from './models/utilities/Export/Sprite.js'
 
 //Models - Use Cases
-import { ICollectionTrait, ICollection, Collection } from './models/usecases/Collection';
+import { ICollectionTrait, ICollection, Collection } from './models/usecases/Collection.js';
 
-export { ICollectionTrait, ICollection, Collection } from './models/usecases/Collection';
+export { ICollectionTrait, ICollection, Collection } from './models/usecases/Collection.js';
 
 // Helpers
-import { loadScript } from './helpers/ScriptLoader';
-import { AssetMap, KeyframeProps, Keyframe, AnimationTemplate, TemplateMap, AnimationManager } from './helpers/AnimationManager';
+import { loadScript } from './helpers/ScriptLoader.js';
+import { AssetMap, KeyframeProps, Keyframe, AnimationTemplate, TemplateMap, AnimationManager } from './helpers/AnimationManager.js';
 
 //OOMD Inports
-import * as OOMD from '../oomd/OOMD';
-export * as OOMD from '../oomd/OOMD';
+import * as OOMD from "@open-ordinal/metadata";
+export * as OOMD from "@open-ordinal/metadata";
 
 // Loaders
-export * from './loaders/Artist';
-export * from './loaders/Release';
-export * from './loaders/Track';
+export * from './loaders/Artist.js';
+export * from './loaders/Release.js';
+export * from './loaders/Track.js';
 
 //Imported Third-Party Modules
 import { decode } from 'cbor-x';
 import { Buffer } from 'buffer';
 import camelize from 'camelize-ts'
 import { EventEmitter } from 'events';
-import { Export, ExportType, getExportType } from './models/utilities/Export';
+import { Export, ExportType, getExportType } from './models/utilities/Export.js';
 
 //#endregion
 
@@ -147,101 +147,143 @@ export function getRequestParams() { return _requestParams; }
 //#region Core Functionality - Recursive
 
 /**
- * Get the internal stored Metadata.
+ * Asynchronously retrieves the internal metadata for a given ID.
+ * 
  * @category Core
- * @returns {Promise<OOMD.Metadata>} Ordinal Metadata
+ * @param {string} id - The unique identifier for the metadata.
+ * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
  */
 export async function getMetadata(id: string): Promise<OOMD.Metadata> {
-    if (_metadata == undefined || id != undefined) _metadata = await getInscriptionMetadata(id);
+    // Check if metadata is undefined or if a new ID is provided, then fetch the metadata
+    if (_metadata == undefined || id != undefined) {
+        _metadata = await getInscriptionMetadata(id);
+    }
+    // Return the fetched or existing metadata
     return _metadata;
 }
 
 /**
- * Get the Inscription info.
+ * Asynchronously retrieves inscription data for a given inscription ID.
+ * 
  * @category Core
- * @param {str4ing} inscriptionId The inscription Id
- * @param {string} baseUrl Optional base URL
- * @returns {Promise<any>} The Inscrption info
+ * @param {string} [inscriptionId=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<any>} - A promise that resolves to the inscription data or null if the request fails.
+ * @throws Will throw an error if the fetch operation fails.
  */
 export async function getInscription(inscriptionId = getId(), baseUrl = _baseUrl): Promise<any> {
     try {
-        const response = await fetch(`${baseUrl}/r/inscription/${inscriptionId}`);
+        // Fetch the inscription data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/inscription/${inscriptionId}`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
             return null;
         }
+
+        // Parse the response as JSON
         const json = await response.json();
+
+        // Return the parsed JSON data
         return json;
     } catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
-};
+}
 
 /**
- * Fetches metadata information.
- * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
+ * Asynchronously retrieves metadata for a given inscription ID.
+ * 
  * @category Core
- * @param {string} inscriptionId - Inscription to get metadata.
- *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl
- * @returns {Promise<{OOMD.Metadata}>} A promise that resolves with the processed metadata or null if the metadata was not found.
+ * @param {string} [inscriptionId=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
+ * @throws Will throw an error if the fetch operation fails or if the response is not OK.
  */
 async function getInscriptionMetadata(inscriptionId = getId(), baseUrl = _baseUrl): Promise<OOMD.Metadata> {
-    const response = await fetch(`${baseUrl}/r/metadata/${inscriptionId}`);
+    // Fetch the metadata for the given inscription ID from the API endpoint
+    const response = await fetch(prepareUrl(`/r/metadata/${inscriptionId}`, baseUrl));
+
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         throw new Error("No inscription for Id");
     }
+
+    // Parse the response as a JSON string containing hexadecimal data
     const dataCBORasHexString = await response.json();
+
+    // Convert the hexadecimal string to a buffer
     const dataAsBuffer = Buffer.from(dataCBORasHexString, "hex");
+
+    // Decode the buffer into the metadata object
     const data = decode(dataAsBuffer) as OOMD.Metadata;
+
+    // Return the decoded metadata
     return data;
-};
+}
 
 /**
- * Fetches a single inscription on a sat based on index.
- * If index is not provided, it defaults to -1, which fetches the most recent inscription.
+ * Asynchronously retrieves SAT data for a given sat number and index.
+ * 
  * @category Core
- * @param {string} sat - The sat to fetch the inscription from.
- * @param {number} index - The index of the inscription to fetch. Defaults to -1.
- * @param {origin} baseUrl - Optinal baseUrl for the fetch.
- * @returns {Promise<{id: string}>} A promise that resolves with the fetched inscriptionId.
+ * @param {number} sat - The unique identifier for the SAT.
+ * @param {number} [index=-1] - The index for the SAT data. Defaults to -1 which fetches the most recent inscription.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<any>} - A promise that resolves to the SAT data.
  */
 export async function getSatAt(sat: number, index: number = -1, baseUrl: string = _baseUrl): Promise<any> {
-    const response = await fetch(`${baseUrl}/r/sat/${sat}/at/${index}`);
+    // Fetch the satellite data from the API endpoint
+    const response = await fetch(prepareUrl(`/r/sat/${sat}/at/${index}`, baseUrl));
+
+    // Parse and return the response as JSON
     return response.json();
-};
+}
 
 /**
- * Fetches the page data for a specific SAT at a given page number.
+ * Asynchronously fetches the page data for a specific SAT at a given page number.
+ * 
  * @category Core
- * @param {string} sat - The SAT number to fetch the page data for.
- * @param {number} page - The page number to fetch. Defaults to 0.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {number} sat - The SAT number to fetch the page data for.
+ * @param {number} [page=0] - The page number to fetch. Defaults to 0.
+ * @param {string} [baseUrl=_baseUrl] - Optional base URL for the fetch. Defaults to _baseUrl.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing the IDs, a boolean indicating if there are more pages, and the current page number.
+ * @throws Will throw an error if the fetch operation fails or if the response is not OK.
  */
 export async function getSatPage(sat: number, page: number = 0, baseUrl: string = _baseUrl): Promise<any> {
     try {
-        const response = await fetch(`${baseUrl}/r/sat/${sat}/${page}`);
+        // Fetch the page data for the given SAT number and page number from the API endpoint
+        const response = await fetch(prepareUrl(`/r/sat/${sat}/${page}`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful');
         }
+
+        // Parse the response as JSON
         const data = await response.json();
+
+        // Extract the IDs, more flag, and page data from the response
         const ids = data.ids;
         const more = data.more;
         const pageData = data.page;
 
+        // Return the extracted data as an object
         return { ids, more, page: pageData };
     } catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
-};
+}
 
 /**
- * Fetches all the inscriptions on a sat.
- * The function fetches the inscriptions in pages, and continues fetching until there are no more pages.
+ * Asynchronously fetches all the inscriptions on a given SAT.
+ * The function fetches the inscriptions in pages and continues fetching until there are no more pages.
+ * 
  * @category Core
- * @param {string} sat - The sat to fetch the inscriptions from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the inscriptions.
+ * @param {number} sat - The SAT number to fetch the inscriptions from.
+ * @param {string} [baseUrl=_baseUrl] - Optional base URL for the fetch. Defaults to _baseUrl.
+ * @returns {Promise<string[]>} - A promise that resolves with an array of the IDs of the inscriptions.
  */
 export async function getSatAll(sat: number, baseUrl: string = _baseUrl): Promise<string[]> {
     let ids: string[] = [];
@@ -249,137 +291,180 @@ export async function getSatAll(sat: number, baseUrl: string = _baseUrl): Promis
     let page = 0;
 
     while (more) {
+        // Fetch the inscriptions for the current page
         await getSatPage(sat, page, baseUrl).then(data => {
             if (data != null) {
+                // Concatenate the fetched IDs with the existing IDs
                 ids = ids.concat(data.ids);
+                // Check if there are more pages to fetch
                 more = data.more;
+                // Increment the page number for the next fetch
                 page++;
             }
         }).catch(error => {
+            // Stop fetching if an error occurs
             more = false;
         });
     }
+    // Return the array of fetched IDs
     return ids;
-};
+}
 
 /**
- * Fetches the parents of a given inscription.
+ * Asynchronously fetches the parents of a given inscription.
  * If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.
+ * 
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the parents of.
  *                                 Defaults to the ID of the page running it if none is given.
  * @param {number} page - The page number to fetch the parents from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing:
+ *                                                                         - ids: An array of parent IDs.
+ *                                                                         - more: A boolean indicating if there are more pages.
+ *                                                                         - page: The current page number.
  */
 export async function getParentsPage(inscriptionId: string = getId(), page: number = 0, baseUrl: string = _baseUrl): Promise<any> {
-    let ids: string[] = [];
-    let more = true;
+    let ids: string[] = []; // Initialize an empty array to store parent IDs
+    let more = true; // Flag to indicate if there are more pages
 
     try {
-        const response = await fetch(
-            `${baseUrl}/r/parents/${inscriptionId}/${page}`);
+        // Fetch the parents data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/parents/${inscriptionId}/${page}`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
         }
+
+        // Parse the response as JSON
         const data = await response.json();
+
+        // Concatenate the fetched IDs with the existing array
         ids = ids.concat(data.ids);
+
+        // Update the 'more' flag based on the response
         more = data.more;
+
+        // Update the page number based on the response
         page = data.page;
     } catch (error) {
+        // Set 'more' to false if an error occurs
         more = false;
     }
+
+    // Return the result as an object
     return { ids, more, page };
 };
 
 /**
- * Fetches all the parents of a given inscription.
+ * Asynchronously fetches all the parents of a given inscription.
+ * 
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the parents of.
  *                                 Defaults to the ID obtained from `getId()`.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the parents.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<Array<string>>} - A promise that resolves with an array of the IDs of the parents.
  */
 export async function getParentsAll(inscriptionId: string = getId(), baseUrl: string = _baseUrl): Promise<string[]> {
-    let ids: string[] = [];
-    let more = true;
-    let page = 0;
+    let ids: string[] = []; // Initialize an empty array to store parent IDs
+    let more = true; // Flag to indicate if there are more pages
+    let page = 0; // Initialize the page number
 
-
+    // Loop to fetch all pages of parent IDs
     while (more) {
         await getParentsPage(inscriptionId, page, baseUrl).then(data => {
             if (data != null) {
-                ids = ids.concat(data.ids);
-                more = data.more;
-                page++;
+                ids = ids.concat(data.ids); // Concatenate the fetched IDs with the existing array
+                more = data.more; // Update the 'more' flag based on the response
+                page++; // Increment the page number
             }
         }).catch(error => {
-            more = false;
+            more = false; // Set 'more' to false if an error occurs
         });
     }
-    return ids;
+    return ids; // Return the array of parent IDs
 };
 
 /**
- * Fetches the children of a given inscription.
+ * Asynchronously fetches the children of a given inscription.
  * If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.
+ * 
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the children of.
  *                                 Defaults to the ID of the page running it if none is given.
  * @param {number} page - The page number to fetch the children from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing:
+ *                                                                         - ids: An array of children IDs.
+ *                                                                         - more: A boolean indicating if there are more pages.
+ *                                                                         - page: The current page number.
  */
 export async function getChildrenPage(inscriptionId: string = getId(), page: number = 0, baseUrl: string = _baseUrl): Promise<any> {
-    let ids: string[] = [];
-    let more = true;
+    let ids: string[] = []; // Initialize an empty array to store children IDs
+    let more = true; // Flag to indicate if there are more pages
 
     try {
-        const response = await fetch(
-            `${baseUrl}/r/children/${inscriptionId}/${page}`);
+        // Fetch the children data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/children/${inscriptionId}/${page}`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
         }
+
+        // Parse the response as JSON
         const data = await response.json();
+
+        // Concatenate the fetched IDs with the existing array
         ids = ids.concat(data.ids);
+
+        // Update the 'more' flag based on the response
         more = data.more;
+
+        // Update the page number based on the response
         page = data.page;
     } catch (error) {
+        // Set 'more' to false if an error occurs
         more = false;
     }
+
+    // Return the result as an object
     return { ids, more, page };
 };
 
 /**
- * Fetches all the children of a given inscription.
+ * Asynchronously fetches all the children of a given inscription.
+ * 
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the children of.
  *                                 Defaults to the ID obtained from `getId()`.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the children.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<Array<string>>} - A promise that resolves with an array of the IDs of the children.
  */
 export async function getChildrenAll(inscriptionId: string = getId(), baseUrl: string = _baseUrl): Promise<string[]> {
-    let ids: string[] = [];
-    let more = true;
-    let page = 0;
+    let ids: string[] = []; // Initialize an empty array to store children IDs
+    let more = true; // Flag to indicate if there are more pages
+    let page = 0; // Initialize the page number
 
+    // Loop to fetch all pages of children IDs
     while (more) {
         await getChildrenPage(inscriptionId, page, baseUrl).then(data => {
             if (data != null) {
-                ids = ids.concat(data.ids);
-                more = data.more;
-                page++;
+                ids = ids.concat(data.ids); // Concatenate the fetched IDs with the existing array
+                more = data.more; // Update the 'more' flag based on the response
+                page++; // Increment the page number
             }
         }).catch(error => {
-            more = false;
+            more = false; // Set 'more' to false if an error occurs
         });
     }
 
-    return ids;
+    return ids; // Return the array of children IDs
 };
 
 /**
- * Fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
+ *  Asynchronously fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
  * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
  * @category Core
  * @param {string} inscriptionId - Inscription to get all information.
@@ -402,161 +487,213 @@ export async function getOOMD(inscriptionId: string = getId(), baseUrl: string =
 };
 
 /**
- * Fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
+ * Asynchronously fetches all information about an inscription, including children,
+ * sat inscriptions, metadata, and its ID.
  * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
+ * 
  * @category Core
- * @param {string} inscriptionId - Inscription to get all information.
+ * @param {string} inscriptionId - The ID of the inscription to get all information about.
  *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl for the fetch
- * @returns {Promise<{inscription: {charms: Array<string>, content_type: string, content_length: number, fee: number, height: number, number: number, output: string, sat: null | string, satpoint: string, timestamp: number, value: number} | null, children: Array<string>, satIds: Array<string>, metadata: Object | null, id: <string>}>} A promise that resolves with all the information about the inscription.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<any>} - A promise that resolves with all the information about the inscription.
  */
 export async function getAll(inscriptionId: string = getId(), baseUrl: string = _baseUrl): Promise<any> {
-    let res: any = {};
-    res.id = inscriptionId;
+    let res: any = {}; // Initialize an empty object to store the result
+    res.id = inscriptionId; // Assign the inscription ID to the result
+
     try {
+        // Fetch the inscription data
         const inscription = await getInscription(inscriptionId, baseUrl);
-        res.inscription = inscription;
+        res.inscription = inscription; // Assign the fetched inscription data to the result
 
+        // Fetch all parent IDs
         const parents = await getParentsAll(inscriptionId, baseUrl);
-        res.parents = parents;
+        res.parents = parents; // Assign the fetched parent IDs to the result
 
+        // Fetch all children IDs
         const children = await getChildrenAll(inscriptionId, baseUrl);
-        res.children = children;
+        res.children = children; // Assign the fetched children IDs to the result
 
+        // Fetch all sat IDs
         const sat = await getSatAll(inscription.sat, baseUrl);
-        res.satIds = sat;
+        res.satIds = sat; // Assign the fetched sat IDs to the result
 
+        // Fetch the metadata
         const metadata = await getInscriptionMetadata(inscriptionId, baseUrl);
-        res.metadata = metadata;
+        res.metadata = metadata; // Assign the fetched metadata to the result
     } catch (error) {
-        throw error;
+        throw error; // Throw an error if any fetch operation fails
     }
-    return res;
+
+    return res; // Return the result object containing all fetched information
 };
 
 /**
- * Fetches information about a specific block by block height or block hash.
+ * Asynchronously fetches information about a specific block by block height or block hash.
+ * 
  * @category Core
  * @param {string} blockInfo - The block height or block hash to get information about.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{bits: number, chainwork: number, confirmations: number, difficulty: number, hash: string, height: number, median_time: number, merkle_root: string, next_block: string, nonce: number, previous_block: string, target: string, timestamp: number, transaction_count: number, version: number} | null>} A promise that resolves with the information about the block or null if not found.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<any>} - A promise that resolves with the information about the block or null if not found.
  */
 export async function getBlockInfo(blockInfo: string, baseUrl: string = _baseUrl): Promise<any> {
-    const url = `${baseUrl}/r/blockinfo/${blockInfo}`;
-    const response = await fetch(url);
+    const response = await fetch(prepareUrl(`/r/blockinfo/${blockInfo}`, baseUrl)); // Fetch the block information from the API
 
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         if (response.status === 404) {
-            throw new Error('Ord API call returned no BlockInfo');
+            throw new Error('Ord API call returned no BlockInfo'); // Throw an error if the block is not found
         }
-        throw new Error('Ord API call was unsuccesful');
+        throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
     }
 
-    return response.json();
+    return response.json(); // Parse and return the response as JSON
 };
 
 /**
- * Fetches the block hash at a given block height.
+ * Asynchronously fetches the block hash at a given block height.
+ * 
  * @category Core
  * @param {number} height - The height of the block to get the hash of.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<string | null>} A promise that resolves with the hash of the block or null if 404.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<string | null>} - A promise that resolves with the hash of the block or null if not found.
  */
 export async function getBlockHash(height: number, baseUrl: string = _baseUrl): Promise<string> {
-    const url = `${baseUrl}/r/blockhash/${height}`;
-    const response = await fetch(url);
+    const response = await fetch(prepareUrl(`/r/blockhash/${height}`, baseUrl)); // Fetch the block hash from the API
 
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         if (response.status === 404) {
-            throw new Error('Ord API call returned no BlockHash');
+            throw new Error('Ord API call returned no BlockHash'); // Throw an error if the block hash is not found
         }
-        throw new Error('Ord API call was unsuccesful');
+        throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
     }
 
-    const hash = await response.json();
+    const hash = await response.json(); // Parse and return the response as JSON
     return hash;
 };
 
 /**
- * Fetches the latest block height.
+ * Asynchronously fetches the latest block height.
+ * 
  * @category Core
- * @param {string} baseUrl - The baseUrl for the fetch.
- * @returns {Promise<number>} A promise that resolves with the height of the latest block.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the fetch.
+ * @returns {Promise<number>} - A promise that resolves with the height of the latest block.
  */
 export async function getBlockHeight(baseUrl: string = _baseUrl): Promise<number> {
     try {
-        const response = await fetch(`${baseUrl}/r/blockheight`);
+        // Fetch the latest block height from the API endpoint
+        const response = await fetch(prepareUrl(`/r/blockheight`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Remote API call was unsuccesful');
+            throw new Error('Remote API call was unsuccessful'); // Throw an error if the API call fails
         }
+
+        // Parse the response as text
         const height = await response.text();
+
+        // Convert the height to a number and return it
         return Number(height);
     } catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 };
 
 /**
- * Fetches the UNIX time stamp of the latest block.
+ * Asynchronously fetches the UNIX time stamp of the latest block.
+ * 
  * @category Core
- * @param {string} baseUrl - The baseUrl for the fetch.
- * @returns {Promise<number>} A promise that resolves with the UNIX time stamp of the latest block.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the fetch.
+ * @returns {Promise<number>} - A promise that resolves with the UNIX time stamp of the latest block.
  */
 export async function getBlockTime(baseUrl: string = _baseUrl): Promise<number> {
     try {
-        const response = await fetch(`${baseUrl}/r/blocktime`);
+        // Fetch the UNIX time stamp of the latest block from the API endpoint
+        const response = await fetch(prepareUrl(`/r/blocktime`, baseUrl));
+
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Network response was not ok'); // Throw an error if the API call fails
         }
+
+        // Parse the response as text
         const time = await response.text();
+
+        // Convert the time to a number and return it
         return Number(time);
     } catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 };
 
 /**
- * Get the latest Id for a supplied Id trough Sat endpoint.
+ * Asynchronously get the latest ID for a supplied ID through the Sat endpoint.
+ * 
  * @category Core
- * @param {string} id Inscription Id
- * @returns {string} Latest Id for Inscription
+ * @param {string} id - The inscription ID.
+ * @returns {Promise<string>} - A promise that resolves with the latest ID for the inscription.
  */
 export async function getLatestId(id: string): Promise<string> {
+    // Fetch the inscription data using the provided ID
     const inscription = await getInscription(id);
+
+    // Check if the inscription has a 'sat' property that is not null
     if (inscription.sat !== null) {
+        // Fetch and return the latest ID from the Sat endpoint
         return (await getSatAt(inscription.sat)).id;
     }
+
+    // Return the original ID if 'sat' is null
     return id;
 }
 
 /**
- * Get the path for the latest inscription for a given path.
+ * Asynchronously get the path for the latest inscription for a given path.
+ * 
  * @category Core
- * @param {string} path Path to inscription
- * @returns {string} Path to inscription
+ * @param {string} path - The path to the inscription.
+ * @returns {Promise<string>} - A promise that resolves with the path to the latest inscription.
  */
 export async function getLatestPath(path: string): Promise<string> {
-    if (path.startsWith("/content/")) {
-        let id = path.substring("/content/".length);
+    let prefix = new String("/content/"); //Webpack workarround.
+
+    // Check if the path starts with "/content/"
+    if (path.startsWith(prefix.toString())) {
+        // Extract the ID from the path
+        let id = path.substring(prefix.length);
+
+        // Get the latest ID for the extracted ID
         id = await getLatestId(id);
-        path = `/content/${id}`;
+
+        // Update the path with the latest ID
+        path = prefix + id;
     }
+
+    // Return the updated path
     return path;
 }
 
 /**
- * Detects if Ordinal API Extensions is available in Origin
+ * Asynchronously detects if Ordinal API Extensions is available in Origin.
+ * 
  * @category Core
- * @returns {bool} True/False
+ * @returns {Promise<boolean>} - A promise that resolves to true if the Ordinal API Extensions are available, otherwise false.
  */
 export async function isOrdinalAPIExtensionsAvailable(): Promise<boolean> {
+    // Send a HEAD request to the specified URL
     const response = await fetch('/content/' + _id, {
         method: 'HEAD'
     });
+
+    // Check if the response headers contain "X-Sagaverse-Ordinal-API" and if its value is "true"
     if (response.headers.get("X-Sagaverse-Ordinal-API") != undefined && response.headers.get("X-Sagaverse-Ordinal-API") == "true") {
-        return true;
+        return true; // Return true if the Ordinal API Extensions are available
     }
-    return false;
+
+    return false; // Return false if the Ordinal API Extensions are not available
 }
 
 //#endregion
@@ -564,53 +701,59 @@ export async function isOrdinalAPIExtensionsAvailable(): Promise<boolean> {
 //#region Core Functionality - Iframe
 
 /**
- * Detects and extract Open Ordinal API if present in an Iframe.
+ * Detects and extracts Open Ordinal API if present in an Iframe.
+ * 
  * @category Core
- * @param iframe 
- * @returns 
+ * @param {HTMLIFrameElement} iframe - The iframe element to check for the Open Ordinal API.
+ * @returns {Promise<any>} - A promise that resolves with the Open Ordinal API if available, otherwise rejects with an error message.
  */
 export async function getOrdinalApiFromIFrame(iframe: HTMLIFrameElement): Promise<any> {
     return new Promise((resolve, reject) => {
+        // Check if the iframe is undefined
         if (typeof iframe === 'undefined') {
-            reject("iframe is invalid");
+            reject("iframe is invalid"); // Reject the promise if the iframe is invalid
             return;
         }
 
         function checkIframeLoaded() {
-            // Get a handle to the iframe element
+            // Get a handle to the iframe document
             var iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
 
-            // Check if loading is complete
+            // Check if the iframe loading is complete
             if (typeof iframeDoc !== 'undefined' && iframeDoc.readyState == 'complete') {
                 let ordinal = iframe.contentWindow!;
                 let whenLoaded = () => {
-                    // TODO - Needed for Tiny Vikings hosted offchain that is not updated yet.
                     let ooAPi = ordinal.ooAPI;
 
+                    // Check if the Open Ordinal API is available
                     if (typeof ooAPi !== 'undefined') {
+                        // Check if the Open Ordinal API is ready
                         if (ooAPi.isReady()) {
-                            resolve(ooAPi);
+                            resolve(ooAPi); // Resolve the promise with the Open Ordinal API
                         } else {
+                            // Wait for the Open Ordinal API to be ready
                             ooAPi.on('ready', () => {
-                                resolve(ooAPi);
+                                resolve(ooAPi); // Resolve the promise with the Open Ordinal API
                             });
                         }
                     } else {
-                        reject("OOAPi not available.");
+                        reject("ooAPI not available."); // Reject the promise if the Open Ordinal API is not available
                     }
                 };
 
+                // Check if the iframe document is fully loaded
                 if (iframeDoc.readyState == "complete") {
-                    whenLoaded();
+                    whenLoaded(); // Call the whenLoaded function if the document is complete
                 } else {
-                    ordinal.onload = whenLoaded;
+                    ordinal.onload = whenLoaded; // Set the onload event to call the whenLoaded function
                 }
                 return;
             }
 
+            // Retry checking the iframe loading status after 100ms
             window.setTimeout(checkIframeLoaded, 100);
         }
-        checkIframeLoaded();
+        checkIframeLoaded(); // Initial call to checkIframeLoaded function
     });
 }
 
@@ -620,22 +763,32 @@ export async function getOrdinalApiFromIFrame(iframe: HTMLIFrameElement): Promis
 
 /**
  * Imports a JavaScript module.
+ * 
  * @category Core
- * @param {string }path Path to module to import 
- * @returns {Promise<any>} The module imported
+ * @param {string} path - The path to the module to import.
+ * @returns {Promise<any>} - A promise that resolves with the imported module.
  */
 export async function importLatest(path: string): Promise<any> {
-    return await import(/* webpackIgnore: true */await getLatestPath(path));
+    // Get the latest path for the module
+    const latestPath = await getLatestPath(path);
+
+    // Import the module using the latest path
+    return await import(/* webpackIgnore: true */latestPath);
 }
 
 /**
  * Fetch a path and return the response.
+ * 
  * @category Core
- * @param {string} path The path to fetch 
- * @returns {Promise<Response>} The response
+ * @param {string} path - The path to fetch.
+ * @returns {Promise<Response>} - A promise that resolves with the response.
  */
 export async function fetchLatest(path: string): Promise<Response> {
-    return await fetch(await getLatestPath(path));
+    // Get the latest path for the given path
+    const latestPath = await getLatestPath(path);
+
+    // Fetch the resource at the latest path and return the response
+    return await fetch(latestPath);
 }
 
 //#endregion
@@ -644,21 +797,28 @@ export async function fetchLatest(path: string): Promise<Response> {
 
 /**
  * A cache helper to cache single functions and their return variable.
+ * 
  * @category Core
- * @param func The function to cache
- * @returns A function which upon subsequent calls with the same id parameter returns the result from the first call.
+ * @param {function} func - The function to cache.
+ * @returns {function} - A function which upon subsequent calls with the same id parameter returns the result from the first call.
  */
 export function cached<T>(func: (id: string) => Promise<T>): (id: string) => Promise<T> {
-    let cache: { [id: string]: Promise<T> } = {};
+    let cache: { [id: string]: Promise<T> } = {}; // Initialize an empty object to store cached promises
+
     return id => {
-        var promise = cache[id];
+        var promise = cache[id]; // Retrieve the cached promise for the given id
+
+        // If no cached promise exists, call the function and cache its promise
         if (!promise) {
             promise = func(id);
             cache[id] = promise;
         }
+
+        // Return the cached or newly created promise
         return promise;
     };
 }
+
 
 //#endregion
 
@@ -1014,32 +1174,72 @@ async function ready() {
 
 //#region General Helpers
 
+/**
+ * Extracts the inscription ID from the current URL.
+ * 
+ * @returns {string} - The inscription ID extracted from the URL, or an empty string if the URL is invalid.
+ */
 function getInscriptionIdFromUrl(): string {
+    // Split the URL path into parts using "/" as the delimiter
     const parts = window.location.pathname.split("/");
-    if (parts.length >= 3 && (parts[1] === "content" || parts[1] === "preview" || parts[1] === "inscription")) {
-        return parts[2];
+    const lookFor: string[] = ['content', 'preview', 'inscription'];
+
+    // Check if the URL contains any known parts and get ID
+    if (parts.some(item => lookFor.includes(item))) {
+        return parts[parts.length - 1]; // Return the last part as the inscription ID
     } else {
-        console.error("URL does not contain a valid inscription ID.", parts);
-        return "";
+        // Log an error message if the URL does not contain a valid inscription ID
+        return ""; // Return an empty string if the URL is invalid
     }
 }
 
+/**
+ * Extracts URL parameters and stores them in a global request parameters map.
+ */
 function getURLParams() {
     try {
+        // Create a URLSearchParams object from the query string of the current URL
         const searchParams = new URLSearchParams(window.location.search);
+
+        // Iterate over each key-value pair in the URL parameters
         searchParams.forEach((value, key) => {
+            // Convert both key and value to lowercase and store them in the global _requestParams map
             _requestParams.set(key.toLowerCase(), value.toLowerCase());
         });
     } catch (error) {
+        // Log an error message if an exception occurs while parsing URL parameters
         console.error("Error parsing URL parameters:", error);
     }
+}
+
+function getBaseUrl(): string {
+    const parts = window.location.pathname.split("/");
+    const lookFor: string[] = ['content', 'preview', 'inscription', 'r'];
+    let urlOut: string[] = [];
+
+    if (parts.some(item => lookFor.includes(item))) {
+        for (let index = 0; index < parts.length; index++) {
+            if(lookFor.includes(parts[index]))
+                break;
+            urlOut.push(parts[index]);
+        }
+        return urlOut.join("/");
+    } else {
+        return window.location.origin;
+    }
+}
+
+function prepareUrl(url: string, baseUrl: string) {
+    if (url.includes("http"))
+        return url;
+    return `${baseUrl}${url}`;
 }
 
 //#endregion
 
 //#region On Load Triggers
 
-_baseUrl = window.location.origin;
+_baseUrl = getBaseUrl();
 getURLParams();
 
 //#endregion

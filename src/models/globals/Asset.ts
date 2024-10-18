@@ -3,7 +3,7 @@
  * Assets an Ordinal exposes to be used by externals e.g. Sprites, 
  */
 
-import { OrdinalType } from '../base/Ordinal';
+import { OrdinalType } from '../base/Ordinal.js';
 
 /**
  * An Asset in the Open Ordinal API is a single asset the ordinal expose.

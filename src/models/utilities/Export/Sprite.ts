@@ -1,4 +1,4 @@
-import { Export, Exportable } from "../Export";
+import { Export, Exportable } from "../Export.js";
 
 /*
  * Sprite Class

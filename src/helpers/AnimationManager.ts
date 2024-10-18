@@ -1,6 +1,6 @@
 /// <reference types="p5/global" />
 
-import { loadScript } from './ScriptLoader';
+import { loadScript } from './ScriptLoader.js';
 
 type Asset = string;
 

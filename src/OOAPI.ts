@@ -5,8 +5,8 @@
  * @license  MIT
  * @module   OOAPI
  */
-import * as OOAPI from './OOAPI.Core'
-export * from './OOAPI.Core'
+import * as OOAPI from './OOAPI.Core.js'
+export * from './OOAPI.Core.js'
 
 /**
  * Assign OOAPI to window

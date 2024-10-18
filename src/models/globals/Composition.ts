@@ -1,4 +1,4 @@
-import { Export, Exportable } from "../utilities/Export";
+import { Export, Exportable } from "../utilities/Export.js";
 
 /**
  * A Composition in the Open Ordinal API is a single image as a combination

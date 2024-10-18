@@ -1,10 +1,5 @@
-> [!WARNING]
-> If you’re seeing this, you have early access to this repository. Please note that it is still a work in progress and will undergo changes until we make it public. Expect updates and modifications as we continue to develop it.
-
 # Open Ordinal API
 
-> [!NOTE]
-> TL;DR:
 > The Open Ordinal API is a JavaScript library / module that can be externally linked by any Ordinal to share its internal data and functionality with an external entity.
 
 The fundamental concept is that an ordinal has the capacity to reveal a wealth of data and capabilities. This proves beneficial for various areas such as in Applications, Wallets, Marketplaces, Custom Proxies, CDNs, Publishers and more.
@@ -32,14 +27,15 @@ Folders:
 
 ## Documentation
 
-Head over to [the docs](docs/markdown/README.md) to read more about this tiny beast. For best experience clone the repository and open the `docs/html/index.html` in a browser.
+Head over to [the docs](https://openordinal.dev/docs/open-ordinal-api/) to read more about this tiny beast.
 
 ## Commands
 
-- `yarn install`: Get all the libraries that is needed for development and running this library.
-- `yarn run build`: Builds the `src` to the `lib` folder and then minimize it to the `dist` folder.
-- `yarn run test`: The the same as `yarn build` and starts a dev-server hosted on port 9999.
-- `yarn run docs`: Builds the `docs`.
+- `npm install`: Get all the libraries that is needed for development and running this library.
+- `npm run all`: Run the `build` and `docs` in sequence.
+- `npm run build`: Builds the `src` to the `lib` folder and then minimize it to the `dist` folder.
+- `npm run test`: The the same as `npm build` and starts a dev-server hosted on port 9999.
+- `npm run docs`: Builds the `docs`.
 
 ## Inscriptions
 All Open Ordinal inscriptions.

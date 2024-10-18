@@ -1,19 +1,23 @@
-const path = require('path');
-const TerserPlugin = require("terser-webpack-plugin");
-const webpack = require('webpack');
-const packageJson = require('./package.json');
+import path from 'path';
+import { dirname } from 'path';
+import TerserPlugin from "terser-webpack-plugin";
+import webpack from 'webpack';
+import packageJson from './package.json' with { type: "json" };
+import { fileURLToPath } from 'url';
 
 //const mode = "development";
 const mode = "production";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-module.exports = env => {
+export default env => {
     let minify = env.minify;
-    if(minify == undefined) minify = false;
+    if (minify == undefined) minify = false;
 
     let entry = minify ? {
-        "open-ordinal-api.min": "./lib/ooapi/OOAPI.js"
+        "open-ordinal-api.min": "./lib/OOAPI.js"
     } : {
-        "open-ordinal-api": "./lib/ooapi/OOAPI.js"
+        "open-ordinal-api": "./lib/OOAPI.js"
     }
 
     return {
@@ -63,7 +67,8 @@ module.exports = env => {
             proxy: [
                 {
                     context: ['/preview', '/inscription', '/content', '/r'],
-                    target: 'http://localhost:9001/', // Local Ord Server
+                    //target: 'http://localhost:9001/', // Local Ord Server
+                    target: 'https://ordinals.com/', // Remote Ord Server
                     pathRewrite: {
                         '^/preview': '/preview',
                         '^/inscription': '/inscription',

@@ -12,7 +12,7 @@ Trait Class
 
 #### Defined in
 
-[models/globals/Trait.ts:5](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Trait.ts#L5)
+[src/models/globals/Trait.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Trait.ts#L5)
 
 ***
 
@@ -22,7 +22,7 @@ Trait Class
 
 #### Defined in
 
-[models/globals/Trait.ts:6](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Trait.ts#L6)
+[src/models/globals/Trait.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Trait.ts#L6)
 
 ***
 
@@ -32,4 +32,4 @@ Trait Class
 
 #### Defined in
 
-[models/globals/Trait.ts:7](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Trait.ts#L7)
+[src/models/globals/Trait.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Trait.ts#L7)

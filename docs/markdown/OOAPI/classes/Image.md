@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:18](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L18)
+[src/models/base/Image.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L18)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:13](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L13)
+[src/models/base/Image.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:14](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L14)
+[src/models/base/Image.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L14)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:15](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L15)
+[src/models/base/Image.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L15)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:16](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L16)
+[src/models/base/Image.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L16)
 
 ## Methods
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:25](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L25)
+[src/models/base/Image.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L25)
 
 ***
 
@@ -86,7 +86,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:29](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L29)
+[src/models/base/Image.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L29)
 
 ***
 
@@ -100,7 +100,7 @@
 
 #### Defined in
 
-[models/base/Image.ts:33](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L33)
+[src/models/base/Image.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L33)
 
 ***
 
@@ -114,4 +114,4 @@
 
 #### Defined in
 
-[models/base/Image.ts:37](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Image.ts#L37)
+[src/models/base/Image.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Image.ts#L37)

@@ -61,6 +61,7 @@
 
 ### Other
 
+- [OOMD](namespaces/OOMD/README.md)
 - [Artist](classes/Artist.md)
 - [Release](classes/Release.md)
 - [Track](classes/Track.md)

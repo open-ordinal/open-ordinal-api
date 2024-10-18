@@ -8,7 +8,7 @@ Set the internal stored Metadata.
 
 ## Parameters
 
-• **metadata**: `Metadata`
+• **metadata**: [`Metadata`](../namespaces/OOMD/interfaces/Metadata.md)
 
 Ordinal Metadata
 
@@ -18,4 +18,4 @@ Ordinal Metadata
 
 ## Defined in
 
-[OOAPI.Core.ts:134](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/OOAPI.Core.ts#L134)
+[src/OOAPI.Core.ts:134](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/OOAPI.Core.ts#L134)

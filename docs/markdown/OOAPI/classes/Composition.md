@@ -38,7 +38,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/globals/Composition.ts:39](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Composition.ts#L39)
+[src/models/globals/Composition.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L39)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/globals/Composition.ts:36](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Composition.ts#L36)
+[src/models/globals/Composition.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L36)
 
 ***
 
@@ -58,7 +58,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/globals/Composition.ts:37](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Composition.ts#L37)
+[src/models/globals/Composition.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L37)
 
 ***
 
@@ -76,7 +76,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/utilities/Export.ts:26](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export.ts#L26)
+[src/models/utilities/Export.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L26)
 
 ## Methods
 
@@ -94,7 +94,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/utilities/Export.ts:32](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export.ts#L32)
+[src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L32)
 
 ***
 
@@ -112,4 +112,4 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[models/utilities/Export.ts:36](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export.ts#L36)
+[src/models/utilities/Export.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L36)

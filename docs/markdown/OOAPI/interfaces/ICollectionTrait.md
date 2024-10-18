@@ -12,7 +12,7 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[models/usecases/Collection.ts:42](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/usecases/Collection.ts#L42)
+[src/models/usecases/Collection.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L42)
 
 ***
 
@@ -22,7 +22,7 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[models/usecases/Collection.ts:43](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/usecases/Collection.ts#L43)
+[src/models/usecases/Collection.ts:43](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L43)
 
 ***
 
@@ -32,4 +32,4 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[models/usecases/Collection.ts:44](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/usecases/Collection.ts#L44)
+[src/models/usecases/Collection.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L44)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:41](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L41)
+[src/models/utilities/Export/Sprite.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L41)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:33](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L33)
+[src/models/utilities/Export/Sprite.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L33)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:34](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L34)
+[src/models/utilities/Export/Sprite.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L34)
 
 ***
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:35](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L35)
+[src/models/utilities/Export/Sprite.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L35)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:36](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L36)
+[src/models/utilities/Export/Sprite.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L36)
 
 ***
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:37](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L37)
+[src/models/utilities/Export/Sprite.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L37)
 
 ***
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:38](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L38)
+[src/models/utilities/Export/Sprite.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L38)
 
 ***
 
@@ -104,4 +104,4 @@
 
 #### Defined in
 
-[models/utilities/Export/Sprite.ts:39](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/utilities/Export/Sprite.ts#L39)
+[src/models/utilities/Export/Sprite.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export/Sprite.ts#L39)

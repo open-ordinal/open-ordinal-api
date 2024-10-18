@@ -19,7 +19,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[models/globals/Asset.ts:19](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Asset.ts#L19)
+[src/models/globals/Asset.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Asset.ts#L19)
 
 ***
 
@@ -29,7 +29,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[models/globals/Asset.ts:20](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Asset.ts#L20)
+[src/models/globals/Asset.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Asset.ts#L20)
 
 ***
 
@@ -39,7 +39,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[models/globals/Asset.ts:21](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Asset.ts#L21)
+[src/models/globals/Asset.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Asset.ts#L21)
 
 ***
 
@@ -49,4 +49,4 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[models/globals/Asset.ts:22](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/globals/Asset.ts#L22)
+[src/models/globals/Asset.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Asset.ts#L22)

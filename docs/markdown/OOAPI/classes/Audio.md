@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[models/base/Audio.ts:20](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Audio.ts#L20)
+[src/models/base/Audio.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Audio.ts#L20)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[models/base/Audio.ts:17](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Audio.ts#L17)
+[src/models/base/Audio.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Audio.ts#L17)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[models/base/Audio.ts:18](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Audio.ts#L18)
+[src/models/base/Audio.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Audio.ts#L18)
 
 ## Methods
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[models/base/Audio.ts:25](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Audio.ts#L25)
+[src/models/base/Audio.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Audio.ts#L25)
 
 ***
 
@@ -66,4 +66,4 @@
 
 #### Defined in
 
-[models/base/Audio.ts:29](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/models/base/Audio.ts#L29)
+[src/models/base/Audio.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/base/Audio.ts#L29)

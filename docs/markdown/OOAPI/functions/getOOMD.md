@@ -2,7 +2,7 @@
 
 # Function: getOOMD()
 
-> **getOOMD**(`inscriptionId`, `baseUrl`): `Promise`\<`Metadata`\>
+> **getOOMD**(`inscriptionId`, `baseUrl`): `Promise`\<[`Metadata`](../namespaces/OOMD/interfaces/Metadata.md)\>
 
 Asynchronously fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
 Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
@@ -20,10 +20,10 @@ Optional baseUrl for the fetch
 
 ## Returns
 
-`Promise`\<`Metadata`\>
+`Promise`\<[`Metadata`](../namespaces/OOMD/interfaces/Metadata.md)\>
 
 A promise that resolves with all the information about the inscription.
 
 ## Defined in
 
-[OOAPI.Core.ts:475](https://github.com/sagaverse-io/SagaverseOrdinalAPI/blob/90d228bc8061a836e19a66b3b1e83f3192c2e482/src/OOAPI.Core.ts#L475)
+[src/OOAPI.Core.ts:475](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/OOAPI.Core.ts#L475)

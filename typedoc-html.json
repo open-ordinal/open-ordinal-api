@@ -31,7 +31,7 @@
     ],
     "searchInComments": true,
     "searchInDocuments": true,
-    "excludeExternals": true,
+    "excludeExternals": false,
     "navigation": {
         "includeCategories": true,
         "includeGroups": true,

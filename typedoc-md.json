@@ -11,7 +11,7 @@
         "Interface",
         "TypeAlias"
     ],
-    "excludeExternals": true,
+    "excludeExternals": false,
     "entryPoints": [
         "src/OOAPI.Core.ts",
     ],

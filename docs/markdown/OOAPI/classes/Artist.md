@@ -30,7 +30,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L10)
+[src/loaders/Artist.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L10)
 
 ***
 
@@ -40,7 +40,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L34)
+[src/loaders/Artist.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L34)
 
 ***
 
@@ -50,7 +50,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L104)
+[src/loaders/Artist.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L104)
 
 ***
 
@@ -60,7 +60,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:105](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L105)
+[src/loaders/Artist.ts:105](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L105)
 
 ***
 
@@ -70,7 +70,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:106](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L106)
+[src/loaders/Artist.ts:106](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L106)
 
 ***
 
@@ -80,7 +80,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 #### Defined in
 
-[src/loaders/Artist.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L107)
+[src/loaders/Artist.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L107)
 
 ## Accessors
 
@@ -98,7 +98,7 @@ Gets the types of releases associated with the artist.
 
 #### Defined in
 
-[src/loaders/Artist.ts:76](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L76)
+[src/loaders/Artist.ts:76](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L76)
 
 ***
 
@@ -116,7 +116,7 @@ Gets the total duration of all tracks by the artist.
 
 #### Defined in
 
-[src/loaders/Artist.ts:88](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L88)
+[src/loaders/Artist.ts:88](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L88)
 
 ***
 
@@ -134,7 +134,7 @@ Gets all tracks by the artist.
 
 #### Defined in
 
-[src/loaders/Artist.ts:100](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L100)
+[src/loaders/Artist.ts:100](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L100)
 
 ## Methods
 
@@ -158,7 +158,7 @@ The ID of the artist to load.
 
 #### Defined in
 
-[src/loaders/Artist.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L17)
+[src/loaders/Artist.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L17)
 
 ***
 
@@ -176,4 +176,4 @@ Loads additional data for the artist, including releases.
 
 #### Defined in
 
-[src/loaders/Artist.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/loaders/Artist.ts#L40)
+[src/loaders/Artist.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Artist.ts#L40)

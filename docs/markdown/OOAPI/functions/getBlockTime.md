@@ -20,4 +20,4 @@ The base URL for the fetch.
 
 ## Defined in
 
-[src/OOAPI.Core.ts:611](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/OOAPI.Core.ts#L611)
+[src/OOAPI.Core.ts:611](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/OOAPI.Core.ts#L611)

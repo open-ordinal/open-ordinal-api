@@ -14,7 +14,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L10)
+[src/models/globals/Variant.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L10)
 
 ***
 
@@ -24,7 +24,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L11)
+[src/models/globals/Variant.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L11)
 
 ***
 
@@ -34,7 +34,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L12)
+[src/models/globals/Variant.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L12)
 
 ***
 
@@ -48,7 +48,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L13)
+[src/models/globals/Variant.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L13)
 
 ***
 
@@ -62,7 +62,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L14)
+[src/models/globals/Variant.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L14)
 
 ***
 
@@ -76,4 +76,4 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 #### Defined in
 
-[src/models/globals/Variant.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Variant.ts#L15)
+[src/models/globals/Variant.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Variant.ts#L15)

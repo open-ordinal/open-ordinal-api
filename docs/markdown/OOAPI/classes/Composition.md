@@ -38,7 +38,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/globals/Composition.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L39)
+[src/models/globals/Composition.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Composition.ts#L39)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/globals/Composition.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L36)
+[src/models/globals/Composition.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Composition.ts#L36)
 
 ***
 
@@ -58,7 +58,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/globals/Composition.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/globals/Composition.ts#L37)
+[src/models/globals/Composition.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/globals/Composition.ts#L37)
 
 ***
 
@@ -76,7 +76,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/utilities/Export.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L26)
+[src/models/utilities/Export.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/utilities/Export.ts#L26)
 
 ## Methods
 
@@ -94,7 +94,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L32)
+[src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/utilities/Export.ts#L32)
 
 ***
 
@@ -112,4 +112,4 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/utilities/Export.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/utilities/Export.ts#L36)
+[src/models/utilities/Export.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/utilities/Export.ts#L36)

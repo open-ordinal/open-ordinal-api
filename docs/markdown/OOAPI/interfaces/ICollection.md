@@ -13,7 +13,7 @@ expose the trais that are available for the Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L10)
+[src/models/usecases/Collection.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/usecases/Collection.ts#L10)
 
 ***
 
@@ -23,7 +23,7 @@ expose the trais that are available for the Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L11)
+[src/models/usecases/Collection.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/usecases/Collection.ts#L11)
 
 ***
 
@@ -33,7 +33,7 @@ expose the trais that are available for the Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L12)
+[src/models/usecases/Collection.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/usecases/Collection.ts#L12)
 
 ***
 
@@ -43,4 +43,4 @@ expose the trais that are available for the Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/727b99edb71d9e2feb76fbc2eae8d4b22e6a8312/src/models/usecases/Collection.ts#L13)
+[src/models/usecases/Collection.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/models/usecases/Collection.ts#L13)

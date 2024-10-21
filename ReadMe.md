@@ -38,7 +38,7 @@ Head over to [the docs](https://openordinal.dev/docs/open-ordinal-api/) to read 
 - `npm run docs`: Builds the `docs`.
 
 ## Inscriptions
-All Open Ordinal inscriptions.
+All Open Ordinal API inscriptions.
 
 ### Strcture
 Parents Strcture

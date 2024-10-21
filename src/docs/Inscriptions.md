@@ -4,7 +4,7 @@ group: Documents
 ---
 
 # Inscriptions
-All Open Ordinal inscriptions.
+All Open Ordinal API inscriptions.
 
 ## Strcture
 Parents Strcture

@@ -1,6 +1,9 @@
 {
     "$schema": "https://typedoc.org/schema.json",
     "sortEntryPoints": false,
+    "sort": [
+        "source-order"
+    ],
     "kindSortOrder": [
         "Reference",
         "Project",
@@ -28,7 +31,7 @@
     ],
     "searchInComments": true,
     "searchInDocuments": true,
-    "excludeExternals": true,
+    "excludeExternals": false,
     "navigation": {
         "includeCategories": true,
         "includeGroups": true,
@@ -36,8 +39,7 @@
     },
     "categorizeByGroup": true,
     "entryPoints": [
-        "src//*/OOAPI.Core.ts",
-        "src//*/OOMD.ts"
+        "src/OOAPI.Core.ts",
     ],
     "entryPointStrategy": "resolve",
     "alwaysCreateEntryPointModule": true,
@@ -49,6 +51,7 @@
         "src/docs/HowTos.md",
         "src/docs/Examples.md",
         "src/docs/Inscriptions.md",
+        "ChangeLog.md",
     ],
     "plugin": [
         "typedoc-plugin-mermaid",

@@ -1,10 +1,5 @@
-> [!WARNING]
-> If you’re seeing this, you have early access to this repository. Please note that it is still a work in progress and will undergo changes until we make it public. Expect updates and modifications as we continue to develop it.
-
 # Open Ordinal API
 
-> [!NOTE]
-> TL;DR:
 > The Open Ordinal API is a JavaScript library / module that can be externally linked by any Ordinal to share its internal data and functionality with an external entity.
 
 The fundamental concept is that an ordinal has the capacity to reveal a wealth of data and capabilities. This proves beneficial for various areas such as in Applications, Wallets, Marketplaces, Custom Proxies, CDNs, Publishers and more.
@@ -32,17 +27,18 @@ Folders:
 
 ## Documentation
 
-Head over to [the docs](docs/markdown/README.md) to read more about this tiny beast. For best experience clone the repository and open the `docs/html/index.html` in a browser.
+Head over to [the docs](https://openordinal.dev/docs/open-ordinal-api/) to read more about this tiny beast.
 
 ## Commands
 
-- `yarn install`: Get all the libraries that is needed for development and running this library.
-- `yarn run build`: Builds the `src` to the `lib` folder and then minimize it to the `dist` folder.
-- `yarn run test`: The the same as `yarn build` and starts a dev-server hosted on port 9999.
-- `yarn run docs`: Builds the `docs`.
+- `npm install`: Get all the libraries that is needed for development and running this library.
+- `npm run all`: Run the `build` and `docs` in sequence.
+- `npm run build`: Builds the `src` to the `lib` folder and then minimize it to the `dist` folder.
+- `npm run test`: The the same as `npm build` and starts a dev-server hosted on port 9999.
+- `npm run docs`: Builds the `docs`.
 
 ## Inscriptions
-All Open Ordinal inscriptions.
+All Open Ordinal API inscriptions.
 
 ### Strcture
 Parents Strcture
@@ -56,4 +52,5 @@ Parents Strcture
 
 | Type   | Name             | Version | Sat                                                         | Inscription Id                                                                                                                                                            |
 | ------ | :--------------- | :------ | :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Module | Open Ordinal API | 0.9.1   | [156280470160431](https://ordinals.com/sat/156280470160431) | [5822753706244b473956befee6e1189a9f60e000eb088e62bb26db50bfc90883i0](https://ordinals.com/inscription/5822753706244b473956befee6e1189a9f60e000eb088e62bb26db50bfc90883i0) |
 | Module | Open Ordinal API | 0.9.0   | [156280470160431](https://ordinals.com/sat/156280470160431) | [f9de65c51843738497a07cf3dab5fb13b83c4b135b577ea8c384535c33bae1bci0](https://ordinals.com/inscription/f9de65c51843738497a07cf3dab5fb13b83c4b135b577ea8c384535c33bae1bci0) |

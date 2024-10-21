@@ -1,43 +1,44 @@
 {
-  "name": "open-ordinal-api",
-  "version": "0.9.0",
+  "name": "@open-ordinal/api",
+  "version": "0.9.1",
   "displayName": "Open Ordinal API",
   "license": "MIT",
+  "type": "module",
   "sideEffects": false,
   "scripts": {
-    "all": "npm run update-oomd && npm run build && npm run docs",
+    "all": "npm run build && npm run docs",
     "build": "tsc --build --clean && tsc --build && webpack && webpack --env=minify",
-    "test": "tsc --build --clean && tsc --build && concurrently \"yarn run tsc-watch\" \"yarn run webpack-watch\"",
+    "test": "tsc --build --clean && tsc --build && concurrently \"npm run tsc-watch\" \"npm run webpack-watch\"",
     "tsc-watch": "tsc -w",
     "webpack-watch": "webpack && webpack serve",
     "docs": "typedoc --options typedoc-md.json && typedoc --options typedoc-html.json --gaID G-XHBQC2GFXJ && shx cp ./src/docs/logo.png ./docs/html/assets",
-    "postinstall": "npm install typescript-json-schema -g && npm install shx -g",
-    "update-oomd": "shx rm -r ./src/oomd/* && shx cp -r ../open-ordinal-metadata/src/* ./src/oomd/ && shx rm -r ./src/oomd/docs"
+    "postinstall": "npm install typescript-json-schema -g && npm install shx -g"
   },
   "devDependencies": {
     "@types/events": "^3.0.3",
-    "@types/node": "^22.4.1",
+    "@types/node": "^22.7.5",
     "@types/p5": "^1.7.6",
     "buffer": "^6.0.3",
     "camelize-ts": "^3.0.0",
-    "cbor-x": "^1.5.9",
+    "cbor-x": "^1.6.0",
     "concurrently": "^8.2.2",
     "events": "^3.3.0",
     "shx": "^0.3.4",
     "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.5.1",
-    "typedoc": "^0.26.6",
-    "typedoc-plugin-markdown": "^4.2.5",
+    "typedoc": "^0.26.9",
+    "typedoc-plugin-markdown": "^4.2.9",
     "typedoc-plugin-mermaid": "^1.12.0",
     "typedoc-plugin-missing-exports": "^3.0.0",
-    "typescript": "^5.4.5",
-    "webpack": "^5.91.0",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
+    "@open-ordinal/metadata": "^0.5.1",
     "cors": "^2.8.5",
-    "express": "^4.19.2",
+    "express": "^4.21.1",
     "typedoc-plugin-ga": "^1.0.4"
   }
 }

@@ -1,5 +1,8 @@
 {
     "$schema": "https://typedoc-plugin-markdown.org/schema.json",
+    "sort": [
+        "source-order"
+    ],
     "membersWithOwnFile": [
         "Enum",
         "Variable",
@@ -8,10 +11,9 @@
         "Interface",
         "TypeAlias"
     ],
-    "excludeExternals": true,
+    "excludeExternals": false,
     "entryPoints": [
-        "src//*/OOAPI.ts",
-        "src//*/OOMD.ts"
+        "src/OOAPI.Core.ts",
     ],
     "entryPointStrategy": "resolve",
     "alwaysCreateEntryPointModule": true,
@@ -29,6 +31,7 @@
         "src/docs/HowTos.md",
         "src/docs/Examples.md",
         "src/docs/Inscriptions.md",
+        "ChangeLog.md",
     ],
     "out": "docs/markdown",
     "mergeReadme": true,

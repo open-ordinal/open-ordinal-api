@@ -1,7 +1,25 @@
 /*! 
-* Open Ordinal API 0.9.0
+* Open Ordinal API 0.9.1
 */
 /******/ var __webpack_modules__ = ({
+
+/***/ 654:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+/*!
+ * Open Ordinal Metadata
+ *
+ * @author   Open Ordinal <https://openordinal.dev>
+ * @license  MIT
+ */
+/**
+ * @module OOMD
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=OOMD.js.map
+
+/***/ }),
 
 /***/ 526:
 /***/ ((__unused_webpack_module, exports) => {
@@ -2896,6 +2914,36 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 /******/ }
 /******/ 
 /************************************************************************/
+/******/ /* webpack/runtime/create fake namespace object */
+/******/ (() => {
+/******/ 	var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 	var leafPrototypes;
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 16: return value when it's Promise-like
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = this(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if(typeof value === 'object' && value) {
+/******/ 			if((mode & 4) && value.__esModule) return value;
+/******/ 			if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 		}
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		var def = {};
+/******/ 		leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 		for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 			Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 		}
+/******/ 		def['default'] = () => (value);
+/******/ 		__webpack_require__.d(ns, def);
+/******/ 		return ns;
+/******/ 	};
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/define property getters */
 /******/ (() => {
 /******/ 	// define getter functions for harmony exports
@@ -3005,11 +3053,7 @@ __webpack_require__.d(__webpack_exports__, {
   setType: () => (/* reexport */ setType)
 });
 
-// NAMESPACE OBJECT: ./lib/oomd/OOMD.js
-var OOMD_namespaceObject = {};
-__webpack_require__.r(OOMD_namespaceObject);
-
-// NAMESPACE OBJECT: ./lib/ooapi/OOAPI.Core.js
+// NAMESPACE OBJECT: ./lib/OOAPI.Core.js
 var OOAPI_Core_namespaceObject = {};
 __webpack_require__.r(OOAPI_Core_namespaceObject);
 __webpack_require__.d(OOAPI_Core_namespaceObject, {
@@ -3087,7 +3131,7 @@ __webpack_require__.d(OOAPI_Core_namespaceObject, {
   setType: () => (setType)
 });
 
-;// CONCATENATED MODULE: ./lib/ooapi/models/utilities/Export.js
+;// ./lib/models/utilities/Export.js
 var ExportType;
 (function (ExportType) {
     ExportType["ORDINAL"] = "ordinal";
@@ -3140,7 +3184,7 @@ class Exportable {
     }
 }
 //# sourceMappingURL=Export.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/globals/Variant.js
+;// ./lib/models/globals/Variant.js
 
 /**
  * Variant Class
@@ -3195,7 +3239,7 @@ class Variant extends Exportable {
     }
 }
 //# sourceMappingURL=Variant.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/globals/Composition.js
+;// ./lib/models/globals/Composition.js
 
 /**
  * A Composition in the Open Ordinal API is a single image as a combination
@@ -3218,7 +3262,7 @@ class Composition extends Exportable {
     }
 }
 //# sourceMappingURL=Composition.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/globals/Asset.js
+;// ./lib/models/globals/Asset.js
 /**
  * Asset Class
  * Assets an Ordinal exposes to be used by externals e.g. Sprites,
@@ -3262,7 +3306,7 @@ class Asset {
     }
 }
 //# sourceMappingURL=Asset.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/globals/Trait.js
+;// ./lib/models/globals/Trait.js
 class Trait {
     constructor(options) {
         this.id = options.id;
@@ -3271,7 +3315,7 @@ class Trait {
     }
 }
 //# sourceMappingURL=Trait.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/base/Ordinal.js
+;// ./lib/models/base/Ordinal.js
 /**
  * Ordinal Class
  */
@@ -3311,7 +3355,7 @@ class Ordinal {
     }
 }
 //# sourceMappingURL=Ordinal.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/base/Audio.js
+;// ./lib/models/base/Audio.js
 /**
  * Audio Class
  */
@@ -3334,7 +3378,7 @@ class Audio_Audio {
     }
 }
 //# sourceMappingURL=Audio.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/base/Image.js
+;// ./lib/models/base/Image.js
 /**
  * Image Class
  */
@@ -3359,7 +3403,7 @@ class Image {
     }
 }
 //# sourceMappingURL=Image.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/base/Video.js
+;// ./lib/models/base/Video.js
 /**
  * Video Class
  */
@@ -3384,7 +3428,7 @@ class Video {
     }
 }
 //# sourceMappingURL=Video.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/utilities/Export/Sprite.js
+;// ./lib/models/utilities/Export/Sprite.js
 
 /*
  * Sprite Class
@@ -3417,7 +3461,7 @@ class Sprite {
     ;
 }
 //# sourceMappingURL=Sprite.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/models/usecases/Collection.js
+;// ./lib/models/usecases/Collection.js
 /**
  * Collection Class
  */
@@ -3448,98 +3492,128 @@ class CollectionTrait {
     }
 }
 //# sourceMappingURL=Collection.js.map
-;// CONCATENATED MODULE: ./lib/oomd/OOMD.js
-/*!
- * Open Ordinal Metadata
- *
- * @author   Open Ordinal <https://openordinal.dev>
- * @license  MIT
- */
-/**
- * @module OOMD
- */
-
-//# sourceMappingURL=OOMD.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/loaders/codec.js
+// EXTERNAL MODULE: ./node_modules/@open-ordinal/metadata/lib/OOMD.js
+var OOMD = __webpack_require__(654);
+var OOMD_namespaceObject = /*#__PURE__*/__webpack_require__.t(OOMD, 2);
+;// ./lib/loaders/codec.js
 const decoders = {};
+/**
+ * Fetches and returns a decoder function for a given ID.
+ *
+ * @param {string} id - The ID of the decoder to fetch.
+ * @returns {Promise<DecoderFunction>} - A promise that resolves with the decoder function.
+ */
 async function getDecoder(id) {
+    // Check if the decoder for the given ID is already cached
     if (decoders[id] == undefined) {
+        // If not cached, import the decoder module dynamically
         decoders[id] = import(/* webpackIgnore: true */ `/content/${id}`);
     }
+    // Await the import and return the default export as the decoder function
     return (await decoders[id]).default;
 }
+/**
+ * Encodes an AudioBuffer into a WAV file format.
+ *
+ * @category Core
+ * @param {AudioBuffer} audioBuffer - The audio buffer to encode.
+ * @returns {ArrayBuffer} - The encoded WAV file as an ArrayBuffer.
+ */
 function encodeWAV(audioBuffer) {
-    let numOfChan = audioBuffer.numberOfChannels, length = audioBuffer.length * numOfChan * 2 + 44, buffer = new ArrayBuffer(length), view = new DataView(buffer), channels = [], i, sample, offset = 0, pos = 0;
-    // write WAV container
+    let numOfChan = audioBuffer.numberOfChannels, // Number of audio channels
+    length = audioBuffer.length * numOfChan * 2 + 44, // Calculate the length of the WAV file
+    buffer = new ArrayBuffer(length), // Create a buffer to hold the WAV file data
+    view = new DataView(buffer), // Create a DataView to manipulate the buffer
+    channels = [], // Array to hold the audio data for each channel
+    i, sample, offset = 0, pos = 0;
+    // Write WAV container header
     setUint32(0x46464952); // "RIFF" in ASCII
-    setUint32(length - 8); // file length - 8
+    setUint32(length - 8); // File length - 8
     setUint32(0x45564157); // "WAVE" in ASCII
     setUint32(0x20746d66); // "fmt " in ASCII
-    setUint32(16); // length of format data
-    setUint16(1); // format type (PCM)
-    setUint16(numOfChan);
-    setUint32(audioBuffer.sampleRate);
-    setUint32(audioBuffer.sampleRate * 2 * numOfChan); // byte rate
-    setUint16(numOfChan * 2); // block align
-    setUint16(16); // bits per sample
+    setUint32(16); // Length of format data
+    setUint16(1); // Format type (PCM)
+    setUint16(numOfChan); // Number of channels
+    setUint32(audioBuffer.sampleRate); // Sample rate
+    setUint32(audioBuffer.sampleRate * 2 * numOfChan); // Byte rate
+    setUint16(numOfChan * 2); // Block align
+    setUint16(16); // Bits per sample
     setUint32(0x61746164); // "data" in ASCII
-    setUint32(length - pos - 4); // data length
-    // write interleaved data
-    for (i = 0; i < audioBuffer.numberOfChannels; i++)
-        channels.push(audioBuffer.getChannelData(i));
+    setUint32(length - pos - 4); // Data length
+    // Write interleaved audio data
+    for (i = 0; i < audioBuffer.numberOfChannels; i++) {
+        channels.push(audioBuffer.getChannelData(i)); // Get audio data for each channel
+    }
     while (pos < length) {
         for (i = 0; i < numOfChan; i++) {
-            // interleave channels
-            sample = Math.max(-1, Math.min(1, channels[i][offset])); // clamp
-            sample = (0.5 + sample < 0 ? sample * 32768 : sample * 32767) | 0; // scale to 16-bit signed int
-            view.setInt16(pos, sample, true); // write 16-bit sample
+            // Interleave channels
+            sample = Math.max(-1, Math.min(1, channels[i][offset])); // Clamp sample value
+            sample = (0.5 + sample < 0 ? sample * 32768 : sample * 32767) | 0; // Scale to 16-bit signed int
+            view.setInt16(pos, sample, true); // Write 16-bit sample
             pos += 2;
         }
-        offset++; // next source sample
+        offset++; // Move to the next sample
     }
-    return buffer;
+    return buffer; // Return the encoded WAV file buffer
+    // Helper function to write a 16-bit unsigned integer to the DataView
     function setUint16(data) {
         view.setUint16(pos, data, true);
         pos += 2;
     }
+    // Helper function to write a 32-bit unsigned integer to the DataView
     function setUint32(data) {
         view.setUint32(pos, data, true);
         pos += 4;
     }
 }
 //# sourceMappingURL=codec.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/loaders/Track.js
+;// ./lib/loaders/Track.js
 
 
 
 
 class Track {
     constructor() {
+        // Title of the track
         this.title = "";
+        // Array to hold artist information
         this.artists = [];
+        // Release information for the track
         this.release = new Release();
+        // Duration of the track in seconds
         this.duration = 0.0;
+        // URL for the audio file
         this.audioURL = "";
+        // Flag to indicate if data is loaded
         this._loaded = true;
+        // Media metadata for the track
         this.mm = {};
     }
+    // Private static method to load a track by its ID
     static async _load(_id) {
         let track = new Track();
         track._loaded = false;
+        // Get the latest ID for the track
         track.id = await getLatestId(_id);
+        // Fetch metadata for the track
         let metadata = await getMetadata(track.id);
+        // Ensure metadata is in the correct format
         let tm = typeof (metadata?.track) === "object" ? metadata.track : metadata;
         track.mm = typeof (metadata?.media) === "object" ? metadata.media : metadata;
+        // Assign duration and title from metadata
         track.duration = track.mm?.duration ?? 0;
         track.title = tm?.title ?? `<${track.id}>`;
+        // Process release information
         const release = tm?.releases && tm.releases[0]; // TODO: should be array?
         if (release) {
             if (typeof release === "string") {
+                // If release is a string, create a new Release instance
                 const rel = new Release();
                 rel.title = release;
                 track.release = rel;
             }
             else {
+                // If release is an object, load or create a new Release instance
                 const id = "@id" in release && release["@id"];
                 if (id) {
                     const rel = await Release.load(id);
@@ -3553,18 +3627,22 @@ class Track {
             }
         }
         else {
+            // If no release in metadata, fetch parent releases
             const parents = await getParentsAll(track.id);
             track.release = await Release.load(parents[0]);
         }
+        // Process artists information
         const artists = tm?.artists;
         if (artists) {
             for (var artist of artists) {
-                if (typeof (artist) === "string") {
+                if (typeof artist === "string") {
+                    // If artist is a string, create a new Artist instance
                     const art = new Artist();
                     art.name = artist;
                     track.artists.push(art);
                 }
                 else {
+                    // If artist is an object, load or create a new Artist instance
                     const id = "@id" in artist && artist["@id"];
                     if (id) {
                         const art = await Artist.load(id);
@@ -3579,74 +3657,101 @@ class Track {
             }
         }
         else {
+            // If no artists in metadata, use artists from the release
             track.artists = track.release.artists;
         }
         return track;
     }
+    // Method to load data for the track
     async loadData() {
+        // If data is already loaded, return the track
         if (this._loaded) {
             return this;
         }
-        let decoder = this.mm.decoder?.["@id"];
-        if (decoder) {
-            const decode = await getDecoder(decoder);
+        // Check if a decoder is available
+        let decoder = this.mm.decoder;
+        if ((decoder && "@id" in decoder)) {
+            // Fetch and decode the audio data
+            const decode = await getDecoder(decoder["@id"]);
             const encodedData = await fetch(`/content/${this.id}`);
             const decodedData = await decode(await encodedData.arrayBuffer(), this.mm);
             if (decodedData.audioBuffer) {
+                // Encode the decoded audio data to WAV format
                 const wavData = encodeWAV(await decodedData.audioBuffer());
                 const blob = new Blob([wavData], { type: "audio/wav" });
-                //if(decodedData.duration){
-                //	this.duration = decodedData.duration;
-                //}
+                // Create a URL for the audio blob
                 this.audioURL = URL.createObjectURL(blob);
             }
         }
+        else if ((decoder && "@sat" in decoder)) {
+            // TODO: This.
+        }
         else {
+            // If no decoder, use the raw audio URL
             const url = `/content/${this.id}`;
             const audio = new Audio(url);
+            // Wait for the audio metadata to load
             await new Promise((resolve, reject) => { audio.onloadedmetadata = () => resolve(); });
+            // Set the duration and audio URL
             this.duration = audio.duration;
             this.audioURL = url;
         }
+        // Mark data as loaded
         this._loaded = true;
         return this;
     }
 }
+// Static method to load a track, using a cached version of the _load method
 Track.load = cached(Track._load);
 ;
 //# sourceMappingURL=Track.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/loaders/Release.js
+;// ./lib/loaders/Release.js
 
 
 
 class Release {
     constructor() {
+        // Title of the release
         this.title = "";
+        // Type of the release (e.g., album, single, etc.)
         this.type = "";
+        // Release date
         this.date = new Date();
+        // Array to hold artist information
         this.artists = [];
+        // URL for the cover image
         this.coverURL = "";
+        // Array to hold track information
         this.tracks = [];
+        // Flag to indicate if data is loaded
         this._loaded = true;
     }
+    // Private static method to load a release by its ID
     static async _load(_id) {
         const release = new Release();
         release._loaded = false;
+        // Get the latest ID for the release
         release.id = await getLatestId(_id);
+        // Fetch metadata for the release
         let metadata = await getMetadata(release.id);
+        // Ensure metadata is in the correct format
         let md = typeof (metadata?.release) === "object" ? metadata.release : metadata;
+        // Assign tracks and other properties from metadata
         release._tracks = md.tracks;
         release.title = md.title ?? `<${release.id}>`;
         release.type = md.type ?? "collection";
+        // Process artists information
         const artists = md.artists;
         if (artists) {
             for (let artist of artists) {
                 if (typeof artist === "string") {
+                    // If artist is a string, create a new Artist instance
                     const art = new Artist();
                     art.name = artist;
                     release.artists.push(art);
                 }
                 else {
+                    // If artist is an object, load or create a new Artist instance
                     const id = "@id" in artist && artist["@id"];
                     if (id) {
                         const art = await Artist.load(id);
@@ -3661,23 +3766,28 @@ class Release {
             }
         }
         else {
+            // If no artists in metadata, fetch parent artists
             const parents = await getParentsAll(release.id);
             for (let id of parents) {
                 const art = await Artist.load(id);
                 release.artists.push(art);
             }
         }
+        // Fetch inscription and set release date and cover URL
         const inscription = await getInscription(release.id);
         release.date = new Date(md.date ?? (inscription.timestamp ?? 0) * 1000);
         release.coverURL = md.cover && "@id" in md.cover ? `/content/${md.cover["@id"]}` : Release.fallbackCover;
         return release;
     }
+    // Getter for the primary artist
     get artist() {
         return this.artists[0];
     }
+    // Getter for the release year
     get year() {
         return this.date.getFullYear();
     }
+    // Getter for the total duration of all tracks
     get duration() {
         var totalDuration = 0;
         for (var track of this.tracks) {
@@ -3685,19 +3795,24 @@ class Release {
         }
         return totalDuration;
     }
+    // Method to load data for the release
     async loadData() {
+        // If data is already loaded, return the release
         if (this._loaded) {
             return this;
         }
+        // Process tracks information
         const tracks = this._tracks;
         if (tracks) {
             for (let track of tracks) {
                 const id = "@id" in track && track["@id"];
                 if (id) {
+                    // Load track by ID
                     const tra = await Track.load(id);
                     this.tracks.push(tra);
                 }
                 else {
+                    // Create a new Track instance and assign properties
                     const tra = new Track();
                     Object.assign(tra, track);
                     this.tracks.push(tra);
@@ -3705,44 +3820,64 @@ class Release {
             }
         }
         else {
+            // If no tracks in metadata, fetch child tracks
             const parents = await getChildrenAll(this.id);
             for (let id of parents) {
                 const tra = await Track.load(id);
                 this.tracks.push(tra);
             }
         }
+        // Mark data as loaded
         this._loaded = true;
         return this;
     }
 }
+// Static property to hold the fallback cover URL
 Release.fallbackCover = "";
+// Static method to load a release, using a cached version of the _load method
 Release.load = cached(Release._load);
 ;
 //# sourceMappingURL=Release.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/loaders/Artist.js
+;// ./lib/loaders/Artist.js
 
 
+/**
+ * Represents an artist and provides methods to load and manage artist data.
+ */
 class Artist {
     constructor() {
-        this.name = "";
-        this.releases = [];
-        this._loaded = true;
+        this.name = ""; // The name of the artist
+        this.releases = []; // An array to store the artist's releases
+        this._loaded = true; // Flag to indicate if the artist data is loaded
     }
+    /**
+     * Loads an artist by ID.
+     * @param {string} _id - The ID of the artist to load.
+     * @returns {Promise<Artist>} - A promise that resolves to the loaded artist.
+     */
     static async _load(_id) {
         const artist = new Artist();
         artist._loaded = false;
+        // Get the latest ID for the artist
         artist.id = await getLatestId(_id);
+        // Fetch and assign metadata for the artist
         let metadata = await getMetadata(artist.id);
         artist.md = typeof (metadata?.artist) === "object" ? metadata.artist : metadata;
+        // Set the artist's name or default to the ID if name is not available
         artist.name = artist.md?.name ?? `<${artist.id}>`;
         return artist;
     }
+    /**
+     * Loads additional data for the artist, including releases.
+     * @returns {Promise<Artist>} - A promise that resolves to the artist with loaded data.
+     */
     async loadData() {
         if (this._loaded) {
             return this;
         }
         let releases = this.md?.releases;
         if (releases) {
+            // Load releases from metadata
             for (var release of releases) {
                 const id = "@id" in release && release["@id"];
                 if (id) {
@@ -3753,13 +3888,14 @@ class Artist {
                     const rel = new Release();
                     Object.assign(rel, release);
                     if (rel.artists.length == 0) {
-                        rel.artists.push(this); // TODO: not totally sure about this 
+                        rel.artists.push(this); // Add this artist to the release if no artists are listed
                     }
                     this.releases.push(rel);
                 }
             }
         }
         else {
+            // Load releases by fetching children IDs
             for (var id of await getChildrenAll(this.id)) {
                 const rel = await Release.load(id);
                 this.releases.push(rel);
@@ -3768,6 +3904,10 @@ class Artist {
         this._loaded = true;
         return this;
     }
+    /**
+     * Gets the types of releases associated with the artist.
+     * @returns {string[]} - An array of release types.
+     */
     get releaseTypes() {
         const types = {};
         for (const release of this.releases) {
@@ -3775,6 +3915,10 @@ class Artist {
         }
         return Object.keys(types);
     }
+    /**
+     * Gets the total duration of all tracks by the artist.
+     * @returns {number} - The total duration of all tracks.
+     */
     get duration() {
         var totalDuration = 0;
         for (var track of this.tracks) {
@@ -3782,14 +3926,19 @@ class Artist {
         }
         return totalDuration;
     }
+    /**
+     * Gets all tracks by the artist.
+     * @returns {Track[]} - An array of tracks.
+     */
     get tracks() {
         return this.releases.flatMap(r => r.tracks);
     }
 }
+// Static method to load an artist, cached to avoid redundant calls
 Artist.load = cached(Artist._load);
 ;
 //# sourceMappingURL=Artist.js.map
-;// CONCATENATED MODULE: ./node_modules/cbor-x/decode.js
+;// ./node_modules/cbor-x/decode.js
 let decoder
 try {
 	decoder = new TextDecoder()
@@ -5091,7 +5240,7 @@ function roundFloat32(float32Number) {
 	return ((multiplier * float32Number + (float32Number > 0 ? 0.5 : -0.5)) >> 0) / multiplier
 }
 
-;// CONCATENATED MODULE: ./node_modules/cbor-x/encode.js
+;// ./node_modules/cbor-x/encode.js
 
 let textEncoder
 try {
@@ -6324,7 +6473,7 @@ const THROW_ON_ITERABLE = 2048
 
 
 
-;// CONCATENATED MODULE: ./node_modules/cbor-x/iterators.js
+;// ./node_modules/cbor-x/iterators.js
 
 
 
@@ -6411,7 +6560,7 @@ function decodeIter (bufferIterator, options = {}) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/cbor-x/index.js
+;// ./node_modules/cbor-x/index.js
 
 
 
@@ -6420,7 +6569,7 @@ function decodeIter (bufferIterator, options = {}) {
 var buffer = __webpack_require__(287);
 // EXTERNAL MODULE: ./node_modules/events/events.js
 var events = __webpack_require__(7);
-;// CONCATENATED MODULE: ./lib/ooapi/OOAPI.Core.js
+;// ./lib/OOAPI.Core.js
 /*!
  * Open Ordinal API
  *
@@ -6525,233 +6674,291 @@ function getRequestParams() { return _requestParams; }
 //#endregion
 //#region Core Functionality - Recursive
 /**
- * Get the internal stored Metadata.
+ * Asynchronously retrieves the internal metadata for a given ID.
+ *
  * @category Core
- * @returns {Promise<OOMD.Metadata>} Ordinal Metadata
+ * @param {string} id - The unique identifier for the metadata.
+ * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
  */
 async function getMetadata(id) {
-    if (_metadata == undefined || id != undefined)
+    // Check if metadata is undefined or if a new ID is provided, then fetch the metadata
+    if (_metadata == undefined || id != undefined) {
         _metadata = await getInscriptionMetadata(id);
+    }
+    // Return the fetched or existing metadata
     return _metadata;
 }
 /**
- * Get the Inscription info.
+ * Asynchronously retrieves inscription data for a given inscription ID.
+ *
  * @category Core
- * @param {str4ing} inscriptionId The inscription Id
- * @param {string} baseUrl Optional base URL
- * @returns {Promise<any>} The Inscrption info
+ * @param {string} [inscriptionId=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<any>} - A promise that resolves to the inscription data or null if the request fails.
+ * @throws Will throw an error if the fetch operation fails.
  */
 async function getInscription(inscriptionId = getId(), baseUrl = _baseUrl) {
     try {
-        const response = await fetch(`${baseUrl}/r/inscription/${inscriptionId}`);
+        // Fetch the inscription data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/inscription/${inscriptionId}`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
             return null;
         }
+        // Parse the response as JSON
         const json = await response.json();
+        // Return the parsed JSON data
         return json;
     }
     catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 }
-;
 /**
- * Fetches metadata information.
- * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
+ * Asynchronously retrieves metadata for a given inscription ID.
+ *
  * @category Core
- * @param {string} inscriptionId - Inscription to get metadata.
- *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl
- * @returns {Promise<{OOMD.Metadata}>} A promise that resolves with the processed metadata or null if the metadata was not found.
+ * @param {string} [inscriptionId=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
+ * @throws Will throw an error if the fetch operation fails or if the response is not OK.
  */
 async function getInscriptionMetadata(inscriptionId = getId(), baseUrl = _baseUrl) {
-    const response = await fetch(`${baseUrl}/r/metadata/${inscriptionId}`);
+    // Fetch the metadata for the given inscription ID from the API endpoint
+    const response = await fetch(prepareUrl(`/r/metadata/${inscriptionId}`, baseUrl));
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         throw new Error("No inscription for Id");
     }
+    // Parse the response as a JSON string containing hexadecimal data
     const dataCBORasHexString = await response.json();
+    // Convert the hexadecimal string to a buffer
     const dataAsBuffer = buffer.Buffer.from(dataCBORasHexString, "hex");
+    // Decode the buffer into the metadata object
     const data = decode(dataAsBuffer);
+    // Return the decoded metadata
     return data;
 }
-;
 /**
- * Fetches a single inscription on a sat based on index.
- * If index is not provided, it defaults to -1, which fetches the most recent inscription.
+ * Asynchronously retrieves SAT data for a given sat number and index.
+ *
  * @category Core
- * @param {string} sat - The sat to fetch the inscription from.
- * @param {number} index - The index of the inscription to fetch. Defaults to -1.
- * @param {origin} baseUrl - Optinal baseUrl for the fetch.
- * @returns {Promise<{id: string}>} A promise that resolves with the fetched inscriptionId.
+ * @param {number} sat - The unique identifier for the SAT.
+ * @param {number} [index=-1] - The index for the SAT data. Defaults to -1 which fetches the most recent inscription.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
+ * @returns {Promise<any>} - A promise that resolves to the SAT data.
  */
 async function getSatAt(sat, index = -1, baseUrl = _baseUrl) {
-    const response = await fetch(`${baseUrl}/r/sat/${sat}/at/${index}`);
+    // Fetch the satellite data from the API endpoint
+    const response = await fetch(prepareUrl(`/r/sat/${sat}/at/${index}`, baseUrl));
+    // Parse and return the response as JSON
     return response.json();
 }
-;
 /**
- * Fetches the page data for a specific SAT at a given page number.
+ * Asynchronously fetches the page data for a specific SAT at a given page number.
+ *
  * @category Core
- * @param {string} sat - The SAT number to fetch the page data for.
- * @param {number} page - The page number to fetch. Defaults to 0.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {number} sat - The SAT number to fetch the page data for.
+ * @param {number} [page=0] - The page number to fetch. Defaults to 0.
+ * @param {string} [baseUrl=_baseUrl] - Optional base URL for the fetch. Defaults to _baseUrl.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing the IDs, a boolean indicating if there are more pages, and the current page number.
+ * @throws Will throw an error if the fetch operation fails or if the response is not OK.
  */
 async function getSatPage(sat, page = 0, baseUrl = _baseUrl) {
     try {
-        const response = await fetch(`${baseUrl}/r/sat/${sat}/${page}`);
+        // Fetch the page data for the given SAT number and page number from the API endpoint
+        const response = await fetch(prepareUrl(`/r/sat/${sat}/${page}`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful');
         }
+        // Parse the response as JSON
         const data = await response.json();
+        // Extract the IDs, more flag, and page data from the response
         const ids = data.ids;
         const more = data.more;
         const pageData = data.page;
+        // Return the extracted data as an object
         return { ids, more, page: pageData };
     }
     catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 }
-;
 /**
- * Fetches all the inscriptions on a sat.
- * The function fetches the inscriptions in pages, and continues fetching until there are no more pages.
+ * Asynchronously fetches all the inscriptions on a given SAT.
+ * The function fetches the inscriptions in pages and continues fetching until there are no more pages.
+ *
  * @category Core
- * @param {string} sat - The sat to fetch the inscriptions from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the inscriptions.
+ * @param {number} sat - The SAT number to fetch the inscriptions from.
+ * @param {string} [baseUrl=_baseUrl] - Optional base URL for the fetch. Defaults to _baseUrl.
+ * @returns {Promise<string[]>} - A promise that resolves with an array of the IDs of the inscriptions.
  */
 async function getSatAll(sat, baseUrl = _baseUrl) {
     let ids = [];
     let more = true;
     let page = 0;
     while (more) {
+        // Fetch the inscriptions for the current page
         await getSatPage(sat, page, baseUrl).then(data => {
             if (data != null) {
+                // Concatenate the fetched IDs with the existing IDs
                 ids = ids.concat(data.ids);
+                // Check if there are more pages to fetch
                 more = data.more;
+                // Increment the page number for the next fetch
                 page++;
             }
         }).catch(error => {
+            // Stop fetching if an error occurs
             more = false;
         });
     }
+    // Return the array of fetched IDs
     return ids;
 }
-;
 /**
- * Fetches the parents of a given inscription.
+ * Asynchronously fetches the parents of a given inscription.
  * If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.
+ *
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the parents of.
  *                                 Defaults to the ID of the page running it if none is given.
  * @param {number} page - The page number to fetch the parents from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing:
+ *                                                                         - ids: An array of parent IDs.
+ *                                                                         - more: A boolean indicating if there are more pages.
+ *                                                                         - page: The current page number.
  */
 async function getParentsPage(inscriptionId = getId(), page = 0, baseUrl = _baseUrl) {
-    let ids = [];
-    let more = true;
+    let ids = []; // Initialize an empty array to store parent IDs
+    let more = true; // Flag to indicate if there are more pages
     try {
-        const response = await fetch(`${baseUrl}/r/parents/${inscriptionId}/${page}`);
+        // Fetch the parents data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/parents/${inscriptionId}/${page}`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
         }
+        // Parse the response as JSON
         const data = await response.json();
+        // Concatenate the fetched IDs with the existing array
         ids = ids.concat(data.ids);
+        // Update the 'more' flag based on the response
         more = data.more;
+        // Update the page number based on the response
         page = data.page;
     }
     catch (error) {
+        // Set 'more' to false if an error occurs
         more = false;
     }
+    // Return the result as an object
     return { ids, more, page };
 }
 ;
 /**
- * Fetches all the parents of a given inscription.
+ * Asynchronously fetches all the parents of a given inscription.
+ *
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the parents of.
  *                                 Defaults to the ID obtained from `getId()`.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the parents.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<Array<string>>} - A promise that resolves with an array of the IDs of the parents.
  */
 async function getParentsAll(inscriptionId = getId(), baseUrl = _baseUrl) {
-    let ids = [];
-    let more = true;
-    let page = 0;
+    let ids = []; // Initialize an empty array to store parent IDs
+    let more = true; // Flag to indicate if there are more pages
+    let page = 0; // Initialize the page number
+    // Loop to fetch all pages of parent IDs
     while (more) {
         await getParentsPage(inscriptionId, page, baseUrl).then(data => {
             if (data != null) {
-                ids = ids.concat(data.ids);
-                more = data.more;
-                page++;
+                ids = ids.concat(data.ids); // Concatenate the fetched IDs with the existing array
+                more = data.more; // Update the 'more' flag based on the response
+                page++; // Increment the page number
             }
         }).catch(error => {
-            more = false;
+            more = false; // Set 'more' to false if an error occurs
         });
     }
-    return ids;
+    return ids; // Return the array of parent IDs
 }
 ;
 /**
- * Fetches the children of a given inscription.
+ * Asynchronously fetches the children of a given inscription.
  * If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.
+ *
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the children of.
  *                                 Defaults to the ID of the page running it if none is given.
  * @param {number} page - The page number to fetch the children from.
- * @param {origin} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>}
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<{ids: Array<string>, more: boolean, page: number}>} - A promise that resolves to an object containing:
+ *                                                                         - ids: An array of children IDs.
+ *                                                                         - more: A boolean indicating if there are more pages.
+ *                                                                         - page: The current page number.
  */
 async function getChildrenPage(inscriptionId = getId(), page = 0, baseUrl = _baseUrl) {
-    let ids = [];
-    let more = true;
+    let ids = []; // Initialize an empty array to store children IDs
+    let more = true; // Flag to indicate if there are more pages
     try {
-        const response = await fetch(`${baseUrl}/r/children/${inscriptionId}/${page}`);
+        // Fetch the children data from the API endpoint
+        const response = await fetch(prepareUrl(`/r/children/${inscriptionId}/${page}`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Ord API call was unsuccesful');
+            throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
         }
+        // Parse the response as JSON
         const data = await response.json();
+        // Concatenate the fetched IDs with the existing array
         ids = ids.concat(data.ids);
+        // Update the 'more' flag based on the response
         more = data.more;
+        // Update the page number based on the response
         page = data.page;
     }
     catch (error) {
+        // Set 'more' to false if an error occurs
         more = false;
     }
+    // Return the result as an object
     return { ids, more, page };
 }
 ;
 /**
- * Fetches all the children of a given inscription.
+ * Asynchronously fetches all the children of a given inscription.
+ *
  * @category Core
  * @param {string} inscriptionId - The ID of the inscription to get the children of.
  *                                 Defaults to the ID obtained from `getId()`.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<Array<string>>} A promise that resolves with an array of the IDs of the children.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<Array<string>>} - A promise that resolves with an array of the IDs of the children.
  */
 async function getChildrenAll(inscriptionId = getId(), baseUrl = _baseUrl) {
-    let ids = [];
-    let more = true;
-    let page = 0;
+    let ids = []; // Initialize an empty array to store children IDs
+    let more = true; // Flag to indicate if there are more pages
+    let page = 0; // Initialize the page number
+    // Loop to fetch all pages of children IDs
     while (more) {
         await getChildrenPage(inscriptionId, page, baseUrl).then(data => {
             if (data != null) {
-                ids = ids.concat(data.ids);
-                more = data.more;
-                page++;
+                ids = ids.concat(data.ids); // Concatenate the fetched IDs with the existing array
+                more = data.more; // Update the 'more' flag based on the response
+                page++; // Increment the page number
             }
         }).catch(error => {
-            more = false;
+            more = false; // Set 'more' to false if an error occurs
         });
     }
-    return ids;
+    return ids; // Return the array of children IDs
 }
 ;
 /**
- * Fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
+ *  Asynchronously fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
  * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
  * @category Core
  * @param {string} inscriptionId - Inscription to get all information.
@@ -6774,241 +6981,294 @@ async function getOOMD(inscriptionId = getId(), baseUrl = _baseUrl) {
 }
 ;
 /**
- * Fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
+ * Asynchronously fetches all information about an inscription, including children,
+ * sat inscriptions, metadata, and its ID.
  * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
+ *
  * @category Core
- * @param {string} inscriptionId - Inscription to get all information.
+ * @param {string} inscriptionId - The ID of the inscription to get all information about.
  *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl for the fetch
- * @returns {Promise<{inscription: {charms: Array<string>, content_type: string, content_length: number, fee: number, height: number, number: number, output: string, sat: null | string, satpoint: string, timestamp: number, value: number} | null, children: Array<string>, satIds: Array<string>, metadata: Object | null, id: <string>}>} A promise that resolves with all the information about the inscription.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<any>} - A promise that resolves with all the information about the inscription.
  */
 async function getAll(inscriptionId = getId(), baseUrl = _baseUrl) {
-    let res = {};
-    res.id = inscriptionId;
+    let res = {}; // Initialize an empty object to store the result
+    res.id = inscriptionId; // Assign the inscription ID to the result
     try {
+        // Fetch the inscription data
         const inscription = await getInscription(inscriptionId, baseUrl);
-        res.inscription = inscription;
+        res.inscription = inscription; // Assign the fetched inscription data to the result
+        // Fetch all parent IDs
         const parents = await getParentsAll(inscriptionId, baseUrl);
-        res.parents = parents;
+        res.parents = parents; // Assign the fetched parent IDs to the result
+        // Fetch all children IDs
         const children = await getChildrenAll(inscriptionId, baseUrl);
-        res.children = children;
+        res.children = children; // Assign the fetched children IDs to the result
+        // Fetch all sat IDs
         const sat = await getSatAll(inscription.sat, baseUrl);
-        res.satIds = sat;
+        res.satIds = sat; // Assign the fetched sat IDs to the result
+        // Fetch the metadata
         const metadata = await getInscriptionMetadata(inscriptionId, baseUrl);
-        res.metadata = metadata;
+        res.metadata = metadata; // Assign the fetched metadata to the result
     }
     catch (error) {
-        throw error;
+        throw error; // Throw an error if any fetch operation fails
     }
-    return res;
+    return res; // Return the result object containing all fetched information
 }
 ;
 /**
- * Fetches information about a specific block by block height or block hash.
+ * Asynchronously fetches information about a specific block by block height or block hash.
+ *
  * @category Core
  * @param {string} blockInfo - The block height or block hash to get information about.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<{bits: number, chainwork: number, confirmations: number, difficulty: number, hash: string, height: number, median_time: number, merkle_root: string, next_block: string, nonce: number, previous_block: string, target: string, timestamp: number, transaction_count: number, version: number} | null>} A promise that resolves with the information about the block or null if not found.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<any>} - A promise that resolves with the information about the block or null if not found.
  */
 async function getBlockInfo(blockInfo, baseUrl = _baseUrl) {
-    const url = `${baseUrl}/r/blockinfo/${blockInfo}`;
-    const response = await fetch(url);
+    const response = await fetch(prepareUrl(`/r/blockinfo/${blockInfo}`, baseUrl)); // Fetch the block information from the API
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         if (response.status === 404) {
-            throw new Error('Ord API call returned no BlockInfo');
+            throw new Error('Ord API call returned no BlockInfo'); // Throw an error if the block is not found
         }
-        throw new Error('Ord API call was unsuccesful');
+        throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
     }
-    return response.json();
+    return response.json(); // Parse and return the response as JSON
 }
 ;
 /**
- * Fetches the block hash at a given block height.
+ * Asynchronously fetches the block hash at a given block height.
+ *
  * @category Core
  * @param {number} height - The height of the block to get the hash of.
- * @param {string} baseUrl - Optional baseUrl for the fetch.
- * @returns {Promise<string | null>} A promise that resolves with the hash of the block or null if 404.
+ * @param {string} [baseUrl=_baseUrl] - Optional baseUrl for the fetch.
+ * @returns {Promise<string | null>} - A promise that resolves with the hash of the block or null if not found.
  */
 async function getBlockHash(height, baseUrl = _baseUrl) {
-    const url = `${baseUrl}/r/blockhash/${height}`;
-    const response = await fetch(url);
+    const response = await fetch(prepareUrl(`/r/blockhash/${height}`, baseUrl)); // Fetch the block hash from the API
+    // Check if the response is not OK (status code outside the range 200-299)
     if (!response.ok) {
         if (response.status === 404) {
-            throw new Error('Ord API call returned no BlockHash');
+            throw new Error('Ord API call returned no BlockHash'); // Throw an error if the block hash is not found
         }
-        throw new Error('Ord API call was unsuccesful');
+        throw new Error('Ord API call was unsuccessful'); // Throw an error if the API call fails
     }
-    const hash = await response.json();
+    const hash = await response.json(); // Parse and return the response as JSON
     return hash;
 }
 ;
 /**
- * Fetches the latest block height.
+ * Asynchronously fetches the latest block height.
+ *
  * @category Core
- * @param {string} baseUrl - The baseUrl for the fetch.
- * @returns {Promise<number>} A promise that resolves with the height of the latest block.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the fetch.
+ * @returns {Promise<number>} - A promise that resolves with the height of the latest block.
  */
 async function getBlockHeight(baseUrl = _baseUrl) {
     try {
-        const response = await fetch(`${baseUrl}/r/blockheight`);
+        // Fetch the latest block height from the API endpoint
+        const response = await fetch(prepareUrl(`/r/blockheight`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Remote API call was unsuccesful');
+            throw new Error('Remote API call was unsuccessful'); // Throw an error if the API call fails
         }
+        // Parse the response as text
         const height = await response.text();
+        // Convert the height to a number and return it
         return Number(height);
     }
     catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 }
 ;
 /**
- * Fetches the UNIX time stamp of the latest block.
+ * Asynchronously fetches the UNIX time stamp of the latest block.
+ *
  * @category Core
- * @param {string} baseUrl - The baseUrl for the fetch.
- * @returns {Promise<number>} A promise that resolves with the UNIX time stamp of the latest block.
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the fetch.
+ * @returns {Promise<number>} - A promise that resolves with the UNIX time stamp of the latest block.
  */
 async function getBlockTime(baseUrl = _baseUrl) {
     try {
-        const response = await fetch(`${baseUrl}/r/blocktime`);
+        // Fetch the UNIX time stamp of the latest block from the API endpoint
+        const response = await fetch(prepareUrl(`/r/blocktime`, baseUrl));
+        // Check if the response is not OK (status code outside the range 200-299)
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Network response was not ok'); // Throw an error if the API call fails
         }
+        // Parse the response as text
         const time = await response.text();
+        // Convert the time to a number and return it
         return Number(time);
     }
     catch (error) {
+        // Throw an error if the fetch operation fails
         throw error;
     }
 }
 ;
 /**
- * Get the latest Id for a supplied Id trough Sat endpoint.
+ * Asynchronously get the latest ID for a supplied ID through the Sat endpoint.
+ *
  * @category Core
- * @param {string} id Inscription Id
- * @returns {string} Latest Id for Inscription
+ * @param {string} id - The inscription ID.
+ * @returns {Promise<string>} - A promise that resolves with the latest ID for the inscription.
  */
 async function getLatestId(id) {
+    // Fetch the inscription data using the provided ID
     const inscription = await getInscription(id);
+    // Check if the inscription has a 'sat' property that is not null
     if (inscription.sat !== null) {
+        // Fetch and return the latest ID from the Sat endpoint
         return (await getSatAt(inscription.sat)).id;
     }
+    // Return the original ID if 'sat' is null
     return id;
 }
 /**
- * Get the path for the latest inscription for a given path.
+ * Asynchronously get the path for the latest inscription for a given path.
+ *
  * @category Core
- * @param {string} path Path to inscription
- * @returns {string} Path to inscription
+ * @param {string} path - The path to the inscription.
+ * @returns {Promise<string>} - A promise that resolves with the path to the latest inscription.
  */
 async function getLatestPath(path) {
-    if (path.startsWith("/content/")) {
-        let id = path.substring("/content/".length);
+    let prefix = new String("/content/"); //Webpack workarround.
+    // Check if the path starts with "/content/"
+    if (path.startsWith(prefix.toString())) {
+        // Extract the ID from the path
+        let id = path.substring(prefix.length);
+        // Get the latest ID for the extracted ID
         id = await getLatestId(id);
-        path = `/content/${id}`;
+        // Update the path with the latest ID
+        path = prefix + id;
     }
+    // Return the updated path
     return path;
 }
 /**
- * Detects if Ordinal API Extensions is available in Origin
+ * Asynchronously detects if Ordinal API Extensions is available in Origin.
+ *
  * @category Core
- * @returns {bool} True/False
+ * @returns {Promise<boolean>} - A promise that resolves to true if the Ordinal API Extensions are available, otherwise false.
  */
 async function isOrdinalAPIExtensionsAvailable() {
+    // Send a HEAD request to the specified URL
     const response = await fetch('/content/' + _id, {
         method: 'HEAD'
     });
+    // Check if the response headers contain "X-Sagaverse-Ordinal-API" and if its value is "true"
     if (response.headers.get("X-Sagaverse-Ordinal-API") != undefined && response.headers.get("X-Sagaverse-Ordinal-API") == "true") {
-        return true;
+        return true; // Return true if the Ordinal API Extensions are available
     }
-    return false;
+    return false; // Return false if the Ordinal API Extensions are not available
 }
 //#endregion
 //#region Core Functionality - Iframe
 /**
- * Detects and extract Open Ordinal API if present in an Iframe.
+ * Detects and extracts Open Ordinal API if present in an Iframe.
+ *
  * @category Core
- * @param iframe
- * @returns
+ * @param {HTMLIFrameElement} iframe - The iframe element to check for the Open Ordinal API.
+ * @returns {Promise<any>} - A promise that resolves with the Open Ordinal API if available, otherwise rejects with an error message.
  */
 async function getOrdinalApiFromIFrame(iframe) {
     return new Promise((resolve, reject) => {
+        // Check if the iframe is undefined
         if (typeof iframe === 'undefined') {
-            reject("iframe is invalid");
+            reject("iframe is invalid"); // Reject the promise if the iframe is invalid
             return;
         }
         function checkIframeLoaded() {
-            // Get a handle to the iframe element
+            // Get a handle to the iframe document
             var iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
-            // Check if loading is complete
+            // Check if the iframe loading is complete
             if (typeof iframeDoc !== 'undefined' && iframeDoc.readyState == 'complete') {
                 let ordinal = iframe.contentWindow;
                 let whenLoaded = () => {
-                    // TODO - Needed for Tiny Vikings hosted offchain that is not updated yet.
                     let ooAPi = ordinal.ooAPI;
+                    // Check if the Open Ordinal API is available
                     if (typeof ooAPi !== 'undefined') {
+                        // Check if the Open Ordinal API is ready
                         if (ooAPi.isReady()) {
-                            resolve(ooAPi);
+                            resolve(ooAPi); // Resolve the promise with the Open Ordinal API
                         }
                         else {
+                            // Wait for the Open Ordinal API to be ready
                             ooAPi.on('ready', () => {
-                                resolve(ooAPi);
+                                resolve(ooAPi); // Resolve the promise with the Open Ordinal API
                             });
                         }
                     }
                     else {
-                        reject("OOAPi not available.");
+                        reject("ooAPI not available."); // Reject the promise if the Open Ordinal API is not available
                     }
                 };
+                // Check if the iframe document is fully loaded
                 if (iframeDoc.readyState == "complete") {
-                    whenLoaded();
+                    whenLoaded(); // Call the whenLoaded function if the document is complete
                 }
                 else {
-                    ordinal.onload = whenLoaded;
+                    ordinal.onload = whenLoaded; // Set the onload event to call the whenLoaded function
                 }
                 return;
             }
+            // Retry checking the iframe loading status after 100ms
             window.setTimeout(checkIframeLoaded, 100);
         }
-        checkIframeLoaded();
+        checkIframeLoaded(); // Initial call to checkIframeLoaded function
     });
 }
 //#endregion
 //#region Core Functionality - Import and Fetch
 /**
  * Imports a JavaScript module.
+ *
  * @category Core
- * @param {string }path Path to module to import
- * @returns {Promise<any>} The module imported
+ * @param {string} path - The path to the module to import.
+ * @returns {Promise<any>} - A promise that resolves with the imported module.
  */
 async function importLatest(path) {
-    return await import(/* webpackIgnore: true */ await getLatestPath(path));
+    // Get the latest path for the module
+    const latestPath = await getLatestPath(path);
+    // Import the module using the latest path
+    return await import(/* webpackIgnore: true */ latestPath);
 }
 /**
  * Fetch a path and return the response.
+ *
  * @category Core
- * @param {string} path The path to fetch
- * @returns {Promise<Response>} The response
+ * @param {string} path - The path to fetch.
+ * @returns {Promise<Response>} - A promise that resolves with the response.
  */
 async function fetchLatest(path) {
-    return await fetch(await getLatestPath(path));
+    // Get the latest path for the given path
+    const latestPath = await getLatestPath(path);
+    // Fetch the resource at the latest path and return the response
+    return await fetch(latestPath);
 }
 //#endregion
 //#region Core Functionality - Cache
 /**
  * A cache helper to cache single functions and their return variable.
+ *
  * @category Core
- * @param func The function to cache
- * @returns A function which upon subsequent calls with the same id parameter returns the result from the first call.
+ * @param {function} func - The function to cache.
+ * @returns {function} - A function which upon subsequent calls with the same id parameter returns the result from the first call.
  */
 function cached(func) {
-    let cache = {};
+    let cache = {}; // Initialize an empty object to store cached promises
     return id => {
-        var promise = cache[id];
+        var promise = cache[id]; // Retrieve the cached promise for the given id
+        // If no cached promise exists, call the function and cache its promise
         if (!promise) {
             promise = func(id);
             cache[id] = promise;
         }
+        // Return the cached or newly created promise
         return promise;
     };
 }
@@ -7319,34 +7579,70 @@ async function ready() {
 }
 //#endregion
 //#region General Helpers
+/**
+ * Extracts the inscription ID from the current URL.
+ *
+ * @returns {string} - The inscription ID extracted from the URL, or an empty string if the URL is invalid.
+ */
 function getInscriptionIdFromUrl() {
+    // Split the URL path into parts using "/" as the delimiter
     const parts = window.location.pathname.split("/");
-    if (parts.length >= 3 && (parts[1] === "content" || parts[1] === "preview" || parts[1] === "inscription")) {
-        return parts[2];
+    const lookFor = ['content', 'preview', 'inscription'];
+    // Check if the URL contains any known parts and get ID
+    if (parts.some(item => lookFor.includes(item))) {
+        return parts[parts.length - 1]; // Return the last part as the inscription ID
     }
     else {
-        console.error("URL does not contain a valid inscription ID.", parts);
-        return "";
+        // Log an error message if the URL does not contain a valid inscription ID
+        return ""; // Return an empty string if the URL is invalid
     }
 }
+/**
+ * Extracts URL parameters and stores them in a global request parameters map.
+ */
 function getURLParams() {
     try {
+        // Create a URLSearchParams object from the query string of the current URL
         const searchParams = new URLSearchParams(window.location.search);
+        // Iterate over each key-value pair in the URL parameters
         searchParams.forEach((value, key) => {
+            // Convert both key and value to lowercase and store them in the global _requestParams map
             _requestParams.set(key.toLowerCase(), value.toLowerCase());
         });
     }
     catch (error) {
+        // Log an error message if an exception occurs while parsing URL parameters
         console.error("Error parsing URL parameters:", error);
     }
 }
+function getBaseUrl() {
+    const parts = window.location.pathname.split("/");
+    const lookFor = ['content', 'preview', 'inscription', 'r'];
+    let urlOut = [];
+    if (parts.some(item => lookFor.includes(item))) {
+        for (let index = 0; index < parts.length; index++) {
+            if (lookFor.includes(parts[index]))
+                break;
+            urlOut.push(parts[index]);
+        }
+        return urlOut.join("/");
+    }
+    else {
+        return window.location.origin;
+    }
+}
+function prepareUrl(url, baseUrl) {
+    if (url.includes("http"))
+        return url;
+    return `${baseUrl}${url}`;
+}
 //#endregion
 //#region On Load Triggers
-_baseUrl = window.location.origin;
+_baseUrl = getBaseUrl();
 getURLParams();
 //#endregion
 //# sourceMappingURL=OOAPI.Core.js.map
-;// CONCATENATED MODULE: ./lib/ooapi/OOAPI.js
+;// ./lib/OOAPI.js
 /*!
  * Open Ordinal API
  *

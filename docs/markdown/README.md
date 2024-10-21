@@ -1,3 +1,5 @@
+> The documentation is still work in progress. Feedback from developers like you will drive the evolution and completeness of the documentation. Your input is invaluable.
+
 # Introduction to the Open Ordinal API
 
 ## What is the Open Ordinal API?
@@ -69,14 +71,14 @@ By integrating the Open Ordinal API, these platforms can transform ordinals from
 
 ## Documents
 
+- [Introduction](documents/Introduction.md)
 - [Concepts](documents/Concepts.md)
-- [Examples](documents/Examples.md)
 - [Guides](documents/Guides.md)
 - [How to's](documents/How-to's.md)
+- [Examples](documents/Examples.md)
 - [Inscriptions](documents/Inscriptions.md)
-- [Introduction](documents/Introduction.md)
+- [ChangeLog](documents/ChangeLog.md)
 
 ## Modules
 
-- [ooapi/OOAPI](ooapi/OOAPI/README.md)
-- [OOMD](OOMD/README.md)
+- [OOAPI](OOAPI/README.md)

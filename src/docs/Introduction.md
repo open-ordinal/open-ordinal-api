@@ -2,6 +2,9 @@
 title: Introduction
 group: Documents
 ---
+
+> The documentation is still work in progress. Feedback from developers like you will drive the evolution and completeness of the documentation. Your input is invaluable.
+
 # Introduction to the Open Ordinal API
 
 ## What is the Open Ordinal API?

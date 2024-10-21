@@ -1,6 +1,6 @@
 # Open Ordinal API
 
-The Open Ordinal API is a JavaScript library / module that can be externally linked by any Ordinal to share its internal data and functionality with an external entity.
+The Open Ordinal API is a on-chain JavaScript library / module that can be externally linked by any Ordinal to share its internal data and functionality with an external entity.
 
 The fundamental concept is that an ordinal has the capacity to reveal a wealth of data and capabilities. This proves beneficial for various areas such as in Applications, Wallets, Marketplaces, Custom Proxies, CDNs, Publishers and more.
 

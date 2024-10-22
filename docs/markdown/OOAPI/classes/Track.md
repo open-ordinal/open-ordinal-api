@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L12)
+[src/loaders/Track.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L12)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:90](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L90)
+[src/loaders/Track.ts:90](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L90)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:93](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L93)
+[src/loaders/Track.ts:93](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L93)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:96](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L96)
+[src/loaders/Track.ts:96](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L96)
 
 ***
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:136](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L136)
+[src/loaders/Track.ts:136](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L136)
 
 ***
 
@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:139](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L139)
+[src/loaders/Track.ts:139](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L139)
 
 ***
 
@@ -88,7 +88,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L142)
+[src/loaders/Track.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L142)
 
 ***
 
@@ -98,7 +98,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L145)
+[src/loaders/Track.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L145)
 
 ***
 
@@ -108,7 +108,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L148)
+[src/loaders/Track.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L148)
 
 ## Methods
 
@@ -126,7 +126,7 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L15)
+[src/loaders/Track.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L15)
 
 ***
 
@@ -140,4 +140,4 @@
 
 #### Defined in
 
-[src/loaders/Track.ts:99](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/loaders/Track.ts#L99)
+[src/loaders/Track.ts:99](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Track.ts#L99)

@@ -113,6 +113,10 @@ footer {
     color: rgba(222, 226, 230, 0.75) !important;
 }
 
+footer p {
+    margin: 0 !important;
+}
+
 .tsd-typography {
     line-height: 1.5 !important;
 }
@@ -123,6 +127,7 @@ footer {
 
 .col-content {
     margin-top: 0px !important;
+    margin-bottom: 1em !important;
 }
 
 .tsd-breadcrumb * {
@@ -154,12 +159,12 @@ footer {
 .col-content h4,
 .col-content h5,
 .col-content h6 {
-    padding-bottom: 0.5em !important;
-    margin-bottom: 0 !important;
-    color: #fff !important;
+    padding-bottom: 1rem !important;
+    margin-bottom: 0em !important;
+    color: #fff;
 }
 
-.col-content p {
+.col-content p:not(+pre) {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
@@ -198,10 +203,13 @@ pre {
     margin-bottom: 1em;
 }
 
+li code,
 ol code,
 p code {
     color: var(--color-ts-class) !important;
     background-color: rgba(0, 0, 0, 0.2) !important;
+    font-size: 1em !important;
+    border-radius: 5px !important;
 }
 
 .tsd-signature {
@@ -220,5 +228,35 @@ blockquote {
 }
 
 blockquote p {
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+
+.tsd-typography ul {
+    margin-top: 0 !important;
+}
+
+p:has(+pre) {
+    margin: 0 !important;
+    margin-top: 1em;
+    padding: 0.5em 1em 0.5em 1em !important;
+    font-size: 0.9rem !important;
+    color: rgba(222, 226, 230, 0.75) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    display: inline-block;
+}
+
+p:has(+pre) .tsd-anchor-icon {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+p {
+    margin: 0em 0em 1em 0em !important;
+}
+
+.nodeLabel p {
+    margin: 0 !important;
 }

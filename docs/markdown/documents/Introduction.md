@@ -5,7 +5,9 @@
 # Introduction to the Open Ordinal API
 
 ## What is the Open Ordinal API?
-The Open Ordinal API is a flexible JavaScript (TypeScript) API designed to enhance the functionality and interactivity of ordinal-based digital assets inscribed on Bitcoin using the ordinals protocol. It provides a structured way to manage collections, traits, assets, and animations, enabling developers to create dynamic web experiences, which can be used in various applications.
+The Open Ordinal API is a on-chain flexible JavaScript (TypeScript) API designed to enhance the functionality and interactivity of ordinal-based digital assets inscribed on Bitcoin using the ordinals protocol. It provides a structured way to manage collections, traits, assets, and animations, enabling developers to create dynamic web experiences, which can be used in various applications.
+
+The Open Ordinal API is an on-chain resource, inscribed on sat [156280470160431](https://ordinals.com/sat/156280470160431).
 
 ## How and Why to Use the Open Ordinal API
 The API allows developers to expose various components of an ordinal, such as individual image assets, making it easier for consumers to fetch and use these assets elsewhere. This flexibility supports a wide range of use cases, from simple single-type ordinals (like .mp3 or .png files) to complex compositions built from multiple assets. By leveraging the Open Ordinal API, developers can transform static ordinal entities into interactive and animated elements, enhancing user engagement and expanding the potential use cases for ordinals. 

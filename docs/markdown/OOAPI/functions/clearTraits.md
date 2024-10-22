@@ -12,4 +12,4 @@ Remove all Traits from memory model
 
 ## Defined in
 
-[src/OOAPI.Core.ts:1059](https://github.com/open-ordinal/open-ordinal-api/blob/e5d3b68402ab6ae1542219b48b6d5e3ee2104984/src/OOAPI.Core.ts#L1059)
+[src/OOAPI.Core.ts:1059](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/OOAPI.Core.ts#L1059)

@@ -16,6 +16,10 @@ A question that arises is… Why can’t most of this be stored as inscriptions 
 
 **Simple:** A second choice is to run a local webserver hosting all the files.
 
+## Documentation
+
+Head over to [the docs](https://openordinal.dev/docs/open-ordinal-api/) to read more about this tiny beast.
+
 ## Folders
 
 Folders:
@@ -24,10 +28,6 @@ Folders:
 - `lib`: Contain the build of the library.
 - `src`: Contain all source code for the library and docs source.
 - `test`: Contain the testable version used in a HTML-page.
-
-## Documentation
-
-Head over to [the docs](https://openordinal.dev/docs/open-ordinal-api/) to read more about this tiny beast.
 
 ## Commands
 

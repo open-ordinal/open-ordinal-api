@@ -8,6 +8,7 @@ This example demonstrates how to initialize the `ooAPI`, add some fake asset fil
 
 In this example, we will create two fake image assets and add them to the `ooAPI`. We will also define a default variant and a composition that can be exported later. This setup is a foundational step for any application that utilizes the `ooAPI`.
 
+Code
 ```js
 // Assuming ooAPI is already available in the window
 const fakeAssets = [

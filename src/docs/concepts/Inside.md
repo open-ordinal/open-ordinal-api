@@ -1,6 +1,7 @@
 # Inside of the Ordinal
 Developing with the Open Ordinal API. Usage of the Open Ordinal API from a **developer** perspective.
 
+Code
 ```js
 let ooAPI = window.ooAPI;
 

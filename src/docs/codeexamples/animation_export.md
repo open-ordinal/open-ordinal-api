@@ -10,6 +10,7 @@ In this example, we define an animation template that includes two animations: "
 
 The code also includes a mechanism to export the animations when needed, utilizing a lazy loading approach for the animation manager. This allows for efficient management of resources and ensures that animations are only loaded when required.
 
+Code
 ```js
 // Assuming ooAPI is already initialized and available
 let ooAPI = window.ooAPI;

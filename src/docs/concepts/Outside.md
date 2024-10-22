@@ -1,14 +1,9 @@
 # Outside of the Ordinal
 Consuming the Open Ordinal API. Usage of the Open Ordinal API from a **consumer** perspective.
 
-```
-Todo:
-- Access the ordinal through their /preview/ or /content/ URL'S
-- Info about loading into an iframe.
-- Requires proxy?
-```
-
 ## v1
+
+Code
 ```js
 // Get the ooAPI instance - Assuming an async context
 let ooAPI = window.ooAPI;
@@ -65,8 +60,9 @@ for(const variant of allVariants) {
 }
 ```
 
-
 ## v2
+
+Code
 ```js
 // Get the ooAPI instance - Assuming an async context
 let ooAPI = window.ooAPI;

@@ -9,6 +9,7 @@ By utilizing the `ooAPI`, developers can create multiple visual representations 
 
 In this example, we define a character with various traits, such as class, strength, and special abilities. The code sets up two visual variants: a 2D image representation and a 3D model representation. This allows users to switch between different views of the character seamlessly.
 
+Code
 ```js
 // Assuming ooAPI is already available in the window
 let ooAPI = window.ooAPI;

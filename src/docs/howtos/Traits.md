@@ -7,7 +7,7 @@ Defines a single or multiple traits of the ordinal by name and value
 
 ## Inside Ordinal (Expose)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 
@@ -24,7 +24,7 @@ ooAPI.addTrait({
 
 ## Outside Ordinal (Consume)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 

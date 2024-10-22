@@ -24,7 +24,8 @@ Now that you have set up your ordinal collection using the Open Ordinal API, it'
 
 To get a list of all variants available in your collection, use the `ooAPI.getVariants()` method. This method returns an array of variant objects, each containing information about the variant such as its name, type, and ID.
 
-```javascript
+Code
+```js
 ooAPI.getVariants().then(variants => {
     console.log(variants); // Array of variant objects
 }).catch(error => {
@@ -36,7 +37,8 @@ ooAPI.getVariants().then(variants => {
 
 To get a list of all compositions available in your collection, use the `ooAPI.getCompositions()` method. This method returns an array of composition objects, each containing information about the composition such as its name, description, and assets.
 
-```javascript
+Code
+```js
 ooAPI.getCompositions().then(compositions => {
     console.log(compositions); // Array of composition objects
 }).catch(error => {
@@ -48,7 +50,8 @@ ooAPI.getCompositions().then(compositions => {
 
 To get information about the collection itself, use the `ooAPI.getCollection()` method. This method returns an object containing information about the collection such as its name, description, and traits.
 
-```javascript
+Code
+```js
 ooAPI.getCollection().then(collection => {
     console.log(collection); // Collection object
 }).catch(error => {
@@ -60,7 +63,8 @@ ooAPI.getCollection().then(collection => {
 
 To get a list of all assets available in your collection, use the `ooAPI.getAssets()` method. This method returns an array of asset objects, each containing information about the asset such as its name, type, and URL.
 
-```javascript
+Code
+```js
 ooAPI.getAssets().then(assets => {
     console.log(assets); // Array of asset objects
 }).catch(error => {
@@ -72,7 +76,8 @@ ooAPI.getAssets().then(assets => {
 
 To display different variants in your collection, use the `ooAPI.displayVariant()` method. This method takes the name of the variant you want to display to as an argument.
 
-```javascript
+Code
+```js
 let variant_2 = ooAPI.getVariants()[1];
 
 ooAPI.displayVariant(variant_2).then(() => {
@@ -84,7 +89,8 @@ ooAPI.displayVariant(variant_2).then(() => {
 
 or 
 
-```javascript
+Code
+```js
 ooAPI.displayVariant('Rainbow').then(() => {
     console.log("Variant switched to Rainbow");
 }).catch(error => {

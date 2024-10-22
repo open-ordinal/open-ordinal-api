@@ -7,7 +7,7 @@ Asset(s) an Ordinal exposes to be used by externals e.g. an Image asset, audio a
 
 ## Inside Ordinal (Expose)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 
@@ -32,7 +32,7 @@ ooAPI.addAsset({
 
 ## Outside Ordinal (Consume)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 

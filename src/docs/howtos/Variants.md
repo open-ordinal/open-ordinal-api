@@ -9,7 +9,7 @@ This adds two variants by default. Upon calling `ooAPI.ready()`, the first varia
 
 ## Inside Ordinal (Expose)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 
@@ -34,7 +34,7 @@ ooAPI.addVariant({
 
 ## Outside Ordinal (Consume)
 
-Exmaple:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 

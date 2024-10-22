@@ -7,7 +7,7 @@ A Collection Object defines the name, description, and trait categories of the c
 
 ## Inside Ordinal (Expose)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 let collection = new ooAPI.Collection({});
@@ -34,6 +34,7 @@ ooAPI.addCollection(collection);
 
 ## Outside Ordinal (Consume)
 
+Code
 ```ts
 let ooAPI = window.ooAPI;
 

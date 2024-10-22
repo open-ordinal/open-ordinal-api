@@ -61,6 +61,7 @@ graph LR
 ## Parent Example
 This example shows how you could structure a parent as a HTML, and include the Open Ordinal API, to define the collection and any additional data you want. You can also embed an image into the parent, to display it, or reference another ordinal as the image.
 
+Code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -112,8 +113,6 @@ This example shows how you could structure a parent as a HTML, and include the O
 </body>
 </html>
 ```
-
-## TODO Metadata info --json etc
 
 ## Next Steps
 

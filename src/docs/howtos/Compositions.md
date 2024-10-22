@@ -7,7 +7,7 @@ A composition is usually a composition of multiple assets that represents a sing
 
 ## Inside Ordinal (Expose)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 
@@ -32,7 +32,7 @@ ooAPI.addComposition({
 
 ## Outside Ordinal (Consume)
 
-Example:
+Code
 ```ts
 let ooAPI = window.ooAPI;
 

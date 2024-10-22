@@ -14,6 +14,7 @@ Each ordinal should be self-contained and only load what is needed.
 
 ## Example Ordinal Collection Item
 
+Code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +31,8 @@ Each ordinal should be self-contained and only load what is needed.
 ```
 
 Filled in with actual values it could look something like this:
+
+Code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -51,6 +54,8 @@ In our case, we again reference a common collection setup code, so we minimize t
 Example collection setup code:
 
 ## Common Setup Code
+
+Code
 ```js
 let loadedImages = [];
 async function exportDraw(recipe) {

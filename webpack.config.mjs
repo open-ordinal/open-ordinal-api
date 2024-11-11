@@ -92,7 +92,7 @@ export default env => {
                 },
             },
         },
-        devtool: 'source-map',
+        // devtool: 'source-map',
         optimization: {
             minimize: minify,
             usedExports: false,

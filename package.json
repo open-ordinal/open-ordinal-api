@@ -18,8 +18,6 @@
     "@types/events": "^3.0.3",
     "@types/node": "^22.7.5",
     "@types/p5": "^1.7.6",
-    "buffer": "^6.0.3",
-    "camelize-ts": "^3.0.0",
     "cbor-x": "^1.6.0",
     "concurrently": "^8.2.2",
     "events": "^3.3.0",

@@ -16,11 +16,13 @@ import { IVariant, Variant } from './models/globals/Variant.js';
 import { IComposition, Composition } from './models/globals/Composition.js';
 import { IAsset, Asset } from './models/globals/Asset.js';
 import { ITrait, Trait } from './models/globals/Trait.js';
+import { Export, ExportType, getExportType } from './models/utilities/Export.js';
 
 export { IVariant, Variant } from './models/globals/Variant.js';
 export { IComposition, Composition } from './models/globals/Composition.js';
 export { IAsset, Asset } from './models/globals/Asset.js';
 export { ITrait, Trait } from './models/globals/Trait.js';
+export { Export, ExportType, getExportType } from './models/utilities/Export.js';
 
 //Models - Globals
 import { IOrdinal, OrdinalType, Ordinal } from './models/base/Ordinal.js';
@@ -55,10 +57,7 @@ export * from './loaders/Track.js';
 
 //Imported Third-Party Modules
 import { decode } from 'cbor-x';
-import { Buffer } from 'buffer';
-import camelize from 'camelize-ts'
 import { EventEmitter } from 'events';
-import { Export, ExportType, getExportType } from './models/utilities/Export.js';
 
 //#endregion
 
@@ -214,7 +213,9 @@ async function getInscriptionMetadata(inscriptionId = getId(), baseUrl = _baseUr
     const dataCBORasHexString = await response.json();
 
     // Convert the hexadecimal string to a buffer
-    const dataAsBuffer = Buffer.from(dataCBORasHexString, "hex");
+    var dataAsBuffer = new Uint8Array(dataCBORasHexString.match(/[\da-f]{2}/gi).map(function (hex: string) {
+        return parseInt(hex, 16)
+    }));
 
     // Decode the buffer into the metadata object
     const data = decode(dataAsBuffer) as OOMD.Metadata;

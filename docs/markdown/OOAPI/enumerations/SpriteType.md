@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/utilities/Export/Sprite.ts#L8)
+[src/models/utilities/Export/Sprite.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/utilities/Export/Sprite.ts#L8)

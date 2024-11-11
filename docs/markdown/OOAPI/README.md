@@ -58,6 +58,7 @@
 - [importLatest](functions/importLatest.md)
 - [fetchLatest](functions/fetchLatest.md)
 - [cached](functions/cached.md)
+- [getExportType](functions/getExportType.md)
 
 ### Other
 
@@ -85,6 +86,8 @@
 - [ICollection](interfaces/ICollection.md)
 - [Collection](classes/Collection.md)
 - [ICollectionTrait](interfaces/ICollectionTrait.md)
+- [Export](type-aliases/Export.md)
+- [ExportType](enumerations/ExportType.md)
 - [SpriteType](enumerations/SpriteType.md)
 - [SpriteAnimation](classes/SpriteAnimation.md)
 - [ISprite](interfaces/ISprite.md)

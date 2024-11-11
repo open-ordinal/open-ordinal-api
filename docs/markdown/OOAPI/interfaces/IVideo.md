@@ -12,7 +12,7 @@ Video Class
 
 #### Defined in
 
-[src/models/base/Video.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/base/Video.ts#L6)
+[src/models/base/Video.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Video.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Video Class
 
 #### Defined in
 
-[src/models/base/Video.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/base/Video.ts#L7)
+[src/models/base/Video.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Video.ts#L7)
 
 ***
 
@@ -32,7 +32,7 @@ Video Class
 
 #### Defined in
 
-[src/models/base/Video.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/base/Video.ts#L8)
+[src/models/base/Video.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Video.ts#L8)
 
 ***
 
@@ -42,4 +42,4 @@ Video Class
 
 #### Defined in
 
-[src/models/base/Video.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/base/Video.ts#L9)
+[src/models/base/Video.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Video.ts#L9)

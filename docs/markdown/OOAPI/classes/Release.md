@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L8)
+[src/loaders/Release.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L8)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L11)
+[src/loaders/Release.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L11)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:89](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L89)
+[src/loaders/Release.ts:89](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L89)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:92](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L92)
+[src/loaders/Release.ts:92](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L92)
 
 ***
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:95](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L95)
+[src/loaders/Release.ts:95](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L95)
 
 ***
 
@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:98](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L98)
+[src/loaders/Release.ts:98](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L98)
 
 ***
 
@@ -88,7 +88,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:101](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L101)
+[src/loaders/Release.ts:101](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L101)
 
 ***
 
@@ -98,7 +98,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L104)
+[src/loaders/Release.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L104)
 
 ***
 
@@ -108,7 +108,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L142)
+[src/loaders/Release.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L142)
 
 ***
 
@@ -118,7 +118,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L145)
+[src/loaders/Release.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L145)
 
 ***
 
@@ -128,7 +128,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L148)
+[src/loaders/Release.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L148)
 
 ## Accessors
 
@@ -142,7 +142,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L70)
+[src/loaders/Release.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L70)
 
 ***
 
@@ -156,7 +156,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:75](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L75)
+[src/loaders/Release.ts:75](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L75)
 
 ***
 
@@ -170,7 +170,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:80](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L80)
+[src/loaders/Release.ts:80](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L80)
 
 ## Methods
 
@@ -188,7 +188,7 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L14)
+[src/loaders/Release.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L14)
 
 ***
 
@@ -202,4 +202,4 @@
 
 #### Defined in
 
-[src/loaders/Release.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/loaders/Release.ts#L107)
+[src/loaders/Release.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/loaders/Release.ts#L107)

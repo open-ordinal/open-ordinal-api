@@ -22,7 +22,7 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/globals/Composition.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/globals/Composition.ts#L17)
+[src/models/globals/Composition.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/globals/Composition.ts#L17)
 
 ***
 
@@ -32,18 +32,18 @@ Examples of what a Composition can be:
 
 #### Defined in
 
-[src/models/globals/Composition.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/globals/Composition.ts#L18)
+[src/models/globals/Composition.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/globals/Composition.ts#L18)
 
 ***
 
 ### onExport()?
 
-> `optional` **onExport**: () => `Promise`\<`Export`\>
+> `optional` **onExport**: () => `Promise`\<[`Export`](../type-aliases/Export.md)\>
 
 #### Returns
 
-`Promise`\<`Export`\>
+`Promise`\<[`Export`](../type-aliases/Export.md)\>
 
 #### Defined in
 
-[src/models/globals/Composition.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/853cbf2a017c45362e48e478b4771550a39cd1c4/src/models/globals/Composition.ts#L19)
+[src/models/globals/Composition.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/globals/Composition.ts#L19)

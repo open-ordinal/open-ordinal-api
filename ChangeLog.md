@@ -1,5 +1,9 @@
 # Open Ordinal API Change Log
 
+### 0.9.2
+- Remove dependency on imported `Buffer` module.
+- Export missing objects.
+
 ### 0.9.1
 - Fix: Fix a bug where url location parsing would fail on custom URLs (proxies).
 - Fix: Update link to docs on web.

@@ -7,13 +7,19 @@ export enum ExportType {
     RENDERER = 'renderer'
 }
 
-export function getExportType(ex: Export): ExportType {
-    if (ex instanceof Blob) {
+/**
+ * Get the ExportType
+ * 
+ * @category Core
+ * @param {Export} exportObject Export object
+ */
+export function getExportType(exportObject: Export): ExportType {
+    if (exportObject instanceof Blob) {
         return ExportType.BLOB;
-    } else if (typeof ex === 'string') {
-        if (ex.startsWith('data:')) {
+    } else if (typeof exportObject === 'string') {
+        if (exportObject.startsWith('data:')) {
             return ExportType.DATA;
-        } else if (ex.startsWith('blob:')) {
+        } else if (exportObject.startsWith('blob:')) {
             return ExportType.BLOB;
         } else {
             return ExportType.ORDINAL;

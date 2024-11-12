@@ -4,7 +4,7 @@
 /******/ var __webpack_modules__ = ({
 
 /***/ 654:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 /*!
@@ -17,7 +17,44 @@
  * @module OOMD
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BootstrapMode = void 0;
+var Bootstrap_1 = __webpack_require__(937);
+Object.defineProperty(exports, "BootstrapMode", ({ enumerable: true, get: function () { return Bootstrap_1.BootstrapMode; } }));
 //# sourceMappingURL=OOMD.js.map
+
+/***/ }),
+
+/***/ 937:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BootstrapMode = void 0;
+/**
+ * Bootstap Mode
+ *
+ * @category Bootstrap
+ */
+var BootstrapMode;
+(function (BootstrapMode) {
+    /**
+     * Load Inscription Directly by Id and Boot
+     */
+    BootstrapMode[BootstrapMode["LoadByInscriptionIdAndBoot"] = 1] = "LoadByInscriptionIdAndBoot";
+    /**
+     * Load Inscription via Id and then via it's SAT and fetch Latest and Boot
+     */
+    BootstrapMode[BootstrapMode["LoadLatestByInscriptionIdAndBoot"] = 2] = "LoadLatestByInscriptionIdAndBoot";
+    /**
+     * Load specified index via SAT and Boot
+     */
+    BootstrapMode[BootstrapMode["LoadIndexBySatAndBoot"] = 3] = "LoadIndexBySatAndBoot";
+    /**
+     * Load Latest Inscription via SAT and Boot
+     */
+    BootstrapMode[BootstrapMode["LoadLatestBySatAndBoot"] = 4] = "LoadLatestBySatAndBoot";
+})(BootstrapMode || (exports.BootstrapMode = BootstrapMode = {}));
+//# sourceMappingURL=Bootstrap.js.map
 
 /***/ }),
 

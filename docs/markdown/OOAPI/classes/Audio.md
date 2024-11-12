@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Audio.ts#L20)
+[src/models/base/Audio.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/base/Audio.ts#L20)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Audio.ts#L17)
+[src/models/base/Audio.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/base/Audio.ts#L17)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Audio.ts#L18)
+[src/models/base/Audio.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/base/Audio.ts#L18)
 
 ## Methods
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Audio.ts#L25)
+[src/models/base/Audio.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/base/Audio.ts#L25)
 
 ***
 
@@ -66,4 +66,4 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/models/base/Audio.ts#L29)
+[src/models/base/Audio.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/base/Audio.ts#L29)

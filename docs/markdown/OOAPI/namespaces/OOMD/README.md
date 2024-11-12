@@ -4,6 +4,18 @@
 
 ## Index
 
+### Bootstrap
+
+- [BootstrapResource](interfaces/BootstrapResource.md)
+- [BootstrapOpenOrdinalModules](interfaces/BootstrapOpenOrdinalModules.md)
+- [BootstrapMode](enumerations/BootstrapMode.md)
+
+### Media
+
+- [DecoderModule](interfaces/DecoderModule.md)
+- [DecoderFunction](type-aliases/DecoderFunction.md)
+- [DecoderResult](interfaces/DecoderResult.md)
+
 ### Protocols
 
 - [InscriptionId](type-aliases/InscriptionId.md)
@@ -16,13 +28,11 @@
 - [Attributes](interfaces/Attributes.md)
 - [Author](interfaces/Author.md)
 - [Book](interfaces/Book.md)
+- [Bootstrap](interfaces/Bootstrap.md)
 - [Chapter](interfaces/Chapter.md)
 - [Collection](interfaces/Collection.md)
 - [Common](interfaces/Common.md)
 - [Media](interfaces/Media.md)
-- [DecoderModule](interfaces/DecoderModule.md)
-- [DecoderFunction](type-aliases/DecoderFunction.md)
-- [DecoderResult](interfaces/DecoderResult.md)
 - [Module](interfaces/Module.md)
 - [Organization](interfaces/Organization.md)
 - [Publisher](interfaces/Publisher.md)

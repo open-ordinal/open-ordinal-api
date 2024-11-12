@@ -32,4 +32,4 @@ Will throw an error if the fetch operation fails or if the response is not OK.
 
 ## Defined in
 
-[src/OOAPI.Core.ts:254](https://github.com/open-ordinal/open-ordinal-api/blob/88ef2e4467b13c07bb5a3ef3483343248c1aa38d/src/OOAPI.Core.ts#L254)
+[src/OOAPI.Core.ts:254](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/OOAPI.Core.ts#L254)

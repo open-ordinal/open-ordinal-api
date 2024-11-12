@@ -4,7 +4,8 @@
 
 This interface represents metadata, extending the Common interface, and includes
 optional properties for static indication, organization, collection, attributes,
-artist, release, track, media, module, author, book, chapter, and torrent.
+artist, release, track, media, module, author, book, chapter, bootstrap
+and torrent.
 
 ## Mermaid
 
@@ -24,6 +25,7 @@ graph LR
   Author --&gt; Book
   Book --&gt; Chapter
   Metadata --&gt; Module
+  Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
   Metadata --&gt; Publisher</div><div class="mermaid light">%%{init:{"theme":"default"}}%%
 graph LR
@@ -39,6 +41,7 @@ graph LR
   Author --&gt; Book
   Book --&gt; Chapter
   Metadata --&gt; Module
+  Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
   Metadata --&gt; Publisher</div><pre><code class="language-mermaid">graph LR
   Metadata --&gt; Organization
@@ -53,6 +56,7 @@ graph LR
   Author --&gt; Book
   Book --&gt; Chapter
   Metadata --&gt; Module
+  Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
   Metadata --&gt; Publisher</code></pre></div>
 
@@ -71,7 +75,19 @@ latest inscription on the sat number of this inscription
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:67
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:71
+
+***
+
+### bootstrap?
+
+> `optional` **bootstrap**: [`Bootstrap`](Bootstrap.md)
+
+An optional bootstrap options with the metadata
+
+#### Defined in
+
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:75
 
 ***
 
@@ -83,7 +99,7 @@ An optional organization associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:71
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:79
 
 ***
 
@@ -95,7 +111,7 @@ An optional collection associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:75
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:83
 
 ***
 
@@ -107,7 +123,7 @@ Optional attributes associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:79
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:87
 
 ***
 
@@ -119,7 +135,7 @@ An optional artist associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:83
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:91
 
 ***
 
@@ -131,7 +147,7 @@ An optional release associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:87
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:95
 
 ***
 
@@ -143,7 +159,7 @@ An optional track associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:91
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:99
 
 ***
 
@@ -155,7 +171,7 @@ Optional media associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:95
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:103
 
 ***
 
@@ -167,7 +183,7 @@ An optional module associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:99
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:107
 
 ***
 
@@ -179,7 +195,7 @@ An optional publisher associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:103
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:111
 
 ***
 
@@ -191,7 +207,7 @@ An optional author associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:107
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:115
 
 ***
 
@@ -203,7 +219,7 @@ An optional book associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:111
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:119
 
 ***
 
@@ -215,7 +231,7 @@ An optional chapter associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:115
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:123
 
 ***
 
@@ -227,7 +243,7 @@ An optional torrent associated with the metadata
 
 #### Defined in
 
-node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:119
+node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:127
 
 ***
 

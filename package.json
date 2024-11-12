@@ -34,7 +34,7 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "@open-ordinal/metadata": "^0.5.1",
+    "@open-ordinal/metadata": "^0.5.2",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "typedoc-plugin-ga": "^1.0.4"

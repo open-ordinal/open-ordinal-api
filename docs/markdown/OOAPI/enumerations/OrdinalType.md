@@ -12,7 +12,7 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L7)
+[src/models/base/Ordinal.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L7)
 
 ***
 
@@ -22,7 +22,7 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L9)
+[src/models/base/Ordinal.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L9)
 
 ***
 
@@ -32,7 +32,7 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L11)
+[src/models/base/Ordinal.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L11)
 
 ***
 
@@ -42,7 +42,7 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L13)
+[src/models/base/Ordinal.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L13)
 
 ***
 
@@ -52,7 +52,7 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L15)
+[src/models/base/Ordinal.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L15)
 
 ***
 
@@ -62,4 +62,4 @@ Ordinal Class
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L17)
+[src/models/base/Ordinal.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L17)

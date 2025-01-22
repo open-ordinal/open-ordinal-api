@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L18)
+[src/models/base/Video.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L18)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L13)
+[src/models/base/Video.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L13)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L14)
+[src/models/base/Video.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L14)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L15)
+[src/models/base/Video.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L15)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L16)
+[src/models/base/Video.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L16)
 
 ## Methods
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L25)
+[src/models/base/Video.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L25)
 
 ***
 
@@ -86,7 +86,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L29)
+[src/models/base/Video.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L29)
 
 ***
 
@@ -100,7 +100,7 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L33)
+[src/models/base/Video.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L33)
 
 ***
 
@@ -114,4 +114,4 @@
 
 #### Defined in
 
-[src/models/base/Video.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Video.ts#L37)
+[src/models/base/Video.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L37)

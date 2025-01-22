@@ -14,4 +14,4 @@ The Traits
 
 ## Defined in
 
-[src/OOAPI.Core.ts:1030](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/OOAPI.Core.ts#L1030)
+[src/OOAPI.Core.ts:1030](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L1030)

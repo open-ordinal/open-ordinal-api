@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L21)
+[src/models/base/Ordinal.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L21)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L22)
+[src/models/base/Ordinal.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L22)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L23)
+[src/models/base/Ordinal.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L23)
 
 ***
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/models/base/Ordinal.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Ordinal.ts#L24)
+[src/models/base/Ordinal.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L24)

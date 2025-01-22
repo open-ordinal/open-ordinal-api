@@ -12,7 +12,7 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/usecases/Collection.ts#L42)
+[src/models/usecases/Collection.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L42)
 
 ***
 
@@ -22,7 +22,7 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:43](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/usecases/Collection.ts#L43)
+[src/models/usecases/Collection.ts:43](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L43)
 
 ***
 
@@ -32,4 +32,4 @@ A CollectionTrait is the specific traits available for a Collection.
 
 #### Defined in
 
-[src/models/usecases/Collection.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/usecases/Collection.ts#L44)
+[src/models/usecases/Collection.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L44)

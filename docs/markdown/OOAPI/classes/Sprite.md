@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L41)
+[src/models/utilities/Export/Sprite.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L41)
 
 ## Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L33)
+[src/models/utilities/Export/Sprite.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L33)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L34)
+[src/models/utilities/Export/Sprite.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L34)
 
 ***
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L35)
+[src/models/utilities/Export/Sprite.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L35)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L36)
+[src/models/utilities/Export/Sprite.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L36)
 
 ***
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L37)
+[src/models/utilities/Export/Sprite.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L37)
 
 ***
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L38)
+[src/models/utilities/Export/Sprite.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L38)
 
 ***
 
@@ -104,4 +104,4 @@
 
 #### Defined in
 
-[src/models/utilities/Export/Sprite.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/utilities/Export/Sprite.ts#L39)
+[src/models/utilities/Export/Sprite.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export/Sprite.ts#L39)

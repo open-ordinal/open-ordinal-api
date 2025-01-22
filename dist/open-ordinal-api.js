@@ -1,5 +1,5 @@
 /*! 
-* Open Ordinal API 0.9.1
+* Open Ordinal API 0.9.2
 */
 /******/ var __webpack_modules__ = ({
 

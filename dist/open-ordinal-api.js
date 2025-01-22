@@ -704,7 +704,6 @@ __webpack_require__.d(__webpack_exports__, {
   getLatestId: () => (/* reexport */ getLatestId),
   getLatestPath: () => (/* reexport */ getLatestPath),
   getMetadata: () => (/* reexport */ getMetadata),
-  getOOMD: () => (/* reexport */ getOOMD),
   getOrdinalApiFromIFrame: () => (/* reexport */ getOrdinalApiFromIFrame),
   getParentsAll: () => (/* reexport */ getParentsAll),
   getParentsPage: () => (/* reexport */ getParentsPage),
@@ -784,7 +783,6 @@ __webpack_require__.d(OOAPI_Core_namespaceObject, {
   getLatestId: () => (getLatestId),
   getLatestPath: () => (getLatestPath),
   getMetadata: () => (getMetadata),
-  getOOMD: () => (getOOMD),
   getOrdinalApiFromIFrame: () => (getOrdinalApiFromIFrame),
   getParentsAll: () => (getParentsAll),
   getParentsPage: () => (getParentsPage),
@@ -4357,13 +4355,14 @@ function getRequestParams() { return _requestParams; }
 //#endregion
 //#region Core Functionality - Recursive
 /**
- * Asynchronously retrieves the internal metadata for a given ID.
+ * Asynchronously retrieves the metadata for a given ID.
  *
  * @category Core
- * @param {string} id - The unique identifier for the metadata.
+ * @param {string} [id=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
  * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
  */
-async function getMetadata(id) {
+async function getMetadata(id = getId(), baseUrl = _baseUrl) {
     // Check if metadata is undefined or if a new ID is provided, then fetch the metadata
     if (_metadata == undefined || id != undefined) {
         _metadata = await getInscriptionMetadata(id);
@@ -4640,29 +4639,6 @@ async function getChildrenAll(inscriptionId = getId(), baseUrl = _baseUrl) {
         });
     }
     return ids; // Return the array of children IDs
-}
-;
-/**
- *  Asynchronously fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
- * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
- * @category Core
- * @param {string} inscriptionId - Inscription to get all information.
- *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl for the fetch
- * @returns {Promise<{inscription: {charms: Array<string>, content_type: string, content_length: number, fee: number, height: number, number: number, output: string, sat: null | string, satpoint: string, timestamp: number, value: number} | null, children: Array<string>, satIds: Array<string>, metadata: Object | null, id: <string>}>} A promise that resolves with all the information about the inscription.
- */
-async function getOOMD(inscriptionId = getId(), baseUrl = _baseUrl) {
-    let res = {};
-    try {
-        //TODO: Read en project OOMD
-        // const metadata = await getInscriptionMetadata(inscriptionId, baseUrl);
-        // res.metadata = metadata;
-        //res = OOMD.parse(metadata);
-    }
-    catch (error) {
-    }
-    res.id = inscriptionId;
-    return res;
 }
 ;
 /**
@@ -5392,7 +5368,6 @@ var __webpack_exports__getInscription = __webpack_exports__.getInscription;
 var __webpack_exports__getLatestId = __webpack_exports__.getLatestId;
 var __webpack_exports__getLatestPath = __webpack_exports__.getLatestPath;
 var __webpack_exports__getMetadata = __webpack_exports__.getMetadata;
-var __webpack_exports__getOOMD = __webpack_exports__.getOOMD;
 var __webpack_exports__getOrdinalApiFromIFrame = __webpack_exports__.getOrdinalApiFromIFrame;
 var __webpack_exports__getParentsAll = __webpack_exports__.getParentsAll;
 var __webpack_exports__getParentsPage = __webpack_exports__.getParentsPage;
@@ -5416,4 +5391,4 @@ var __webpack_exports__setDisplayedVariant = __webpack_exports__.setDisplayedVar
 var __webpack_exports__setId = __webpack_exports__.setId;
 var __webpack_exports__setMetadata = __webpack_exports__.setMetadata;
 var __webpack_exports__setType = __webpack_exports__.setType;
-export { __webpack_exports__Artist as Artist, __webpack_exports__Asset as Asset, __webpack_exports__Audio as Audio, __webpack_exports__Collection as Collection, __webpack_exports__Composition as Composition, __webpack_exports__ExportType as ExportType, __webpack_exports__Image as Image, __webpack_exports__OOMD as OOMD, __webpack_exports__Ordinal as Ordinal, __webpack_exports__OrdinalType as OrdinalType, __webpack_exports__Release as Release, __webpack_exports__Sprite as Sprite, __webpack_exports__SpriteAnimation as SpriteAnimation, __webpack_exports__SpriteType as SpriteType, __webpack_exports__Track as Track, __webpack_exports__Trait as Trait, __webpack_exports__Variant as Variant, __webpack_exports__Video as Video, __webpack_exports__addAsset as addAsset, __webpack_exports__addCollection as addCollection, __webpack_exports__addComposition as addComposition, __webpack_exports__addTrait as addTrait, __webpack_exports__addVariant as addVariant, __webpack_exports__cached as cached, __webpack_exports__clearAssets as clearAssets, __webpack_exports__clearCollections as clearCollections, __webpack_exports__clearCompositions as clearCompositions, __webpack_exports__clearTraits as clearTraits, __webpack_exports__clearVariants as clearVariants, __webpack_exports__fetchLatest as fetchLatest, __webpack_exports__getAll as getAll, __webpack_exports__getAsset as getAsset, __webpack_exports__getAssets as getAssets, __webpack_exports__getBlockHash as getBlockHash, __webpack_exports__getBlockHeight as getBlockHeight, __webpack_exports__getBlockInfo as getBlockInfo, __webpack_exports__getBlockTime as getBlockTime, __webpack_exports__getChildrenAll as getChildrenAll, __webpack_exports__getChildrenPage as getChildrenPage, __webpack_exports__getCollection as getCollection, __webpack_exports__getCollections as getCollections, __webpack_exports__getComposition as getComposition, __webpack_exports__getCompositions as getCompositions, __webpack_exports__getDisplayedVariant as getDisplayedVariant, __webpack_exports__getExportType as getExportType, __webpack_exports__getId as getId, __webpack_exports__getInscription as getInscription, __webpack_exports__getLatestId as getLatestId, __webpack_exports__getLatestPath as getLatestPath, __webpack_exports__getMetadata as getMetadata, __webpack_exports__getOOMD as getOOMD, __webpack_exports__getOrdinalApiFromIFrame as getOrdinalApiFromIFrame, __webpack_exports__getParentsAll as getParentsAll, __webpack_exports__getParentsPage as getParentsPage, __webpack_exports__getRequestParams as getRequestParams, __webpack_exports__getSatAll as getSatAll, __webpack_exports__getSatAt as getSatAt, __webpack_exports__getSatPage as getSatPage, __webpack_exports__getTrait as getTrait, __webpack_exports__getTraits as getTraits, __webpack_exports__getType as getType, __webpack_exports__getVariant as getVariant, __webpack_exports__getVariants as getVariants, __webpack_exports__importLatest as importLatest, __webpack_exports__isOrdinalAPIExtensionsAvailable as isOrdinalAPIExtensionsAvailable, __webpack_exports__removeAsset as removeAsset, __webpack_exports__removeCollection as removeCollection, __webpack_exports__removeComposition as removeComposition, __webpack_exports__removeTrait as removeTrait, __webpack_exports__removeVariant as removeVariant, __webpack_exports__setDisplayedVariant as setDisplayedVariant, __webpack_exports__setId as setId, __webpack_exports__setMetadata as setMetadata, __webpack_exports__setType as setType };
+export { __webpack_exports__Artist as Artist, __webpack_exports__Asset as Asset, __webpack_exports__Audio as Audio, __webpack_exports__Collection as Collection, __webpack_exports__Composition as Composition, __webpack_exports__ExportType as ExportType, __webpack_exports__Image as Image, __webpack_exports__OOMD as OOMD, __webpack_exports__Ordinal as Ordinal, __webpack_exports__OrdinalType as OrdinalType, __webpack_exports__Release as Release, __webpack_exports__Sprite as Sprite, __webpack_exports__SpriteAnimation as SpriteAnimation, __webpack_exports__SpriteType as SpriteType, __webpack_exports__Track as Track, __webpack_exports__Trait as Trait, __webpack_exports__Variant as Variant, __webpack_exports__Video as Video, __webpack_exports__addAsset as addAsset, __webpack_exports__addCollection as addCollection, __webpack_exports__addComposition as addComposition, __webpack_exports__addTrait as addTrait, __webpack_exports__addVariant as addVariant, __webpack_exports__cached as cached, __webpack_exports__clearAssets as clearAssets, __webpack_exports__clearCollections as clearCollections, __webpack_exports__clearCompositions as clearCompositions, __webpack_exports__clearTraits as clearTraits, __webpack_exports__clearVariants as clearVariants, __webpack_exports__fetchLatest as fetchLatest, __webpack_exports__getAll as getAll, __webpack_exports__getAsset as getAsset, __webpack_exports__getAssets as getAssets, __webpack_exports__getBlockHash as getBlockHash, __webpack_exports__getBlockHeight as getBlockHeight, __webpack_exports__getBlockInfo as getBlockInfo, __webpack_exports__getBlockTime as getBlockTime, __webpack_exports__getChildrenAll as getChildrenAll, __webpack_exports__getChildrenPage as getChildrenPage, __webpack_exports__getCollection as getCollection, __webpack_exports__getCollections as getCollections, __webpack_exports__getComposition as getComposition, __webpack_exports__getCompositions as getCompositions, __webpack_exports__getDisplayedVariant as getDisplayedVariant, __webpack_exports__getExportType as getExportType, __webpack_exports__getId as getId, __webpack_exports__getInscription as getInscription, __webpack_exports__getLatestId as getLatestId, __webpack_exports__getLatestPath as getLatestPath, __webpack_exports__getMetadata as getMetadata, __webpack_exports__getOrdinalApiFromIFrame as getOrdinalApiFromIFrame, __webpack_exports__getParentsAll as getParentsAll, __webpack_exports__getParentsPage as getParentsPage, __webpack_exports__getRequestParams as getRequestParams, __webpack_exports__getSatAll as getSatAll, __webpack_exports__getSatAt as getSatAt, __webpack_exports__getSatPage as getSatPage, __webpack_exports__getTrait as getTrait, __webpack_exports__getTraits as getTraits, __webpack_exports__getType as getType, __webpack_exports__getVariant as getVariant, __webpack_exports__getVariants as getVariants, __webpack_exports__importLatest as importLatest, __webpack_exports__isOrdinalAPIExtensionsAvailable as isOrdinalAPIExtensionsAvailable, __webpack_exports__removeAsset as removeAsset, __webpack_exports__removeCollection as removeCollection, __webpack_exports__removeComposition as removeComposition, __webpack_exports__removeTrait as removeTrait, __webpack_exports__removeVariant as removeVariant, __webpack_exports__setDisplayedVariant as setDisplayedVariant, __webpack_exports__setId as setId, __webpack_exports__setMetadata as setMetadata, __webpack_exports__setType as setType };

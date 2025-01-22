@@ -146,13 +146,14 @@ export function getRequestParams() { return _requestParams; }
 //#region Core Functionality - Recursive
 
 /**
- * Asynchronously retrieves the internal metadata for a given ID.
+ * Asynchronously retrieves the metadata for a given ID.
  * 
  * @category Core
- * @param {string} id - The unique identifier for the metadata.
+ * @param {string} [id=getId()] - The unique identifier for the inscription. Defaults to the result of getId().
+ * @param {string} [baseUrl=_baseUrl] - The base URL for the API endpoint. Defaults to _baseUrl.
  * @returns {Promise<OOMD.Metadata>} - A promise that resolves to the metadata object.
  */
-export async function getMetadata(id: string): Promise<OOMD.Metadata> {
+export async function getMetadata(id: string = getId(), baseUrl = _baseUrl): Promise<OOMD.Metadata> {
     // Check if metadata is undefined or if a new ID is provided, then fetch the metadata
     if (_metadata == undefined || id != undefined) {
         _metadata = await getInscriptionMetadata(id);
@@ -462,29 +463,6 @@ export async function getChildrenAll(inscriptionId: string = getId(), baseUrl: s
     }
 
     return ids; // Return the array of children IDs
-};
-
-/**
- *  Asynchronously fetches all information about an inscription, including children, sat inscriptions, metadata and its id.
- * Defaults to using the ID obtained from `getId()` if an `inscriptionId` is not provided.
- * @category Core
- * @param {string} inscriptionId - Inscription to get all information.
- *                                 Defaults to the ID of the page running it if none is given.
- * @param {string} baseUrl - Optional baseUrl for the fetch
- * @returns {Promise<{inscription: {charms: Array<string>, content_type: string, content_length: number, fee: number, height: number, number: number, output: string, sat: null | string, satpoint: string, timestamp: number, value: number} | null, children: Array<string>, satIds: Array<string>, metadata: Object | null, id: <string>}>} A promise that resolves with all the information about the inscription.
- */
-export async function getOOMD(inscriptionId: string = getId(), baseUrl: string = _baseUrl) {
-    let res: OOMD.Metadata = {} as OOMD.Metadata;
-    try {
-
-        //TODO: Read en project OOMD
-        // const metadata = await getInscriptionMetadata(inscriptionId, baseUrl);
-        // res.metadata = metadata;
-        //res = OOMD.parse(metadata);
-    } catch (error) {
-    }
-    res.id = inscriptionId;
-    return res;
 };
 
 /**

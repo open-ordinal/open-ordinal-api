@@ -2,6 +2,8 @@
 
 # Interface: IVariant
 
+Defined in: [src/models/globals/Variant.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L9)
+
 Variant Class
 A Variant is a variant of the ordinal. It's a visual distinct visual representation.
 It can be 2D and / or 3D or any other variation. Not to be confused with Composition.
@@ -12,9 +14,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > **id**: `string`
 
-#### Defined in
-
-[src/models/globals/Variant.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L10)
+Defined in: [src/models/globals/Variant.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L10)
 
 ***
 
@@ -22,9 +22,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > `optional` **type**: [`OrdinalType`](../enumerations/OrdinalType.md)
 
-#### Defined in
-
-[src/models/globals/Variant.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L11)
+Defined in: [src/models/globals/Variant.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L11)
 
 ***
 
@@ -32,9 +30,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > `optional` **name**: `string`
 
-#### Defined in
-
-[src/models/globals/Variant.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L12)
+Defined in: [src/models/globals/Variant.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L12)
 
 ***
 
@@ -42,13 +38,11 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > `optional` **onDisplay**: () => `Promise`\<`void`\>
 
+Defined in: [src/models/globals/Variant.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L13)
+
 #### Returns
 
 `Promise`\<`void`\>
-
-#### Defined in
-
-[src/models/globals/Variant.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L13)
 
 ***
 
@@ -56,13 +50,11 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > `optional` **onHide**: () => `Promise`\<`void`\>
 
+Defined in: [src/models/globals/Variant.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L14)
+
 #### Returns
 
 `Promise`\<`void`\>
-
-#### Defined in
-
-[src/models/globals/Variant.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L14)
 
 ***
 
@@ -70,10 +62,8 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > `optional` **onExport**: () => `Promise`\<[`Export`](../type-aliases/Export.md)\>
 
+Defined in: [src/models/globals/Variant.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L15)
+
 #### Returns
 
 `Promise`\<[`Export`](../type-aliases/Export.md)\>
-
-#### Defined in
-
-[src/models/globals/Variant.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Variant.ts#L15)

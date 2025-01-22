@@ -4,6 +4,8 @@
 
 > **getDisplayedVariant**(): `Promise`\<[`IVariant`](../interfaces/IVariant.md) \| `undefined` \| `null`\>
 
+Defined in: [src/OOAPI.Core.ts:889](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L889)
+
 Get the currently visible Variant (if any).
 
 ## Returns
@@ -11,7 +13,3 @@ Get the currently visible Variant (if any).
 `Promise`\<[`IVariant`](../interfaces/IVariant.md) \| `undefined` \| `null`\>
 
 The Variant that currently is visible.
-
-## Defined in
-
-[src/OOAPI.Core.ts:889](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L889)

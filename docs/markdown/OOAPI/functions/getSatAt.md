@@ -4,19 +4,27 @@
 
 > **getSatAt**(`sat`, `index`?, `baseUrl`?): `Promise`\<`any`\>
 
+Defined in: [src/OOAPI.Core.ts:237](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L237)
+
 Asynchronously retrieves SAT data for a given sat number and index.
 
 ## Parameters
 
-• **sat**: `number`
+### sat
+
+`number`
 
 The unique identifier for the SAT.
 
-• **index?**: `number` = `-1`
+### index?
+
+`number` = `-1`
 
 The index for the SAT data. Defaults to -1 which fetches the most recent inscription.
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 The base URL for the API endpoint. Defaults to _baseUrl.
 
@@ -25,7 +33,3 @@ The base URL for the API endpoint. Defaults to _baseUrl.
 `Promise`\<`any`\>
 
 - A promise that resolves to the SAT data.
-
-## Defined in
-
-[src/OOAPI.Core.ts:237](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L237)

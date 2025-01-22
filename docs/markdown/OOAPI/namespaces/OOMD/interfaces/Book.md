@@ -2,6 +2,8 @@
 
 # Interface: Book
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:12
+
 This interface represents a book, including its optional title, description,
 authors, publisher, chapters, ISBN, language, and edition.
 
@@ -11,11 +13,9 @@ authors, publisher, chapters, ISBN, language, and edition.
 
 > `optional` **title**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:16
+
 The optional title of the book
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:16
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:16
 
 > `optional` **description**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:20
+
 An optional description of the book
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:20
 
 ***
 
@@ -35,11 +33,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:20
 
 > `optional` **authors**: (`string` \| [`Linked`](../type-aliases/Linked.md)\<[`Author`](Author.md)\>)[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:24
+
 An optional array of linked authors or author names
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:24
 
 ***
 
@@ -47,11 +43,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:24
 
 > `optional` **publisher**: `string` \| [`Linked`](../type-aliases/Linked.md)\<[`Publisher`](Publisher.md)\>
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:28
+
 An optional linked publisher or publisher name
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:28
 
 ***
 
@@ -59,11 +53,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:28
 
 > `optional` **chapters**: [`Linked`](../type-aliases/Linked.md)\<[`Chapter`](Chapter.md)\>[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:32
+
 An optional array of linked chapters, default children
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:32
 
 ***
 
@@ -71,11 +63,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:32
 
 > `optional` **isbn**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:36
+
 An optional ISBN of the book
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:36
 
 ***
 
@@ -83,11 +73,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:36
 
 > `optional` **language**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:40
+
 The optional language of the book
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:40
 
 ***
 
@@ -95,8 +83,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:40
 
 > `optional` **edition**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:44
+
 The optional edition number of the book
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Book.d.ts:44

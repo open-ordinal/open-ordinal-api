@@ -2,23 +2,25 @@
 
 # Class: Video
 
+Defined in: [src/models/base/Video.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L12)
+
 ## Constructors
 
 ### new Video()
 
 > **new Video**(`options`): [`Video`](Video.md)
 
+Defined in: [src/models/base/Video.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L18)
+
 #### Parameters
 
-• **options**: [`IVideo`](../interfaces/IVideo.md) = `{}`
+##### options
+
+[`IVideo`](../interfaces/IVideo.md) = `{}`
 
 #### Returns
 
 [`Video`](Video.md)
-
-#### Defined in
-
-[src/models/base/Video.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L18)
 
 ## Properties
 
@@ -26,9 +28,7 @@
 
 > `optional` **url**: `string`
 
-#### Defined in
-
-[src/models/base/Video.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L13)
+Defined in: [src/models/base/Video.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L13)
 
 ***
 
@@ -36,9 +36,7 @@
 
 > `optional` **duration**: `number`
 
-#### Defined in
-
-[src/models/base/Video.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L14)
+Defined in: [src/models/base/Video.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L14)
 
 ***
 
@@ -46,9 +44,7 @@
 
 > `optional` **format**: `string`
 
-#### Defined in
-
-[src/models/base/Video.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L15)
+Defined in: [src/models/base/Video.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L15)
 
 ***
 
@@ -56,9 +52,7 @@
 
 > `optional` **resolution**: `string`
 
-#### Defined in
-
-[src/models/base/Video.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L16)
+Defined in: [src/models/base/Video.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L16)
 
 ## Methods
 
@@ -66,13 +60,11 @@
 
 > **getUrl**(): `undefined` \| `string`
 
+Defined in: [src/models/base/Video.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L25)
+
 #### Returns
 
 `undefined` \| `string`
-
-#### Defined in
-
-[src/models/base/Video.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L25)
 
 ***
 
@@ -80,13 +72,11 @@
 
 > **getDuration**(): `undefined` \| `number`
 
+Defined in: [src/models/base/Video.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L29)
+
 #### Returns
 
 `undefined` \| `number`
-
-#### Defined in
-
-[src/models/base/Video.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L29)
 
 ***
 
@@ -94,13 +84,11 @@
 
 > **getFormat**(): `undefined` \| `string`
 
+Defined in: [src/models/base/Video.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L33)
+
 #### Returns
 
 `undefined` \| `string`
-
-#### Defined in
-
-[src/models/base/Video.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L33)
 
 ***
 
@@ -108,10 +96,8 @@
 
 > **getResolution**(): `undefined` \| `string`
 
+Defined in: [src/models/base/Video.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Video.ts#L37)
+
 #### Returns
 
 `undefined` \| `string`
-
-#### Defined in
-
-[src/models/base/Video.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Video.ts#L37)

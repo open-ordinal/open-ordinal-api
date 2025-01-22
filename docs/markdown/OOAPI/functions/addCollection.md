@@ -4,11 +4,15 @@
 
 > **addCollection**(`collection`): `Promise`\<[`Collection`](../classes/Collection.md)\>
 
+Defined in: [src/OOAPI.Core.ts:1050](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L1050)
+
 Add a Collection
 
 ## Parameters
 
-• **collection**: [`ICollection`](../interfaces/ICollection.md)
+### collection
+
+[`ICollection`](../interfaces/ICollection.md)
 
 Add a Collection
 
@@ -17,7 +21,3 @@ Add a Collection
 `Promise`\<[`Collection`](../classes/Collection.md)\>
 
 The Collections
-
-## Defined in
-
-[src/OOAPI.Core.ts:1050](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L1050)

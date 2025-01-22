@@ -4,6 +4,8 @@
 
 > **cached**\<`T`\>(`func`): (`id`) => `Promise`\<`T`\>
 
+Defined in: [src/OOAPI.Core.ts:784](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L784)
+
 A cache helper to cache single functions and their return variable.
 
 ## Type Parameters
@@ -12,7 +14,9 @@ A cache helper to cache single functions and their return variable.
 
 ## Parameters
 
-• **func**
+### func
+
+(`id`) => `Promise`\<`T`\>
 
 The function to cache.
 
@@ -24,12 +28,10 @@ The function to cache.
 
 ### Parameters
 
-• **id**: `string`
+#### id
+
+`string`
 
 ### Returns
 
 `Promise`\<`T`\>
-
-## Defined in
-
-[src/OOAPI.Core.ts:784](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L784)

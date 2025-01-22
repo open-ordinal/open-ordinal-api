@@ -2,6 +2,8 @@
 
 # Interface: Author
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:9
+
 This interface represents an author, including their optional name and an
 optional array of linked books.
 
@@ -11,11 +13,9 @@ optional array of linked books.
 
 > `optional` **name**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:13
+
 The optional name of the author
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:13
 
 ***
 
@@ -23,8 +23,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:13
 
 > `optional` **books**: [`Linked`](../type-aliases/Linked.md)\<[`Book`](Book.md)\>[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:17
+
 An optional array of linked books
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Author.d.ts:17

@@ -2,6 +2,8 @@
 
 # Interface: Torrent
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:7
+
 This interface represents a torrent, including its name, and
 optional URL and magnet link.
 
@@ -11,11 +13,9 @@ optional URL and magnet link.
 
 > **name**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:11
+
 The name of the torrent
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:11
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:11
 
 > `optional` **url**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:15
+
 An optional URL for the torrent
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:15
 
 ***
 
@@ -35,8 +33,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:15
 
 > `optional` **magnet**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:19
+
 An optional magnet link for the torrent
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Torrent.d.ts:19

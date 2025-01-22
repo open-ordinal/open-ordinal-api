@@ -4,8 +4,6 @@
 
 > **SatNo**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/Links.d.ts:10
+
 Sat number for inscription
-
-## Defined in
-
-node\_modules/@open-ordinal/metadata/lib/Links.d.ts:10

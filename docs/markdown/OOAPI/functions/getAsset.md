@@ -4,11 +4,15 @@
 
 > **getAsset**(`id`): `Promise`\<[`Asset`](../classes/Asset.md) \| `undefined`\>
 
+Defined in: [src/OOAPI.Core.ts:972](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L972)
+
 Get an Asset from memory model
 
 ## Parameters
 
-• **id**: `string`
+### id
+
+`string`
 
 The Asset to find
 
@@ -17,7 +21,3 @@ The Asset to find
 `Promise`\<[`Asset`](../classes/Asset.md) \| `undefined`\>
 
 The Asset
-
-## Defined in
-
-[src/OOAPI.Core.ts:972](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L972)

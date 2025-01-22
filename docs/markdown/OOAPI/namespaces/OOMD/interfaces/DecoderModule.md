@@ -2,6 +2,8 @@
 
 # Interface: DecoderModule
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Media.d.ts:25
+
 This interface represents a decoder module, including its default
 decoder function.
 
@@ -11,8 +13,6 @@ decoder function.
 
 > **default**: [`DecoderFunction`](../type-aliases/DecoderFunction.md)
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Media.d.ts:29
+
 The default decoder function
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Media.d.ts:29

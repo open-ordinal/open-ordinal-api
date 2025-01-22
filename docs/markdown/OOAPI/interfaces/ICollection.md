@@ -2,6 +2,8 @@
 
 # Interface: ICollection
 
+Defined in: [src/models/usecases/Collection.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L9)
+
 A Collection is usually defined as a ordinal collection. This class
 expose the trais that are available for the Collection.
 
@@ -11,9 +13,7 @@ expose the trais that are available for the Collection.
 
 > **id**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L10)
+Defined in: [src/models/usecases/Collection.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L10)
 
 ***
 
@@ -21,9 +21,7 @@ expose the trais that are available for the Collection.
 
 > `optional` **name**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L11)
+Defined in: [src/models/usecases/Collection.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L11)
 
 ***
 
@@ -31,9 +29,7 @@ expose the trais that are available for the Collection.
 
 > `optional` **description**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L12)
+Defined in: [src/models/usecases/Collection.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L12)
 
 ***
 
@@ -41,6 +37,4 @@ expose the trais that are available for the Collection.
 
 > `optional` **collectionTraits**: [`ICollectionTrait`](ICollectionTrait.md)[]
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L13)
+Defined in: [src/models/usecases/Collection.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L13)

@@ -2,6 +2,8 @@
 
 # Interface: Module
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:7
+
 This interface represents a module, including its name, version,
 and optional URL and license.
 
@@ -11,11 +13,9 @@ and optional URL and license.
 
 > **name**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:11
+
 The name of the module
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:11
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:11
 
 > **version**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:15
+
 The version of the module
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:15
 
 ***
 
@@ -35,11 +33,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:15
 
 > `optional` **url**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:19
+
 An optional URL for the module
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:19
 
 ***
 
@@ -47,8 +43,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:19
 
 > `optional` **license**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:23
+
 An optional license for the module
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Module.d.ts:23

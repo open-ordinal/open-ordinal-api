@@ -2,15 +2,15 @@
 
 # Interface: IAudio
 
+Defined in: [src/models/base/Audio.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Audio.ts#L11)
+
 ## Properties
 
 ### url?
 
 > `optional` **url**: `string`
 
-#### Defined in
-
-[src/models/base/Audio.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Audio.ts#L12)
+Defined in: [src/models/base/Audio.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Audio.ts#L12)
 
 ***
 
@@ -18,6 +18,4 @@
 
 > `optional` **type**: `AudioType`
 
-#### Defined in
-
-[src/models/base/Audio.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Audio.ts#L13)
+Defined in: [src/models/base/Audio.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Audio.ts#L13)

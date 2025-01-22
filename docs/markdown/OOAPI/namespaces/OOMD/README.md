@@ -2,21 +2,19 @@
 
 # OOMD
 
-## Index
-
-### Bootstrap
+## Bootstrap
 
 - [BootstrapResource](interfaces/BootstrapResource.md)
 - [BootstrapOpenOrdinalModules](interfaces/BootstrapOpenOrdinalModules.md)
 - [BootstrapMode](enumerations/BootstrapMode.md)
 
-### Media
+## Media
 
 - [DecoderModule](interfaces/DecoderModule.md)
 - [DecoderFunction](type-aliases/DecoderFunction.md)
 - [DecoderResult](interfaces/DecoderResult.md)
 
-### Protocols
+## Protocols
 
 - [InscriptionId](type-aliases/InscriptionId.md)
 - [SatNo](type-aliases/SatNo.md)
@@ -40,6 +38,6 @@
 - [Torrent](interfaces/Torrent.md)
 - [Track](interfaces/Track.md)
 
-### Root
+## Root
 
 - [Metadata](interfaces/Metadata.md)

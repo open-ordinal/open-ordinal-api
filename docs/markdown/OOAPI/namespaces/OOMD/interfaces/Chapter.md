@@ -2,6 +2,8 @@
 
 # Interface: Chapter
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:8
+
 This interface represents a chapter, including its optional title, description,
 and an optional array of linked sub-chapters.
 
@@ -11,11 +13,9 @@ and an optional array of linked sub-chapters.
 
 > `optional` **title**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:12
+
 The optional title of the chapter
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:12
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:12
 
 > `optional` **description**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:16
+
 An optional description of the chapter
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:16
 
 ***
 
@@ -35,8 +33,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:16
 
 > `optional` **chapters**: [`Linked`](../type-aliases/Linked.md)\<[`Chapter`](Chapter.md)\>[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:20
+
 An optional array of linked sub-chapters
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Chapter.d.ts:20

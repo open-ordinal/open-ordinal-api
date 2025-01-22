@@ -2,6 +2,8 @@
 
 # Interface: Track
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:10
+
 This interface represents a track, including its title and optional arrays of
 linked releases and artists.
 
@@ -11,11 +13,9 @@ linked releases and artists.
 
 > **title**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:14
+
 The title of the track
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:14
 
 ***
 
@@ -23,12 +23,10 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:14
 
 > `optional` **releases**: (`string` \| [`Linked`](../type-aliases/Linked.md)\<[`Release`](Release.md)\>)[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:19
+
 An optional array of linked releases or release names, otherwise assumed to
 be any parent inscriptions implementing Release
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:19
 
 ***
 
@@ -36,9 +34,7 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:19
 
 > `optional` **artists**: (`string` \| [`Linked`](../type-aliases/Linked.md)\<[`Artist`](Artist.md)\>)[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:24
+
 An optional array of linked artists or artist names, otherwise assumed to
 be any grand parent inscriptions implementing Artist
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Track.d.ts:24

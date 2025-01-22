@@ -4,15 +4,21 @@
 
 > **getInscription**(`inscriptionId`?, `baseUrl`?): `Promise`\<`any`\>
 
+Defined in: [src/OOAPI.Core.ts:174](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L174)
+
 Asynchronously retrieves inscription data for a given inscription ID.
 
 ## Parameters
 
-• **inscriptionId?**: `string` = `...`
+### inscriptionId?
+
+`string` = `...`
 
 The unique identifier for the inscription. Defaults to the result of getId().
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 The base URL for the API endpoint. Defaults to _baseUrl.
 
@@ -25,7 +31,3 @@ The base URL for the API endpoint. Defaults to _baseUrl.
 ## Throws
 
 Will throw an error if the fetch operation fails.
-
-## Defined in
-
-[src/OOAPI.Core.ts:174](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L174)

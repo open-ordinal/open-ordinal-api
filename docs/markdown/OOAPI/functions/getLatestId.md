@@ -4,11 +4,15 @@
 
 > **getLatestId**(`id`): `Promise`\<`string`\>
 
+Defined in: [src/OOAPI.Core.ts:618](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L618)
+
 Asynchronously get the latest ID for a supplied ID through the Sat endpoint.
 
 ## Parameters
 
-• **id**: `string`
+### id
+
+`string`
 
 The inscription ID.
 
@@ -17,7 +21,3 @@ The inscription ID.
 `Promise`\<`string`\>
 
 - A promise that resolves with the latest ID for the inscription.
-
-## Defined in
-
-[src/OOAPI.Core.ts:618](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L618)

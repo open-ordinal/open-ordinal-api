@@ -4,6 +4,8 @@
 
 > **getVariants**(): `Promise`\<[`Variant`](../classes/Variant.md)[]\>
 
+Defined in: [src/OOAPI.Core.ts:841](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L841)
+
 Get all Variants from memory model
 
 ## Returns
@@ -11,7 +13,3 @@ Get all Variants from memory model
 `Promise`\<[`Variant`](../classes/Variant.md)[]\>
 
 The Variant
-
-## Defined in
-
-[src/OOAPI.Core.ts:841](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L841)

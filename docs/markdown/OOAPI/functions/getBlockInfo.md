@@ -4,15 +4,21 @@
 
 > **getBlockInfo**(`blockInfo`, `baseUrl`?): `Promise`\<`any`\>
 
+Defined in: [src/OOAPI.Core.ts:518](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L518)
+
 Asynchronously fetches information about a specific block by block height or block hash.
 
 ## Parameters
 
-• **blockInfo**: `string`
+### blockInfo
+
+`string`
 
 The block height or block hash to get information about.
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 Optional baseUrl for the fetch.
 
@@ -21,7 +27,3 @@ Optional baseUrl for the fetch.
 `Promise`\<`any`\>
 
 - A promise that resolves with the information about the block or null if not found.
-
-## Defined in
-
-[src/OOAPI.Core.ts:518](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L518)

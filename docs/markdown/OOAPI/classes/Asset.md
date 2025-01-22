@@ -2,6 +2,8 @@
 
 # Class: Asset
 
+Defined in: [src/models/globals/Asset.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L35)
+
 An Asset in the Open Ordinal API is a single asset the ordinal expose.
 This can be a single image or different pars a image consists of.
 If you expose multiple assets to compose a Composition eaach of these
@@ -17,17 +19,17 @@ these to other platforms (i.e. games, remixing and other).
 
 > **new Asset**(`options`): [`Asset`](Asset.md)
 
+Defined in: [src/models/globals/Asset.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L41)
+
 #### Parameters
 
-• **options**: [`IAsset`](../interfaces/IAsset.md)
+##### options
+
+[`IAsset`](../interfaces/IAsset.md)
 
 #### Returns
 
 [`Asset`](Asset.md)
-
-#### Defined in
-
-[src/models/globals/Asset.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L41)
 
 ## Properties
 
@@ -35,9 +37,7 @@ these to other platforms (i.e. games, remixing and other).
 
 > `optional` **id**: `string`
 
-#### Defined in
-
-[src/models/globals/Asset.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L36)
+Defined in: [src/models/globals/Asset.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L36)
 
 ***
 
@@ -45,9 +45,7 @@ these to other platforms (i.e. games, remixing and other).
 
 > `optional` **type**: [`OrdinalType`](../enumerations/OrdinalType.md)
 
-#### Defined in
-
-[src/models/globals/Asset.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L37)
+Defined in: [src/models/globals/Asset.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L37)
 
 ***
 
@@ -55,9 +53,7 @@ these to other platforms (i.e. games, remixing and other).
 
 > `optional` **name**: `string`
 
-#### Defined in
-
-[src/models/globals/Asset.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L38)
+Defined in: [src/models/globals/Asset.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L38)
 
 ***
 
@@ -65,13 +61,11 @@ these to other platforms (i.e. games, remixing and other).
 
 > `optional` **data**: () => `Promise`\<`any`\>
 
+Defined in: [src/models/globals/Asset.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L39)
+
 #### Returns
 
 `Promise`\<`any`\>
-
-#### Defined in
-
-[src/models/globals/Asset.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L39)
 
 ## Methods
 
@@ -79,13 +73,11 @@ these to other platforms (i.e. games, remixing and other).
 
 > **getType**(): `undefined` \| [`OrdinalType`](../enumerations/OrdinalType.md)
 
+Defined in: [src/models/globals/Asset.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L52)
+
 #### Returns
 
 `undefined` \| [`OrdinalType`](../enumerations/OrdinalType.md)
-
-#### Defined in
-
-[src/models/globals/Asset.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L52)
 
 ***
 
@@ -93,13 +85,11 @@ these to other platforms (i.e. games, remixing and other).
 
 > **getName**(): `undefined` \| `string`
 
+Defined in: [src/models/globals/Asset.ts:56](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L56)
+
 #### Returns
 
 `undefined` \| `string`
-
-#### Defined in
-
-[src/models/globals/Asset.ts:56](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L56)
 
 ***
 
@@ -107,13 +97,11 @@ these to other platforms (i.e. games, remixing and other).
 
 > **getId**(): `undefined` \| `string`
 
+Defined in: [src/models/globals/Asset.ts:60](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L60)
+
 #### Returns
 
 `undefined` \| `string`
-
-#### Defined in
-
-[src/models/globals/Asset.ts:60](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L60)
 
 ***
 
@@ -121,10 +109,8 @@ these to other platforms (i.e. games, remixing and other).
 
 > **getData**(): `Promise`\<`any`\>
 
+Defined in: [src/models/globals/Asset.ts:64](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L64)
+
 #### Returns
 
 `Promise`\<`any`\>
-
-#### Defined in
-
-[src/models/globals/Asset.ts:64](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Asset.ts#L64)

@@ -2,15 +2,15 @@
 
 # Enumeration: ExportType
 
+Defined in: [src/models/utilities/Export.ts:3](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L3)
+
 ## Enumeration Members
 
 ### ORDINAL
 
 > **ORDINAL**: `"ordinal"`
 
-#### Defined in
-
-[src/models/utilities/Export.ts:4](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export.ts#L4)
+Defined in: [src/models/utilities/Export.ts:4](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L4)
 
 ***
 
@@ -18,9 +18,7 @@
 
 > **DATA**: `"data"`
 
-#### Defined in
-
-[src/models/utilities/Export.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export.ts#L5)
+Defined in: [src/models/utilities/Export.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L5)
 
 ***
 
@@ -28,9 +26,7 @@
 
 > **BLOB**: `"blob"`
 
-#### Defined in
-
-[src/models/utilities/Export.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export.ts#L6)
+Defined in: [src/models/utilities/Export.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L6)
 
 ***
 
@@ -38,6 +34,4 @@
 
 > **RENDERER**: `"renderer"`
 
-#### Defined in
-
-[src/models/utilities/Export.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/utilities/Export.ts#L7)
+Defined in: [src/models/utilities/Export.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L7)

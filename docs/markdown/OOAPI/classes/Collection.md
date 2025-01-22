@@ -2,6 +2,8 @@
 
 # Class: Collection
 
+Defined in: [src/models/usecases/Collection.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L20)
+
 A Collection is usually defined as a ordinal collection. This class
 expose the trais that are available for the Collection.
 
@@ -11,17 +13,17 @@ expose the trais that are available for the Collection.
 
 > **new Collection**(`options`): [`Collection`](Collection.md)
 
+Defined in: [src/models/usecases/Collection.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L26)
+
 #### Parameters
 
-• **options**: [`ICollection`](../interfaces/ICollection.md)
+##### options
+
+[`ICollection`](../interfaces/ICollection.md)
 
 #### Returns
 
 [`Collection`](Collection.md)
-
-#### Defined in
-
-[src/models/usecases/Collection.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L26)
 
 ## Properties
 
@@ -29,9 +31,7 @@ expose the trais that are available for the Collection.
 
 > **id**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L21)
+Defined in: [src/models/usecases/Collection.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L21)
 
 ***
 
@@ -39,9 +39,7 @@ expose the trais that are available for the Collection.
 
 > `optional` **name**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L22)
+Defined in: [src/models/usecases/Collection.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L22)
 
 ***
 
@@ -49,9 +47,7 @@ expose the trais that are available for the Collection.
 
 > `optional` **description**: `string`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L23)
+Defined in: [src/models/usecases/Collection.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L23)
 
 ***
 
@@ -59,9 +55,7 @@ expose the trais that are available for the Collection.
 
 > **collectionTraits**: `CollectionTrait`[] = `[]`
 
-#### Defined in
-
-[src/models/usecases/Collection.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L24)
+Defined in: [src/models/usecases/Collection.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L24)
 
 ## Methods
 
@@ -69,14 +63,14 @@ expose the trais that are available for the Collection.
 
 > **addTraitCategory**(`category`): `void`
 
+Defined in: [src/models/usecases/Collection.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L33)
+
 #### Parameters
 
-• **category**: [`ICollectionTrait`](../interfaces/ICollectionTrait.md)
+##### category
+
+[`ICollectionTrait`](../interfaces/ICollectionTrait.md)
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-[src/models/usecases/Collection.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/usecases/Collection.ts#L33)

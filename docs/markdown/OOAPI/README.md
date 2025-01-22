@@ -2,9 +2,7 @@
 
 # OOAPI
 
-## Index
-
-### Assets
+## Assets
 
 - [addAsset](functions/addAsset.md)
 - [removeAsset](functions/removeAsset.md)
@@ -12,7 +10,7 @@
 - [getAssets](functions/getAssets.md)
 - [clearAssets](functions/clearAssets.md)
 
-### Collections
+## Collections
 
 - [addCollection](functions/addCollection.md)
 - [getCollection](functions/getCollection.md)
@@ -20,7 +18,7 @@
 - [removeCollection](functions/removeCollection.md)
 - [clearCollections](functions/clearCollections.md)
 
-### Compositions
+## Compositions
 
 - [addComposition](functions/addComposition.md)
 - [removeComposition](functions/removeComposition.md)
@@ -28,7 +26,7 @@
 - [getCompositions](functions/getCompositions.md)
 - [clearCompositions](functions/clearCompositions.md)
 
-### Core
+## Core
 
 - [setId](functions/setId.md)
 - [getId](functions/getId.md)
@@ -59,7 +57,7 @@
 - [cached](functions/cached.md)
 - [getExportType](functions/getExportType.md)
 
-### Other
+## Other
 
 - [OOMD](namespaces/OOMD/README.md)
 - [Artist](classes/Artist.md)
@@ -92,7 +90,7 @@
 - [ISprite](interfaces/ISprite.md)
 - [Sprite](classes/Sprite.md)
 
-### Traits
+## Traits
 
 - [addTrait](functions/addTrait.md)
 - [removeTrait](functions/removeTrait.md)
@@ -100,7 +98,7 @@
 - [getTraits](functions/getTraits.md)
 - [clearTraits](functions/clearTraits.md)
 
-### Variants
+## Variants
 
 - [addVariant](functions/addVariant.md)
 - [removeVariant](functions/removeVariant.md)

@@ -4,21 +4,29 @@
 
 > **getChildrenPage**(`inscriptionId`, `page`, `baseUrl`?): `Promise`\<`any`\>
 
+Defined in: [src/OOAPI.Core.ts:405](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L405)
+
 Asynchronously fetches the children of a given inscription.
 If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.
 
 ## Parameters
 
-• **inscriptionId**: `string` = `...`
+### inscriptionId
+
+`string` = `...`
 
 The ID of the inscription to get the children of.
                                 Defaults to the ID of the page running it if none is given.
 
-• **page**: `number` = `0`
+### page
+
+`number` = `0`
 
 The page number to fetch the children from.
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 Optional baseUrl for the fetch.
 
@@ -30,7 +38,3 @@ Optional baseUrl for the fetch.
                                                                         - ids: An array of children IDs.
                                                                         - more: A boolean indicating if there are more pages.
                                                                         - page: The current page number.
-
-## Defined in
-
-[src/OOAPI.Core.ts:405](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L405)

@@ -2,8 +2,6 @@
 
 # Type Alias: Link
 
-> **Link**: `object` \| `object`
+> **Link**: \{ `@id`: [`InscriptionId`](InscriptionId.md); \} \| \{ `@sat`: [`SatNo`](SatNo.md); \}
 
-## Defined in
-
-node\_modules/@open-ordinal/metadata/lib/Links.d.ts:19
+Defined in: node\_modules/@open-ordinal/metadata/lib/Links.d.ts:19

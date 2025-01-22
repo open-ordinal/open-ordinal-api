@@ -2,6 +2,8 @@
 
 # Enumeration: OrdinalType
 
+Defined in: [src/models/base/Ordinal.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L5)
+
 Ordinal Class
 
 ## Enumeration Members
@@ -10,9 +12,7 @@ Ordinal Class
 
 > **AUDIO**: `"audio"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L7)
+Defined in: [src/models/base/Ordinal.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L7)
 
 ***
 
@@ -20,9 +20,7 @@ Ordinal Class
 
 > **VIDEO**: `"video"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L9)
+Defined in: [src/models/base/Ordinal.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L9)
 
 ***
 
@@ -30,9 +28,7 @@ Ordinal Class
 
 > **IMAGE**: `"image"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L11)
+Defined in: [src/models/base/Ordinal.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L11)
 
 ***
 
@@ -40,9 +36,7 @@ Ordinal Class
 
 > **MODEL**: `"3dmodel"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L13)
+Defined in: [src/models/base/Ordinal.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L13)
 
 ***
 
@@ -50,9 +44,7 @@ Ordinal Class
 
 > **TEXT**: `"text"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L15)
+Defined in: [src/models/base/Ordinal.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L15)
 
 ***
 
@@ -60,6 +52,4 @@ Ordinal Class
 
 > **MULTI**: `"multi"`
 
-#### Defined in
-
-[src/models/base/Ordinal.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/base/Ordinal.ts#L17)
+Defined in: [src/models/base/Ordinal.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L17)

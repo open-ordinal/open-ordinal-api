@@ -4,16 +4,22 @@
 
 > **getChildrenAll**(`inscriptionId`, `baseUrl`?): `Promise`\<`string`[]\>
 
+Defined in: [src/OOAPI.Core.ts:447](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L447)
+
 Asynchronously fetches all the children of a given inscription.
 
 ## Parameters
 
-• **inscriptionId**: `string` = `...`
+### inscriptionId
+
+`string` = `...`
 
 The ID of the inscription to get the children of.
                                 Defaults to the ID obtained from `getId()`.
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 Optional baseUrl for the fetch.
 
@@ -22,7 +28,3 @@ Optional baseUrl for the fetch.
 `Promise`\<`string`[]\>
 
 - A promise that resolves with an array of the IDs of the children.
-
-## Defined in
-
-[src/OOAPI.Core.ts:447](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L447)

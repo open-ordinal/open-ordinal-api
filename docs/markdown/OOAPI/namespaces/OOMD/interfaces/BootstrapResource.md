@@ -2,17 +2,17 @@
 
 # Interface: BootstrapResource
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:42
+
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:46
+
 Optional: The inscription Id to include
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:46
 
 ***
 
@@ -20,11 +20,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:46
 
 > `optional` **sat**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:50
+
 Optional: The sat Id to include
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:50
 
 ***
 
@@ -32,8 +30,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:50
 
 > `optional` **index**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:54
+
 Optional: Index on sat to bootstrap
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:54

@@ -4,15 +4,21 @@
 
 > **getBlockHash**(`height`, `baseUrl`?): `Promise`\<`string`\>
 
+Defined in: [src/OOAPI.Core.ts:540](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L540)
+
 Asynchronously fetches the block hash at a given block height.
 
 ## Parameters
 
-• **height**: `number`
+### height
+
+`number`
 
 The height of the block to get the hash of.
 
-• **baseUrl?**: `string` = `_baseUrl`
+### baseUrl?
+
+`string` = `_baseUrl`
 
 Optional baseUrl for the fetch.
 
@@ -21,7 +27,3 @@ Optional baseUrl for the fetch.
 `Promise`\<`string`\>
 
 - A promise that resolves with the hash of the block or null if not found.
-
-## Defined in
-
-[src/OOAPI.Core.ts:540](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L540)

@@ -2,6 +2,8 @@
 
 # Interface: Publisher
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Publisher.d.ts:6
+
 This interface represents a publisher, including its optional name.
 
 ## Properties
@@ -10,8 +12,6 @@ This interface represents a publisher, including its optional name.
 
 > `optional` **name**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Publisher.d.ts:10
+
 The optional name of the publisher
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Publisher.d.ts:10

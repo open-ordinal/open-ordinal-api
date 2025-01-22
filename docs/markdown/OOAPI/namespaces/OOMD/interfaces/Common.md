@@ -2,6 +2,8 @@
 
 # Interface: Common
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Common.d.ts:7
+
 This interface represents a common structure with an optional ID and any
 additional properties.
 
@@ -11,7 +13,7 @@ additional properties.
 
 ## Indexable
 
- \[`_`: `string`\]: `any`
+\[`_`: `string`\]: `any`
 
 ## Properties
 
@@ -19,8 +21,6 @@ additional properties.
 
 > `optional` **id**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Common.d.ts:11
+
 An optional ID for the common structure
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Common.d.ts:11

@@ -2,6 +2,8 @@
 
 # Interface: Bootstrap
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:6
+
 This interface defines the Options used for Open Ordinal Bootstrap.
 
 ## Properties
@@ -10,12 +12,10 @@ This interface defines the Options used for Open Ordinal Bootstrap.
 
 > **mode**: [`BootstrapMode`](../enumerations/BootstrapMode.md)
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:11
+
 The mode for bootstrap. Mode 0 is obmitted due to the default and would
 lead to a recursive deadlock.
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:11
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:11
 
 > `optional` **id**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:15
+
 Optional: The inscription Id to bootstrap
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:15
 
 ***
 
@@ -35,11 +33,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:15
 
 > `optional` **sat**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:19
+
 Optional: The sat Id to bootstrap
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:19
 
 ***
 
@@ -47,11 +43,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:19
 
 > `optional` **index**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:23
+
 Optional: Index on sat to bootstrap
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:23
 
 ***
 
@@ -59,11 +53,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:23
 
 > `optional` **data**: `any`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:27
+
 Optional: Data to pass into the bootstrap
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:27
 
 ***
 
@@ -71,15 +63,13 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:27
 
 > `optional` **res**: `object`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:31
+
 Optional: Additional inscriptions to load and pass into `bootstrap()`
 
 #### Index Signature
 
- \[`_`: `string`\]: [`BootstrapResource`](BootstrapResource.md)
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:31
+\[`_`: `string`\]: [`BootstrapResource`](BootstrapResource.md)
 
 ***
 
@@ -87,8 +77,6 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:31
 
 > `optional` **oo**: [`BootstrapOpenOrdinalModules`](BootstrapOpenOrdinalModules.md)
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:37
+
 Optional: Additional Open Ordinal modules to load
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Bootstrap.d.ts:37

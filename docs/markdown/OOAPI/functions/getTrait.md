@@ -4,18 +4,18 @@
 
 > **getTrait**(`id`): `Promise`\<[`Trait`](../classes/Trait.md) \| `undefined`\>
 
+Defined in: [src/OOAPI.Core.ts:1021](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L1021)
+
 Get a Trait from memory model
 
 ## Parameters
 
-• **id**: `string`
+### id
+
+`string`
 
 ## Returns
 
 `Promise`\<[`Trait`](../classes/Trait.md) \| `undefined`\>
 
 The Trait
-
-## Defined in
-
-[src/OOAPI.Core.ts:1021](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/OOAPI.Core.ts#L1021)

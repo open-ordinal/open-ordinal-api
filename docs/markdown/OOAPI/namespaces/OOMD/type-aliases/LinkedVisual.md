@@ -4,6 +4,4 @@
 
 > **LinkedVisual**: [`Link`](Link.md)
 
-## Defined in
-
-node\_modules/@open-ordinal/metadata/lib/Links.d.ts:35
+Defined in: node\_modules/@open-ordinal/metadata/lib/Links.d.ts:35

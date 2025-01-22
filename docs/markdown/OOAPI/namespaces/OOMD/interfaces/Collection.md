@@ -2,6 +2,8 @@
 
 # Interface: Collection
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:7
+
 This interface represents a collection, including its name, an optional description,
 an optional URL, and an optional total count.
 
@@ -11,11 +13,9 @@ an optional URL, and an optional total count.
 
 > **name**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:11
+
 The name of the collection
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:11
 
 ***
 
@@ -23,11 +23,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:11
 
 > `optional` **description**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:15
+
 An optional description of the collection
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:15
 
 ***
 
@@ -35,11 +33,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:15
 
 > `optional` **url**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:19
+
 An optional URL for the collection
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:19
 
 ***
 
@@ -47,11 +43,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:19
 
 > `optional` **totalCount**: `number`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:23
+
 An optional total count of items in the collection
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:23
 
 ***
 
@@ -59,12 +53,10 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:23
 
 > `optional` **allAttributes**: `object`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:27
+
 An optional list of all attrbutes for items in the collection
 
 #### Index Signature
 
- \[`_`: `string`\]: (`string` \| `number`)[]
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Collection.d.ts:27
+\[`_`: `string`\]: (`string` \| `number`)[]

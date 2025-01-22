@@ -4,10 +4,8 @@
 
 > **LinkedModule**\<`T`\>: [`Link`](Link.md)
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/Links.d.ts:31
+
 ## Type Parameters
 
 • **T** *extends* `Object`
-
-## Defined in
-
-node\_modules/@open-ordinal/metadata/lib/Links.d.ts:31

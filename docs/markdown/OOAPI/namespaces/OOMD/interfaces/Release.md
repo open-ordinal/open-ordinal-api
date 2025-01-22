@@ -2,6 +2,8 @@
 
 # Interface: Release
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:10
+
 This interface represents a release, including its type, title, optional date,
 optional cover, and optional arrays of linked artists and tracks.
 
@@ -11,12 +13,10 @@ optional cover, and optional arrays of linked artists and tracks.
 
 > **type**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:15
+
 The type of the release (e.g., album, single, EP, compilation,
 or custom string)
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:15
 
 ***
 
@@ -24,11 +24,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:15
 
 > **title**: `string`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:19
+
 The title of the release
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:19
 
 ***
 
@@ -36,11 +34,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:19
 
 > `optional` **date**: `Date`
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:23
+
 An optional release date
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:23
 
 ***
 
@@ -48,11 +44,9 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:23
 
 > `optional` **cover**: [`Link`](../type-aliases/Link.md)
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:27
+
 An optional cover visual
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:27
 
 ***
 
@@ -60,12 +54,10 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:27
 
 > `optional` **artists**: (`string` \| [`Linked`](../type-aliases/Linked.md)\<[`Artist`](Artist.md)\>)[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:32
+
 An optional array of linked artists or artist names, otherwise assumed
 to be parent inscriptions implementing Artist
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:32
 
 ***
 
@@ -73,9 +65,7 @@ node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:32
 
 > `optional` **tracks**: [`Linked`](../type-aliases/Linked.md)\<[`Track`](Track.md)\>[]
 
+Defined in: node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:37
+
 An optional array of linked tracks, otherwise assumed to be child
 inscriptions implementing Track
-
-#### Defined in
-
-node\_modules/@open-ordinal/metadata/lib/protocols/Release.d.ts:37

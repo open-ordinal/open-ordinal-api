@@ -2,6 +2,8 @@
 
 # Class: Trait
 
+Defined in: [src/models/globals/Trait.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Trait.ts#L10)
+
 Trait Class
 
 ## Implements
@@ -14,17 +16,17 @@ Trait Class
 
 > **new Trait**(`options`): [`Trait`](Trait.md)
 
+Defined in: [src/models/globals/Trait.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Trait.ts#L15)
+
 #### Parameters
 
-• **options**: [`ITrait`](../interfaces/ITrait.md)
+##### options
+
+[`ITrait`](../interfaces/ITrait.md)
 
 #### Returns
 
 [`Trait`](Trait.md)
-
-#### Defined in
-
-[src/models/globals/Trait.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Trait.ts#L15)
 
 ## Properties
 
@@ -32,13 +34,11 @@ Trait Class
 
 > **id**: `string`
 
+Defined in: [src/models/globals/Trait.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Trait.ts#L11)
+
 #### Implementation of
 
 [`ITrait`](../interfaces/ITrait.md).[`id`](../interfaces/ITrait.md#id)
-
-#### Defined in
-
-[src/models/globals/Trait.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Trait.ts#L11)
 
 ***
 
@@ -46,13 +46,11 @@ Trait Class
 
 > `optional` **name**: `string`
 
+Defined in: [src/models/globals/Trait.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Trait.ts#L12)
+
 #### Implementation of
 
 [`ITrait`](../interfaces/ITrait.md).[`name`](../interfaces/ITrait.md#name)
-
-#### Defined in
-
-[src/models/globals/Trait.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Trait.ts#L12)
 
 ***
 
@@ -60,10 +58,8 @@ Trait Class
 
 > `optional` **value**: `string`
 
+Defined in: [src/models/globals/Trait.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Trait.ts#L13)
+
 #### Implementation of
 
 [`ITrait`](../interfaces/ITrait.md).[`value`](../interfaces/ITrait.md#value)
-
-#### Defined in
-
-[src/models/globals/Trait.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/14037525f77f2ac0e3d87831f15eb5f7d9ced754/src/models/globals/Trait.ts#L13)

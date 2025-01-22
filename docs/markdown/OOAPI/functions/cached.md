@@ -32,4 +32,4 @@ The function to cache.
 
 ## Defined in
 
-[src/OOAPI.Core.ts:806](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/OOAPI.Core.ts#L806)
+[src/OOAPI.Core.ts:784](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/OOAPI.Core.ts#L784)

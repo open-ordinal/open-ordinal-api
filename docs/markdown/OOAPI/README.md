@@ -45,7 +45,6 @@
 - [getParentsAll](functions/getParentsAll.md)
 - [getChildrenPage](functions/getChildrenPage.md)
 - [getChildrenAll](functions/getChildrenAll.md)
-- [getOOMD](functions/getOOMD.md)
 - [getAll](functions/getAll.md)
 - [getBlockInfo](functions/getBlockInfo.md)
 - [getBlockHash](functions/getBlockHash.md)

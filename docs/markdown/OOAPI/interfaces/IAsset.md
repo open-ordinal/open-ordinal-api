@@ -19,7 +19,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[src/models/globals/Asset.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Asset.ts#L19)
+[src/models/globals/Asset.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Asset.ts#L19)
 
 ***
 
@@ -29,7 +29,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[src/models/globals/Asset.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Asset.ts#L20)
+[src/models/globals/Asset.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Asset.ts#L20)
 
 ***
 
@@ -39,7 +39,7 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[src/models/globals/Asset.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Asset.ts#L21)
+[src/models/globals/Asset.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Asset.ts#L21)
 
 ***
 
@@ -49,4 +49,4 @@ these to other platforms (i.e. games, remixing and other).
 
 #### Defined in
 
-[src/models/globals/Asset.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Asset.ts#L22)
+[src/models/globals/Asset.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Asset.ts#L22)

@@ -12,4 +12,4 @@ Remove all Assets from memory model
 
 ## Defined in
 
-[src/OOAPI.Core.ts:1011](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/OOAPI.Core.ts#L1011)
+[src/OOAPI.Core.ts:989](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/OOAPI.Core.ts#L989)

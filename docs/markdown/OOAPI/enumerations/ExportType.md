@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export.ts:4](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/utilities/Export.ts#L4)
+[src/models/utilities/Export.ts:4](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/utilities/Export.ts#L4)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/utilities/Export.ts#L5)
+[src/models/utilities/Export.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/utilities/Export.ts#L5)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/models/utilities/Export.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/utilities/Export.ts#L6)
+[src/models/utilities/Export.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/utilities/Export.ts#L6)
 
 ***
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/models/utilities/Export.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/utilities/Export.ts#L7)
+[src/models/utilities/Export.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/utilities/Export.ts#L7)

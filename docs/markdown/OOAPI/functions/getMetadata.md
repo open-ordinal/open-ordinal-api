@@ -2,15 +2,19 @@
 
 # Function: getMetadata()
 
-> **getMetadata**(`id`): `Promise`\<[`Metadata`](../namespaces/OOMD/interfaces/Metadata.md)\>
+> **getMetadata**(`id`?, `baseUrl`?): `Promise`\<[`Metadata`](../namespaces/OOMD/interfaces/Metadata.md)\>
 
-Asynchronously retrieves the internal metadata for a given ID.
+Asynchronously retrieves the metadata for a given ID.
 
 ## Parameters
 
-• **id**: `string`
+• **id?**: `string` = `...`
 
-The unique identifier for the metadata.
+The unique identifier for the inscription. Defaults to the result of getId().
+
+• **baseUrl?**: `string` = `_baseUrl`
+
+The base URL for the API endpoint. Defaults to _baseUrl.
 
 ## Returns
 
@@ -20,4 +24,4 @@ The unique identifier for the metadata.
 
 ## Defined in
 
-[src/OOAPI.Core.ts:155](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/OOAPI.Core.ts#L155)
+[src/OOAPI.Core.ts:156](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/OOAPI.Core.ts#L156)

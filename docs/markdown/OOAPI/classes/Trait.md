@@ -24,7 +24,7 @@ Trait Class
 
 #### Defined in
 
-[src/models/globals/Trait.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Trait.ts#L15)
+[src/models/globals/Trait.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Trait.ts#L15)
 
 ## Properties
 
@@ -38,7 +38,7 @@ Trait Class
 
 #### Defined in
 
-[src/models/globals/Trait.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Trait.ts#L11)
+[src/models/globals/Trait.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Trait.ts#L11)
 
 ***
 
@@ -52,7 +52,7 @@ Trait Class
 
 #### Defined in
 
-[src/models/globals/Trait.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Trait.ts#L12)
+[src/models/globals/Trait.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Trait.ts#L12)
 
 ***
 
@@ -66,4 +66,4 @@ Trait Class
 
 #### Defined in
 
-[src/models/globals/Trait.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/70e118e56492403aed907a3616034144dfc18228/src/models/globals/Trait.ts#L13)
+[src/models/globals/Trait.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/globals/Trait.ts#L13)

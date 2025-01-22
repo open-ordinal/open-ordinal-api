@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Audio.ts#L12)
+[src/models/base/Audio.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Audio.ts#L12)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/base/Audio.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Audio.ts#L13)
+[src/models/base/Audio.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Audio.ts#L13)

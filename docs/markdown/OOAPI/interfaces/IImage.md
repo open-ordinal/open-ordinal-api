@@ -12,7 +12,7 @@ Image Class
 
 #### Defined in
 
-[src/models/base/Image.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Image.ts#L6)
+[src/models/base/Image.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Image.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Image Class
 
 #### Defined in
 
-[src/models/base/Image.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Image.ts#L7)
+[src/models/base/Image.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Image.ts#L7)
 
 ***
 
@@ -32,7 +32,7 @@ Image Class
 
 #### Defined in
 
-[src/models/base/Image.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Image.ts#L8)
+[src/models/base/Image.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Image.ts#L8)
 
 ***
 
@@ -42,4 +42,4 @@ Image Class
 
 #### Defined in
 
-[src/models/base/Image.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/models/base/Image.ts#L9)
+[src/models/base/Image.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/models/base/Image.ts#L9)

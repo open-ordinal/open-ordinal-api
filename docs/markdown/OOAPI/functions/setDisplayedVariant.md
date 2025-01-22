@@ -18,4 +18,4 @@ The variant that should be visible. Could be the id of a Variant, an index or a 
 
 ## Defined in
 
-[src/OOAPI.Core.ts:856](https://github.com/open-ordinal/open-ordinal-api/blob/3bda30e010ce0a6e33466519d113a28c8fe2684b/src/OOAPI.Core.ts#L856)
+[src/OOAPI.Core.ts:856](https://github.com/open-ordinal/open-ordinal-api/blob/ba54b4673bb1e87bc0bfb7385c9b290ba69f50f2/src/OOAPI.Core.ts#L856)

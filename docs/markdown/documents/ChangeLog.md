@@ -5,6 +5,7 @@
 ### 0.9.2
 - Remove dependency on imported `Buffer` module.
 - Export missing objects.
+- Remove `getOOMD` since it is solved by `getMetadata`.
 
 ### 0.9.1
 - Fix: Fix a bug where url location parsing would fail on custom URLs (proxies).

@@ -2,7 +2,7 @@
 
 # Class: Track
 
-Defined in: [src/loaders/Track.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L10)
+Defined in: [src/loaders/Track.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L10)
 
 ## Constructors
 
@@ -20,7 +20,7 @@ Defined in: [src/loaders/Track.ts:10](https://github.com/open-ordinal/open-ordin
 
 > `static` **load**: (`id`) => `Promise`\<[`Track`](Track.md)\>
 
-Defined in: [src/loaders/Track.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L12)
+Defined in: [src/loaders/Track.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L12)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [src/loaders/Track.ts:12](https://github.com/open-ordinal/open-ordin
 
 > **title**: `string` = `""`
 
-Defined in: [src/loaders/Track.ts:90](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L90)
+Defined in: [src/loaders/Track.ts:90](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L90)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/loaders/Track.ts:90](https://github.com/open-ordinal/open-ordin
 
 > **artists**: [`Artist`](Artist.md)[] = `[]`
 
-Defined in: [src/loaders/Track.ts:93](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L93)
+Defined in: [src/loaders/Track.ts:93](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L93)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/loaders/Track.ts:93](https://github.com/open-ordinal/open-ordin
 
 > **release**: [`Release`](Release.md)
 
-Defined in: [src/loaders/Track.ts:96](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L96)
+Defined in: [src/loaders/Track.ts:96](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L96)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/loaders/Track.ts:96](https://github.com/open-ordinal/open-ordin
 
 > **duration**: `number` = `0.0`
 
-Defined in: [src/loaders/Track.ts:136](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L136)
+Defined in: [src/loaders/Track.ts:136](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L136)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [src/loaders/Track.ts:136](https://github.com/open-ordinal/open-ordi
 
 > **audioURL**: `string` = `""`
 
-Defined in: [src/loaders/Track.ts:139](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L139)
+Defined in: [src/loaders/Track.ts:139](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L139)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/loaders/Track.ts:139](https://github.com/open-ordinal/open-ordi
 
 > **\_loaded**: `boolean` = `true`
 
-Defined in: [src/loaders/Track.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L142)
+Defined in: [src/loaders/Track.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L142)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [src/loaders/Track.ts:142](https://github.com/open-ordinal/open-ordi
 
 > `optional` **id**: `string`
 
-Defined in: [src/loaders/Track.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L145)
+Defined in: [src/loaders/Track.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L145)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/loaders/Track.ts:145](https://github.com/open-ordinal/open-ordi
 
 > **mm**: [`Media`](../namespaces/OOMD/interfaces/Media.md) = `{}`
 
-Defined in: [src/loaders/Track.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L148)
+Defined in: [src/loaders/Track.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L148)
 
 ## Methods
 
@@ -102,7 +102,7 @@ Defined in: [src/loaders/Track.ts:148](https://github.com/open-ordinal/open-ordi
 
 > `static` **\_load**(`_id`): `Promise`\<[`Track`](Track.md)\>
 
-Defined in: [src/loaders/Track.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L15)
+Defined in: [src/loaders/Track.ts:15](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L15)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [src/loaders/Track.ts:15](https://github.com/open-ordinal/open-ordin
 
 > **loadData**(): `Promise`\<[`Track`](Track.md)\>
 
-Defined in: [src/loaders/Track.ts:99](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Track.ts#L99)
+Defined in: [src/loaders/Track.ts:99](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Track.ts#L99)
 
 #### Returns
 

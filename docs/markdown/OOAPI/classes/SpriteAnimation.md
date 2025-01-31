@@ -2,7 +2,7 @@
 
 # Class: SpriteAnimation
 
-Defined in: [src/models/utilities/Export/Sprite.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L11)
+Defined in: [src/models/utilities/Export/Sprite.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L11)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:11](https://github.com/open-o
 
 > **new SpriteAnimation**(`data`): [`SpriteAnimation`](SpriteAnimation.md)
 
-Defined in: [src/models/utilities/Export/Sprite.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L16)
+Defined in: [src/models/utilities/Export/Sprite.ts:16](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L16)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:16](https://github.com/open-o
 
 > **name**: `string`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L12)
+Defined in: [src/models/utilities/Export/Sprite.ts:12](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:12](https://github.com/open-o
 
 > **frames**: `object`[]
 
-Defined in: [src/models/utilities/Export/Sprite.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L13)
+Defined in: [src/models/utilities/Export/Sprite.ts:13](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L13)
 
 #### t
 
@@ -62,4 +62,4 @@ Defined in: [src/models/utilities/Export/Sprite.ts:13](https://github.com/open-o
 
 > **loop**: `boolean`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L14)
+Defined in: [src/models/utilities/Export/Sprite.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L14)

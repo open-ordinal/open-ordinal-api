@@ -4,7 +4,7 @@
 
 > **getSatAll**(`sat`, `baseUrl`?): `Promise`\<`string`[]\>
 
-Defined in: [src/OOAPI.Core.ts:290](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L290)
+Defined in: [src/OOAPI.Core.ts:290](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/OOAPI.Core.ts#L290)
 
 Asynchronously fetches all the inscriptions on a given SAT.
 The function fetches the inscriptions in pages and continues fetching until there are no more pages.

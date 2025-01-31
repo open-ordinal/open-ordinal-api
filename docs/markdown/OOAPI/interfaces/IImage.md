@@ -2,7 +2,7 @@
 
 # Interface: IImage
 
-Defined in: [src/models/base/Image.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Image.ts#L5)
+Defined in: [src/models/base/Image.ts:5](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Image.ts#L5)
 
 Image Class
 
@@ -12,7 +12,7 @@ Image Class
 
 > `optional` **url**: `string`
 
-Defined in: [src/models/base/Image.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Image.ts#L6)
+Defined in: [src/models/base/Image.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Image.ts#L6)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/models/base/Image.ts:6](https://github.com/open-ordinal/open-or
 
 > `optional` **width**: `number`
 
-Defined in: [src/models/base/Image.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Image.ts#L7)
+Defined in: [src/models/base/Image.ts:7](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Image.ts#L7)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/models/base/Image.ts:7](https://github.com/open-ordinal/open-or
 
 > `optional` **height**: `number`
 
-Defined in: [src/models/base/Image.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Image.ts#L8)
+Defined in: [src/models/base/Image.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Image.ts#L8)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [src/models/base/Image.ts:8](https://github.com/open-ordinal/open-or
 
 > `optional` **description**: `string`
 
-Defined in: [src/models/base/Image.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Image.ts#L9)
+Defined in: [src/models/base/Image.ts:9](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Image.ts#L9)

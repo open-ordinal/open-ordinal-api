@@ -4,7 +4,7 @@
 
 > **getParentsPage**(`inscriptionId`, `page`, `baseUrl`?): `Promise`\<`any`\>
 
-Defined in: [src/OOAPI.Core.ts:329](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L329)
+Defined in: [src/OOAPI.Core.ts:329](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/OOAPI.Core.ts#L329)
 
 Asynchronously fetches the parents of a given inscription.
 If no inscription ID is provided, it defaults to using the ID obtained from `getId()`.

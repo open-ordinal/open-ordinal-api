@@ -2,7 +2,7 @@
 
 # Class: Sprite
 
-Defined in: [src/models/utilities/Export/Sprite.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L32)
+Defined in: [src/models/utilities/Export/Sprite.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L32)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:32](https://github.com/open-o
 
 > **new Sprite**(`spriteData`): [`Sprite`](Sprite.md)
 
-Defined in: [src/models/utilities/Export/Sprite.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L41)
+Defined in: [src/models/utilities/Export/Sprite.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L41)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:41](https://github.com/open-o
 
 > **rows**: `number` = `1`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L33)
+Defined in: [src/models/utilities/Export/Sprite.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L33)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:33](https://github.com/open-o
 
 > **cells**: `number` = `1`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L34)
+Defined in: [src/models/utilities/Export/Sprite.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L34)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:34](https://github.com/open-o
 
 > **offset**: `object`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L35)
+Defined in: [src/models/utilities/Export/Sprite.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L35)
 
 #### x
 
@@ -60,7 +60,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:35](https://github.com/open-o
 
 > **padding**: `object`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L36)
+Defined in: [src/models/utilities/Export/Sprite.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L36)
 
 #### x
 
@@ -76,7 +76,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:36](https://github.com/open-o
 
 > **source**: `Exportable`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L37)
+Defined in: [src/models/utilities/Export/Sprite.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L37)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [src/models/utilities/Export/Sprite.ts:37](https://github.com/open-o
 
 > **type**: [`GridByCell`](../enumerations/SpriteType.md#gridbycell) = `SpriteType.GridByCell`
 
-Defined in: [src/models/utilities/Export/Sprite.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L38)
+Defined in: [src/models/utilities/Export/Sprite.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L38)
 
 ***
 
@@ -92,4 +92,4 @@ Defined in: [src/models/utilities/Export/Sprite.ts:38](https://github.com/open-o
 
 > **actions**: [`SpriteAnimation`](SpriteAnimation.md)[]
 
-Defined in: [src/models/utilities/Export/Sprite.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export/Sprite.ts#L39)
+Defined in: [src/models/utilities/Export/Sprite.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export/Sprite.ts#L39)

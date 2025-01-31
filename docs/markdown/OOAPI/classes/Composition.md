@@ -2,7 +2,7 @@
 
 # Class: Composition
 
-Defined in: [src/models/globals/Composition.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Composition.ts#L35)
+Defined in: [src/models/globals/Composition.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Composition.ts#L35)
 
 A Composition in the Open Ordinal API is a single image as a combination
 of assets. This can be a single image with different assets combined (staged).
@@ -26,7 +26,7 @@ Examples of what a Composition can be:
 
 > **new Composition**(`options`): [`Composition`](Composition.md)
 
-Defined in: [src/models/globals/Composition.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Composition.ts#L39)
+Defined in: [src/models/globals/Composition.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Composition.ts#L39)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [src/models/globals/Composition.ts:39](https://github.com/open-ordin
 
 > **id**: `string`
 
-Defined in: [src/models/globals/Composition.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Composition.ts#L36)
+Defined in: [src/models/globals/Composition.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Composition.ts#L36)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/models/globals/Composition.ts:36](https://github.com/open-ordin
 
 > `optional` **name**: `string`
 
-Defined in: [src/models/globals/Composition.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Composition.ts#L37)
+Defined in: [src/models/globals/Composition.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Composition.ts#L37)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/models/globals/Composition.ts:37](https://github.com/open-ordin
 
 > `optional` **onExport**: () => `Promise`\<[`Export`](../type-aliases/Export.md)\>
 
-Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L32)
+Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L32)
 
 #### Returns
 
@@ -80,7 +80,7 @@ Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/
 
 > **canExport**(): `boolean`
 
-Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L38)
+Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L38)
 
 #### Returns
 
@@ -96,7 +96,7 @@ Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/
 
 > **export**(): `Promise`\<`string`\>
 
-Defined in: [src/models/utilities/Export.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L42)
+Defined in: [src/models/utilities/Export.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L42)
 
 #### Returns
 

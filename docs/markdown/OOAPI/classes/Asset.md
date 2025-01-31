@@ -2,7 +2,7 @@
 
 # Class: Asset
 
-Defined in: [src/models/globals/Asset.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L35)
+Defined in: [src/models/globals/Asset.ts:35](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L35)
 
 An Asset in the Open Ordinal API is a single asset the ordinal expose.
 This can be a single image or different pars a image consists of.
@@ -19,7 +19,7 @@ these to other platforms (i.e. games, remixing and other).
 
 > **new Asset**(`options`): [`Asset`](Asset.md)
 
-Defined in: [src/models/globals/Asset.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L41)
+Defined in: [src/models/globals/Asset.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L41)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: [src/models/globals/Asset.ts:41](https://github.com/open-ordinal/ope
 
 > `optional` **id**: `string`
 
-Defined in: [src/models/globals/Asset.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L36)
+Defined in: [src/models/globals/Asset.ts:36](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L36)
 
 ***
 
@@ -45,7 +45,7 @@ Defined in: [src/models/globals/Asset.ts:36](https://github.com/open-ordinal/ope
 
 > `optional` **type**: [`OrdinalType`](../enumerations/OrdinalType.md)
 
-Defined in: [src/models/globals/Asset.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L37)
+Defined in: [src/models/globals/Asset.ts:37](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L37)
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: [src/models/globals/Asset.ts:37](https://github.com/open-ordinal/ope
 
 > `optional` **name**: `string`
 
-Defined in: [src/models/globals/Asset.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L38)
+Defined in: [src/models/globals/Asset.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L38)
 
 ***
 
@@ -61,7 +61,7 @@ Defined in: [src/models/globals/Asset.ts:38](https://github.com/open-ordinal/ope
 
 > `optional` **data**: () => `Promise`\<`any`\>
 
-Defined in: [src/models/globals/Asset.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L39)
+Defined in: [src/models/globals/Asset.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L39)
 
 #### Returns
 
@@ -73,7 +73,7 @@ Defined in: [src/models/globals/Asset.ts:39](https://github.com/open-ordinal/ope
 
 > **getType**(): `undefined` \| [`OrdinalType`](../enumerations/OrdinalType.md)
 
-Defined in: [src/models/globals/Asset.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L52)
+Defined in: [src/models/globals/Asset.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L52)
 
 #### Returns
 
@@ -85,7 +85,7 @@ Defined in: [src/models/globals/Asset.ts:52](https://github.com/open-ordinal/ope
 
 > **getName**(): `undefined` \| `string`
 
-Defined in: [src/models/globals/Asset.ts:56](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L56)
+Defined in: [src/models/globals/Asset.ts:56](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L56)
 
 #### Returns
 
@@ -97,7 +97,7 @@ Defined in: [src/models/globals/Asset.ts:56](https://github.com/open-ordinal/ope
 
 > **getId**(): `undefined` \| `string`
 
-Defined in: [src/models/globals/Asset.ts:60](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L60)
+Defined in: [src/models/globals/Asset.ts:60](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L60)
 
 #### Returns
 
@@ -109,7 +109,7 @@ Defined in: [src/models/globals/Asset.ts:60](https://github.com/open-ordinal/ope
 
 > **getData**(): `Promise`\<`any`\>
 
-Defined in: [src/models/globals/Asset.ts:64](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L64)
+Defined in: [src/models/globals/Asset.ts:64](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L64)
 
 #### Returns
 

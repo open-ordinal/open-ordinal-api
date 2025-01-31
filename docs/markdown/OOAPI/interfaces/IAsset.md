@@ -2,7 +2,7 @@
 
 # Interface: IAsset
 
-Defined in: [src/models/globals/Asset.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L18)
+Defined in: [src/models/globals/Asset.ts:18](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L18)
 
 An Asset in the Open Ordinal API is a single asset the ordinal expose.
 This can be a single image or different pars a image consists of.
@@ -19,7 +19,7 @@ these to other platforms (i.e. games, remixing and other).
 
 > **id**: `string`
 
-Defined in: [src/models/globals/Asset.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L19)
+Defined in: [src/models/globals/Asset.ts:19](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L19)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [src/models/globals/Asset.ts:19](https://github.com/open-ordinal/ope
 
 > `optional` **type**: [`OrdinalType`](../enumerations/OrdinalType.md)
 
-Defined in: [src/models/globals/Asset.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L20)
+Defined in: [src/models/globals/Asset.ts:20](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L20)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: [src/models/globals/Asset.ts:20](https://github.com/open-ordinal/ope
 
 > `optional` **name**: `string`
 
-Defined in: [src/models/globals/Asset.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L21)
+Defined in: [src/models/globals/Asset.ts:21](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L21)
 
 ***
 
@@ -43,4 +43,4 @@ Defined in: [src/models/globals/Asset.ts:21](https://github.com/open-ordinal/ope
 
 > `optional` **data**: `string` \| () => `Promise`\<`any`\>
 
-Defined in: [src/models/globals/Asset.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Asset.ts#L22)
+Defined in: [src/models/globals/Asset.ts:22](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Asset.ts#L22)

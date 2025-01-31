@@ -2,7 +2,7 @@
 
 # Class: Ordinal
 
-Defined in: [src/models/base/Ordinal.ts:27](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L27)
+Defined in: [src/models/base/Ordinal.ts:27](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L27)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [src/models/base/Ordinal.ts:27](https://github.com/open-ordinal/open
 
 > **new Ordinal**(`options`): [`Ordinal`](Ordinal.md)
 
-Defined in: [src/models/base/Ordinal.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L33)
+Defined in: [src/models/base/Ordinal.ts:33](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L33)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [src/models/base/Ordinal.ts:33](https://github.com/open-ordinal/open
 
 > `optional` **id**: `string`
 
-Defined in: [src/models/base/Ordinal.ts:28](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L28)
+Defined in: [src/models/base/Ordinal.ts:28](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L28)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/models/base/Ordinal.ts:28](https://github.com/open-ordinal/open
 
 > `optional` **transactionStamp**: `null` \| `Date`
 
-Defined in: [src/models/base/Ordinal.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L29)
+Defined in: [src/models/base/Ordinal.ts:29](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L29)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/models/base/Ordinal.ts:29](https://github.com/open-ordinal/open
 
 > `optional` **info**: `null` \| `Record`\<`string`, `any`\>
 
-Defined in: [src/models/base/Ordinal.ts:30](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L30)
+Defined in: [src/models/base/Ordinal.ts:30](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L30)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [src/models/base/Ordinal.ts:30](https://github.com/open-ordinal/open
 
 > `optional` **metaData**: `null` \| `Record`\<`string`, `any`\>
 
-Defined in: [src/models/base/Ordinal.ts:31](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L31)
+Defined in: [src/models/base/Ordinal.ts:31](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L31)
 
 ## Methods
 
@@ -60,7 +60,7 @@ Defined in: [src/models/base/Ordinal.ts:31](https://github.com/open-ordinal/open
 
 > **getId**(): `undefined` \| `string`
 
-Defined in: [src/models/base/Ordinal.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L40)
+Defined in: [src/models/base/Ordinal.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L40)
 
 #### Returns
 
@@ -72,7 +72,7 @@ Defined in: [src/models/base/Ordinal.ts:40](https://github.com/open-ordinal/open
 
 > **getTransactionStamp**(): `undefined` \| `null` \| `Date`
 
-Defined in: [src/models/base/Ordinal.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L44)
+Defined in: [src/models/base/Ordinal.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L44)
 
 #### Returns
 
@@ -84,7 +84,7 @@ Defined in: [src/models/base/Ordinal.ts:44](https://github.com/open-ordinal/open
 
 > **getInfo**(): `undefined` \| `null` \| `Record`\<`string`, `any`\>
 
-Defined in: [src/models/base/Ordinal.ts:48](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L48)
+Defined in: [src/models/base/Ordinal.ts:48](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L48)
 
 #### Returns
 
@@ -96,7 +96,7 @@ Defined in: [src/models/base/Ordinal.ts:48](https://github.com/open-ordinal/open
 
 > **getMetaData**(): `undefined` \| `null` \| `Record`\<`string`, `any`\>
 
-Defined in: [src/models/base/Ordinal.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/base/Ordinal.ts#L52)
+Defined in: [src/models/base/Ordinal.ts:52](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/base/Ordinal.ts#L52)
 
 #### Returns
 

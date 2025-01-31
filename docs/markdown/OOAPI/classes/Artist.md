@@ -2,7 +2,7 @@
 
 # Class: Artist
 
-Defined in: [src/loaders/Artist.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L8)
+Defined in: [src/loaders/Artist.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L8)
 
 Represents an artist and provides methods to load and manage artist data.
 
@@ -22,7 +22,7 @@ Represents an artist and provides methods to load and manage artist data.
 
 > `static` **load**: (`id`) => `Promise`\<[`Artist`](Artist.md)\>
 
-Defined in: [src/loaders/Artist.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L10)
+Defined in: [src/loaders/Artist.ts:10](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L10)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [src/loaders/Artist.ts:10](https://github.com/open-ordinal/open-ordi
 
 > **name**: `string` = `""`
 
-Defined in: [src/loaders/Artist.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L34)
+Defined in: [src/loaders/Artist.ts:34](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L34)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/loaders/Artist.ts:34](https://github.com/open-ordinal/open-ordi
 
 > **releases**: [`Release`](Release.md)[] = `[]`
 
-Defined in: [src/loaders/Artist.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L104)
+Defined in: [src/loaders/Artist.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L104)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/loaders/Artist.ts:104](https://github.com/open-ordinal/open-ord
 
 > **\_loaded**: `boolean` = `true`
 
-Defined in: [src/loaders/Artist.ts:105](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L105)
+Defined in: [src/loaders/Artist.ts:105](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L105)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/loaders/Artist.ts:105](https://github.com/open-ordinal/open-ord
 
 > `optional` **md**: [`Artist`](../namespaces/OOMD/interfaces/Artist.md)
 
-Defined in: [src/loaders/Artist.ts:106](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L106)
+Defined in: [src/loaders/Artist.ts:106](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L106)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [src/loaders/Artist.ts:106](https://github.com/open-ordinal/open-ord
 
 > `optional` **id**: `string`
 
-Defined in: [src/loaders/Artist.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L107)
+Defined in: [src/loaders/Artist.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L107)
 
 ## Accessors
 
@@ -82,7 +82,7 @@ Defined in: [src/loaders/Artist.ts:107](https://github.com/open-ordinal/open-ord
 
 > **get** **releaseTypes**(): `string`[]
 
-Defined in: [src/loaders/Artist.ts:76](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L76)
+Defined in: [src/loaders/Artist.ts:76](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L76)
 
 Gets the types of releases associated with the artist.
 
@@ -100,7 +100,7 @@ Gets the types of releases associated with the artist.
 
 > **get** **duration**(): `number`
 
-Defined in: [src/loaders/Artist.ts:88](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L88)
+Defined in: [src/loaders/Artist.ts:88](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L88)
 
 Gets the total duration of all tracks by the artist.
 
@@ -118,7 +118,7 @@ Gets the total duration of all tracks by the artist.
 
 > **get** **tracks**(): [`Track`](Track.md)[]
 
-Defined in: [src/loaders/Artist.ts:100](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L100)
+Defined in: [src/loaders/Artist.ts:100](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L100)
 
 Gets all tracks by the artist.
 
@@ -134,7 +134,7 @@ Gets all tracks by the artist.
 
 > `static` **\_load**(`_id`): `Promise`\<[`Artist`](Artist.md)\>
 
-Defined in: [src/loaders/Artist.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L17)
+Defined in: [src/loaders/Artist.ts:17](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L17)
 
 Loads an artist by ID.
 
@@ -158,7 +158,7 @@ The ID of the artist to load.
 
 > **loadData**(): `Promise`\<[`Artist`](Artist.md)\>
 
-Defined in: [src/loaders/Artist.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Artist.ts#L40)
+Defined in: [src/loaders/Artist.ts:40](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Artist.ts#L40)
 
 Loads additional data for the artist, including releases.
 

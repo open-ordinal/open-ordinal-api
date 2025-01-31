@@ -35,6 +35,7 @@
 - [Organization](interfaces/Organization.md)
 - [Publisher](interfaces/Publisher.md)
 - [Release](interfaces/Release.md)
+- [Stitch](interfaces/Stitch.md)
 - [Torrent](interfaces/Torrent.md)
 - [Track](interfaces/Track.md)
 

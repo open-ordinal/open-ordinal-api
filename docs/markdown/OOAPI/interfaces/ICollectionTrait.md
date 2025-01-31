@@ -2,7 +2,7 @@
 
 # Interface: ICollectionTrait
 
-Defined in: [src/models/usecases/Collection.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L41)
+Defined in: [src/models/usecases/Collection.ts:41](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/usecases/Collection.ts#L41)
 
 A CollectionTrait is the specific traits available for a Collection.
 
@@ -12,7 +12,7 @@ A CollectionTrait is the specific traits available for a Collection.
 
 > **id**: `string`
 
-Defined in: [src/models/usecases/Collection.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L42)
+Defined in: [src/models/usecases/Collection.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/usecases/Collection.ts#L42)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/models/usecases/Collection.ts:42](https://github.com/open-ordin
 
 > **name**: `string`
 
-Defined in: [src/models/usecases/Collection.ts:43](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L43)
+Defined in: [src/models/usecases/Collection.ts:43](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/usecases/Collection.ts#L43)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [src/models/usecases/Collection.ts:43](https://github.com/open-ordin
 
 > **traitNames**: `string`[]
 
-Defined in: [src/models/usecases/Collection.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/usecases/Collection.ts#L44)
+Defined in: [src/models/usecases/Collection.ts:44](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/usecases/Collection.ts#L44)

@@ -4,7 +4,7 @@
 
 > **getRequestParams**(): `Map`\<`string`, `string`\>
 
-Defined in: [src/OOAPI.Core.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/OOAPI.Core.ts#L142)
+Defined in: [src/OOAPI.Core.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/OOAPI.Core.ts#L142)
 
 Get the url parameters of the iframe.
 

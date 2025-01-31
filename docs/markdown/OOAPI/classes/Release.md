@@ -2,7 +2,7 @@
 
 # Class: Release
 
-Defined in: [src/loaders/Release.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L6)
+Defined in: [src/loaders/Release.ts:6](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L6)
 
 ## Constructors
 
@@ -20,7 +20,7 @@ Defined in: [src/loaders/Release.ts:6](https://github.com/open-ordinal/open-ordi
 
 > `static` **fallbackCover**: `string` = `""`
 
-Defined in: [src/loaders/Release.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L8)
+Defined in: [src/loaders/Release.ts:8](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L8)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/loaders/Release.ts:8](https://github.com/open-ordinal/open-ordi
 
 > `static` **load**: (`id`) => `Promise`\<[`Release`](Release.md)\>
 
-Defined in: [src/loaders/Release.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L11)
+Defined in: [src/loaders/Release.ts:11](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L11)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [src/loaders/Release.ts:11](https://github.com/open-ordinal/open-ord
 
 > `optional` **id**: `string`
 
-Defined in: [src/loaders/Release.ts:89](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L89)
+Defined in: [src/loaders/Release.ts:89](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L89)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/loaders/Release.ts:89](https://github.com/open-ordinal/open-ord
 
 > **title**: `string` = `""`
 
-Defined in: [src/loaders/Release.ts:92](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L92)
+Defined in: [src/loaders/Release.ts:92](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L92)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [src/loaders/Release.ts:92](https://github.com/open-ordinal/open-ord
 
 > **type**: `string` = `""`
 
-Defined in: [src/loaders/Release.ts:95](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L95)
+Defined in: [src/loaders/Release.ts:95](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L95)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [src/loaders/Release.ts:95](https://github.com/open-ordinal/open-ord
 
 > **date**: `Date`
 
-Defined in: [src/loaders/Release.ts:98](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L98)
+Defined in: [src/loaders/Release.ts:98](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L98)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/loaders/Release.ts:98](https://github.com/open-ordinal/open-ord
 
 > **artists**: [`Artist`](Artist.md)[] = `[]`
 
-Defined in: [src/loaders/Release.ts:101](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L101)
+Defined in: [src/loaders/Release.ts:101](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L101)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [src/loaders/Release.ts:101](https://github.com/open-ordinal/open-or
 
 > **coverURL**: `string` = `""`
 
-Defined in: [src/loaders/Release.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L104)
+Defined in: [src/loaders/Release.ts:104](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L104)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/loaders/Release.ts:104](https://github.com/open-ordinal/open-or
 
 > **tracks**: [`Track`](Track.md)[] = `[]`
 
-Defined in: [src/loaders/Release.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L142)
+Defined in: [src/loaders/Release.ts:142](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L142)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [src/loaders/Release.ts:142](https://github.com/open-ordinal/open-or
 
 > **\_loaded**: `boolean` = `true`
 
-Defined in: [src/loaders/Release.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L145)
+Defined in: [src/loaders/Release.ts:145](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L145)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [src/loaders/Release.ts:145](https://github.com/open-ordinal/open-or
 
 > `optional` **\_tracks**: [`Linked`](../namespaces/OOMD/type-aliases/Linked.md)\<[`Track`](../namespaces/OOMD/interfaces/Track.md)\>[]
 
-Defined in: [src/loaders/Release.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L148)
+Defined in: [src/loaders/Release.ts:148](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L148)
 
 ## Accessors
 
@@ -120,7 +120,7 @@ Defined in: [src/loaders/Release.ts:148](https://github.com/open-ordinal/open-or
 
 > **get** **artist**(): [`Artist`](Artist.md)
 
-Defined in: [src/loaders/Release.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L70)
+Defined in: [src/loaders/Release.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L70)
 
 ##### Returns
 
@@ -134,7 +134,7 @@ Defined in: [src/loaders/Release.ts:70](https://github.com/open-ordinal/open-ord
 
 > **get** **year**(): `number`
 
-Defined in: [src/loaders/Release.ts:75](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L75)
+Defined in: [src/loaders/Release.ts:75](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L75)
 
 ##### Returns
 
@@ -148,7 +148,7 @@ Defined in: [src/loaders/Release.ts:75](https://github.com/open-ordinal/open-ord
 
 > **get** **duration**(): `number`
 
-Defined in: [src/loaders/Release.ts:80](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L80)
+Defined in: [src/loaders/Release.ts:80](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L80)
 
 ##### Returns
 
@@ -160,7 +160,7 @@ Defined in: [src/loaders/Release.ts:80](https://github.com/open-ordinal/open-ord
 
 > `static` **\_load**(`_id`): `Promise`\<[`Release`](Release.md)\>
 
-Defined in: [src/loaders/Release.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L14)
+Defined in: [src/loaders/Release.ts:14](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L14)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: [src/loaders/Release.ts:14](https://github.com/open-ordinal/open-ord
 
 > **loadData**(): `Promise`\<[`Release`](Release.md)\>
 
-Defined in: [src/loaders/Release.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/loaders/Release.ts#L107)
+Defined in: [src/loaders/Release.ts:107](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/loaders/Release.ts#L107)
 
 #### Returns
 

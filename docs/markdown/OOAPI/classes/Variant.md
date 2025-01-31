@@ -2,7 +2,7 @@
 
 # Class: Variant
 
-Defined in: [src/models/globals/Variant.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L23)
+Defined in: [src/models/globals/Variant.ts:23](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L23)
 
 Variant Class
 A Variant is a variant of the ordinal. It's a visual distinct visual representation.
@@ -18,7 +18,7 @@ It can be 2D and / or 3D or any other variation. Not to be confused with Composi
 
 > **new Variant**(`options`): [`Variant`](Variant.md)
 
-Defined in: [src/models/globals/Variant.ts:30](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L30)
+Defined in: [src/models/globals/Variant.ts:30](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L30)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [src/models/globals/Variant.ts:30](https://github.com/open-ordinal/o
 
 > **id**: `string`
 
-Defined in: [src/models/globals/Variant.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L24)
+Defined in: [src/models/globals/Variant.ts:24](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L24)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/models/globals/Variant.ts:24](https://github.com/open-ordinal/o
 
 > `optional` **type**: [`OrdinalType`](../enumerations/OrdinalType.md)
 
-Defined in: [src/models/globals/Variant.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L25)
+Defined in: [src/models/globals/Variant.ts:25](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L25)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/models/globals/Variant.ts:25](https://github.com/open-ordinal/o
 
 > `optional` **name**: `string`
 
-Defined in: [src/models/globals/Variant.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L26)
+Defined in: [src/models/globals/Variant.ts:26](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L26)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/models/globals/Variant.ts:26](https://github.com/open-ordinal/o
 
 > `optional` **onDisplay**: () => `Promise`\<`void`\>
 
-Defined in: [src/models/globals/Variant.ts:27](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L27)
+Defined in: [src/models/globals/Variant.ts:27](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L27)
 
 #### Returns
 
@@ -76,7 +76,7 @@ Defined in: [src/models/globals/Variant.ts:27](https://github.com/open-ordinal/o
 
 > `optional` **onHide**: () => `Promise`\<`void`\>
 
-Defined in: [src/models/globals/Variant.ts:28](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L28)
+Defined in: [src/models/globals/Variant.ts:28](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L28)
 
 #### Returns
 
@@ -88,7 +88,7 @@ Defined in: [src/models/globals/Variant.ts:28](https://github.com/open-ordinal/o
 
 > `optional` **onExport**: () => `Promise`\<[`Export`](../type-aliases/Export.md)\>
 
-Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L32)
+Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L32)
 
 #### Returns
 
@@ -104,7 +104,7 @@ Defined in: [src/models/utilities/Export.ts:32](https://github.com/open-ordinal/
 
 > **show**(): `Promise`\<`void`\>
 
-Defined in: [src/models/globals/Variant.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L39)
+Defined in: [src/models/globals/Variant.ts:39](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L39)
 
 #### Returns
 
@@ -116,7 +116,7 @@ Defined in: [src/models/globals/Variant.ts:39](https://github.com/open-ordinal/o
 
 > **hide**(): `Promise`\<`void`\>
 
-Defined in: [src/models/globals/Variant.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/globals/Variant.ts#L70)
+Defined in: [src/models/globals/Variant.ts:70](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/globals/Variant.ts#L70)
 
 #### Returns
 
@@ -128,7 +128,7 @@ Defined in: [src/models/globals/Variant.ts:70](https://github.com/open-ordinal/o
 
 > **canExport**(): `boolean`
 
-Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L38)
+Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L38)
 
 #### Returns
 
@@ -144,7 +144,7 @@ Defined in: [src/models/utilities/Export.ts:38](https://github.com/open-ordinal/
 
 > **export**(): `Promise`\<`string`\>
 
-Defined in: [src/models/utilities/Export.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/09ea1ce92dd206b5b26f35b329c90c6b41c2680b/src/models/utilities/Export.ts#L42)
+Defined in: [src/models/utilities/Export.ts:42](https://github.com/open-ordinal/open-ordinal-api/blob/a0d5891263931a6fab499adb8c2ba3d4a1ef0c78/src/models/utilities/Export.ts#L42)
 
 #### Returns
 

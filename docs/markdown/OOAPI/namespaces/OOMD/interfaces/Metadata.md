@@ -2,7 +2,7 @@
 
 # Interface: Metadata
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:66
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:69
 
 This interface represents metadata, extending the Common interface, and includes
 optional properties for static indication, organization, collection, attributes,
@@ -29,7 +29,8 @@ graph LR
   Metadata --&gt; Module
   Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
-  Metadata --&gt; Publisher</div><div class="mermaid light">%%{init:{"theme":"default"}}%%
+  Metadata --&gt; Publisher
+  Metadata --&gt; Stitch</div><div class="mermaid light">%%{init:{"theme":"default"}}%%
 graph LR
   Metadata --&gt; Organization
   Metadata --&gt; Collection
@@ -45,7 +46,8 @@ graph LR
   Metadata --&gt; Module
   Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
-  Metadata --&gt; Publisher</div><pre><code class="language-mermaid">graph LR
+  Metadata --&gt; Publisher
+  Metadata --&gt; Stitch</div><pre><code class="language-mermaid">graph LR
   Metadata --&gt; Organization
   Metadata --&gt; Collection
   Collection --&gt; Attributes
@@ -60,7 +62,8 @@ graph LR
   Metadata --&gt; Module
   Metadata --&gt; Bootstrap
   Metadata --&gt; Torrent
-  Metadata --&gt; Publisher</code></pre></div>
+  Metadata --&gt; Publisher
+  Metadata --&gt; Stitch</code></pre></div>
 
 ## Extends
 
@@ -76,7 +79,7 @@ graph LR
 
 > `optional` **static**: `true`
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:71
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:74
 
 When `static` is present this indicates that a viewer should _not_ get the
 latest inscription on the sat number of this inscription
@@ -87,7 +90,7 @@ latest inscription on the sat number of this inscription
 
 > `optional` **bootstrap**: [`Bootstrap`](Bootstrap.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:75
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:78
 
 An optional bootstrap options with the metadata
 
@@ -97,7 +100,7 @@ An optional bootstrap options with the metadata
 
 > `optional` **organization**: [`Organization`](Organization.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:79
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:82
 
 An optional organization associated with the metadata
 
@@ -107,7 +110,7 @@ An optional organization associated with the metadata
 
 > `optional` **collection**: [`Collection`](Collection.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:83
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:86
 
 An optional collection associated with the metadata
 
@@ -117,7 +120,7 @@ An optional collection associated with the metadata
 
 > `optional` **attributes**: [`Attributes`](Attributes.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:87
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:90
 
 Optional attributes associated with the metadata
 
@@ -127,7 +130,7 @@ Optional attributes associated with the metadata
 
 > `optional` **artist**: [`Artist`](Artist.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:91
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:94
 
 An optional artist associated with the metadata
 
@@ -137,7 +140,7 @@ An optional artist associated with the metadata
 
 > `optional` **release**: [`Release`](Release.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:95
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:98
 
 An optional release associated with the metadata
 
@@ -147,7 +150,7 @@ An optional release associated with the metadata
 
 > `optional` **track**: [`Track`](Track.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:99
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:102
 
 An optional track associated with the metadata
 
@@ -157,7 +160,7 @@ An optional track associated with the metadata
 
 > `optional` **media**: [`Media`](Media.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:103
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:106
 
 Optional media associated with the metadata
 
@@ -167,7 +170,7 @@ Optional media associated with the metadata
 
 > `optional` **module**: [`Module`](Module.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:107
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:110
 
 An optional module associated with the metadata
 
@@ -177,7 +180,7 @@ An optional module associated with the metadata
 
 > `optional` **publisher**: [`Publisher`](Publisher.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:111
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:114
 
 An optional publisher associated with the metadata
 
@@ -187,7 +190,7 @@ An optional publisher associated with the metadata
 
 > `optional` **author**: [`Author`](Author.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:115
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:118
 
 An optional author associated with the metadata
 
@@ -197,7 +200,7 @@ An optional author associated with the metadata
 
 > `optional` **book**: [`Book`](Book.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:119
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:122
 
 An optional book associated with the metadata
 
@@ -207,9 +210,19 @@ An optional book associated with the metadata
 
 > `optional` **chapter**: [`Chapter`](Chapter.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:123
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:126
 
 An optional chapter associated with the metadata
+
+***
+
+### stitch?
+
+> `optional` **stitch**: [`Stitch`](Stitch.md)
+
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:130
+
+An optional stitch associated with the metadata
 
 ***
 
@@ -217,7 +230,7 @@ An optional chapter associated with the metadata
 
 > `optional` **torrent**: [`Torrent`](Torrent.md)
 
-Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:127
+Defined in: node\_modules/@open-ordinal/metadata/lib/OOMD.d.ts:134
 
 An optional torrent associated with the metadata
 
